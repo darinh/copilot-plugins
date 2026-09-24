@@ -153,7 +153,7 @@ One row per feature the converter decided on.
 
 | Fidelity | Features | Meaning |
 | --- | --- | --- |
-| exact | 164 | behaves the same in Copilot CLI |
+| exact | 165 | behaves the same in Copilot CLI |
 | approximated | 7 | converted, with a known difference noted in manifest.json |
 | unsupported | 5 | no Copilot equivalent; dropped or not converted |
 | unverified | 0 | converted to a Copilot feature whose behaviour no primary source confirms |

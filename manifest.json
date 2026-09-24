@@ -421,6 +421,13 @@
       "note": "dropped: declared true"
     },
     {
+      "artifactId": "agent:agents/poteto-agent.md",
+      "feature": "body text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-general-purpose",
+      "note": "1 occurrence"
+    },
+    {
       "artifactId": "skill:skills/architect/SKILL.md",
       "feature": "layout",
       "fidelity": "exact",
@@ -2030,7 +2037,7 @@
     },
     {
       "path": "README.md",
-      "blob": "8eced5cf658c7fcc2b2beb3fc7e87646fc7d8128",
+      "blob": "9c719dfa7a1ff6fdc7f712274b23ee3e6db12ed1",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2049,14 +2056,15 @@
     },
     {
       "path": "agents/poteto-agent.agent.md",
-      "blob": "ed35da6d561c20f1eea992903f8a456f23197e97",
+      "blob": "448e5459055d403ebc18d03617efa8a34780865b",
       "executable": false,
       "source": "agents/poteto-agent.md",
       "sourceBlob": "91d53b85918f842c703758e66352b956ee80feb7",
       "rules": [
         "background-is-per-call",
         "layout-agent-suffix",
-        "name-from-filename"
+        "name-from-filename",
+        "rewrite-general-purpose"
       ]
     },
     {
