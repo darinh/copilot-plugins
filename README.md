@@ -113,31 +113,31 @@ The converter does these deterministically only as far as it can. Each item belo
 
 | Where | Detail |
 | --- | --- |
-| `skills/architect/SKILL.md:34` | matches /\.mdc\b/, use .md |
-| `skills/architect/SKILL.md:34` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
-| `skills/arena/SKILL.md:29` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
-| `skills/arena/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/architect/SKILL.md:34` | matches /\.mdc\b/, use a Copilot .instructions.md file |
+| `skills/architect/SKILL.md:34` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
+| `skills/arena/SKILL.md:29` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
+| `skills/arena/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/automate-me/SKILL.md:30` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/how/SKILL.md:12` | matches /\.mdc\b/, use .md |
-| `skills/how/SKILL.md:28` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:12` | matches /\.mdc\b/, use a Copilot .instructions.md file |
+| `skills/how/SKILL.md:28` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:29` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/how/SKILL.md:38` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:38` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:39` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/how/SKILL.md:48` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:48` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:49` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/interrogate/SKILL.md:41` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
-| `skills/interrogate/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
-| `skills/interrogate/SKILL.md:43` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/interrogate/SKILL.md:41` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
+| `skills/interrogate/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
+| `skills/interrogate/SKILL.md:43` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/interrogate/SKILL.md:48` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
 | `skills/poteto-mode/SKILL.md:32` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/SKILL.md:90` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/poteto-mode/SKILL.md:90` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/poteto-mode/SKILL.md:132` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autonomous-run.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-full.md:10` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-stack.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/bug-fix.md:9` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/poteto-mode/playbooks/bug-fix.md:9` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | | and 28 more in `manifest.json` |
 
 ### runtime-mention

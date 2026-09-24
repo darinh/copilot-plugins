@@ -1753,28 +1753,28 @@
       "path": "skills/architect/SKILL.md",
       "line": 34,
       "kind": "foreign-token",
-      "detail": "matches /\\.mdc\\b/, use .md"
+      "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/architect/SKILL.md",
       "path": "skills/architect/SKILL.md",
       "line": 34,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/arena/SKILL.md",
       "path": "skills/arena/SKILL.md",
       "line": 29,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/arena/SKILL.md",
       "path": "skills/arena/SKILL.md",
       "line": 42,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
@@ -1802,14 +1802,14 @@
       "path": "skills/how/SKILL.md",
       "line": 12,
       "kind": "foreign-token",
-      "detail": "matches /\\.mdc\\b/, use .md"
+      "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
       "line": 28,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
@@ -1823,7 +1823,7 @@
       "path": "skills/how/SKILL.md",
       "line": 38,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
@@ -1837,7 +1837,7 @@
       "path": "skills/how/SKILL.md",
       "line": 48,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
@@ -1851,21 +1851,21 @@
       "path": "skills/interrogate/SKILL.md",
       "line": 41,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
       "path": "skills/interrogate/SKILL.md",
       "line": 42,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
       "path": "skills/interrogate/SKILL.md",
       "line": 43,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
@@ -1900,7 +1900,7 @@
       "path": "skills/poteto-mode/SKILL.md",
       "line": 90,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1998,7 +1998,7 @@
       "path": "skills/poteto-mode/playbooks/bug-fix.md",
       "line": 9,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2012,21 +2012,21 @@
       "path": "skills/poteto-mode/playbooks/feature.md",
       "line": 12,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/hillclimb.md",
       "line": 12,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
       "line": 13,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2068,14 +2068,14 @@
       "path": "skills/poteto-mode/playbooks/perf-issue.md",
       "line": 16,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/refactoring.md",
       "line": 11,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2131,35 +2131,35 @@
       "path": "skills/reflect/SKILL.md",
       "line": 34,
       "kind": "foreign-token",
-      "detail": "matches /\\.mdc\\b/, use .md"
+      "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 38,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 39,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 40,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 46,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
@@ -2180,7 +2180,7 @@
       "path": "skills/setup-pstack/SKILL.md",
       "line": 30,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/show-me-your-work/SKILL.md",
@@ -2194,7 +2194,7 @@
       "path": "skills/swarm/SKILL.md",
       "line": 26,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/swarm/SKILL.md",
@@ -2229,7 +2229,7 @@
       "path": "skills/why/SKILL.md",
       "line": 14,
       "kind": "foreign-token",
-      "detail": "matches /\\.mdc\\b/, use .md"
+      "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
@@ -2243,7 +2243,7 @@
       "path": "skills/why/SKILL.md",
       "line": 85,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
@@ -2257,7 +2257,7 @@
       "path": "skills/why/SKILL.md",
       "line": 129,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
@@ -2453,7 +2453,7 @@
     },
     {
       "path": "README.md",
-      "blob": "c2c7cc98364a32c73400f05d140d20c37b3ed1d9",
+      "blob": "82718e193911b6f2747da119df95efd68e6dcb31",
       "executable": false,
       "source": null,
       "sourceBlob": null,
