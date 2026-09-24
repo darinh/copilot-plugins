@@ -4,8 +4,8 @@
   "source": {
     "harness": "cursor",
     "origin": "https://github.com/cursor/plugins",
-    "ref": "6dbbdd50cef1bdbfb540f80df8b598d0a546e3aa",
-    "commit": "6dbbdd50cef1bdbfb540f80df8b598d0a546e3aa",
+    "ref": "main",
+    "commit": "fadd23794c0075468eb8964b0fd93e06e09486ad",
     "subpath": "pstack",
     "license": "MIT"
   },
@@ -111,6 +111,14 @@
       "fidelity": "exact"
     },
     {
+      "id": "skill:skills/make-bot-ui/SKILL.md",
+      "kind": "skill",
+      "name": "make-bot-ui",
+      "source": "skills/make-bot-ui/SKILL.md",
+      "output": "skills/make-bot-ui/SKILL.md",
+      "fidelity": "approximated"
+    },
+    {
       "id": "skill:skills/no-comments/SKILL.md",
       "kind": "skill",
       "name": "no-comments",
@@ -125,6 +133,14 @@
       "source": "skills/poteto-mode/SKILL.md",
       "output": "skills/poteto-mode/SKILL.md",
       "fidelity": "unsupported"
+    },
+    {
+      "id": "skill:skills/principle-attack-the-premise/SKILL.md",
+      "kind": "skill",
+      "name": "principle-attack-the-premise",
+      "source": "skills/principle-attack-the-premise/SKILL.md",
+      "output": "skills/principle-attack-the-premise/SKILL.md",
+      "fidelity": "exact"
     },
     {
       "id": "skill:skills/principle-boundary-discipline/SKILL.md",
@@ -287,6 +303,14 @@
       "fidelity": "exact"
     },
     {
+      "id": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
+      "kind": "skill",
+      "name": "principle-test-behavior-not-implementation",
+      "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "output": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "fidelity": "exact"
+    },
+    {
       "id": "skill:skills/principle-type-system-discipline/SKILL.md",
       "kind": "skill",
       "name": "principle-type-system-discipline",
@@ -422,7 +446,7 @@
     },
     {
       "artifactId": "agent:agents/poteto-agent.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "1 occurrence"
@@ -471,16 +495,23 @@
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-run-in-background",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/arena/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-task-tool",
       "note": "1 occurrence"
     },
     {
@@ -506,14 +537,14 @@
     },
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "7 occurrences"
@@ -590,7 +621,7 @@
     },
     {
       "artifactId": "skill:skills/create-verification-skill/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "3 occurrences"
@@ -632,24 +663,31 @@
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
-      "feature": "body text",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
+      "artifactId": "skill:skills/how/SKILL.md",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
-      "note": "4 occurrences"
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
-      "note": "4 occurrences"
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
-      "note": "2 occurrences"
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
@@ -674,31 +712,31 @@
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
-      "note": "2 occurrences"
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/maintain-verification-skill/SKILL.md",
@@ -723,10 +761,31 @@
     },
     {
       "artifactId": "skill:skills/maintain-verification-skill/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/make-bot-ui/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/make-bot-ui/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/make-bot-ui/SKILL.md",
+      "feature": "name",
+      "fidelity": "approximated",
+      "ruleId": "name-from-folder",
+      "note": "renamed from `Make Bot UI`"
+    },
+    {
+      "artifactId": "skill:skills/make-bot-ui/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
@@ -751,14 +810,14 @@
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
       "note": "1 occurrence"
@@ -814,45 +873,59 @@
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
-      "note": "4 occurrences"
+      "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
-      "fidelity": "exact",
-      "ruleId": "rewrite-general-purpose",
-      "note": "1 occurrence"
-    },
-    {
-      "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-run-in-background",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
-      "note": "4 occurrences"
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
       "note": "3 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/principle-attack-the-premise/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/principle-attack-the-premise/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/principle-attack-the-premise/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/principle-attack-the-premise/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
     },
     {
       "artifactId": "skill:skills/principle-boundary-discipline/SKILL.md",
@@ -1275,6 +1348,27 @@
       "note": "carried as disable-model-invocation: true"
     },
     {
+      "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/principle-test-behavior-not-implementation/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
       "artifactId": "skill:skills/principle-type-system-discipline/SKILL.md",
       "feature": "layout",
       "fidelity": "exact",
@@ -1318,7 +1412,7 @@
     },
     {
       "artifactId": "skill:skills/recall/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "1 occurrence"
@@ -1346,31 +1440,31 @@
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "10 occurrences"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
-      "note": "6 occurrences"
+      "note": "7 occurrences"
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
@@ -1388,21 +1482,21 @@
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
-      "note": "1 occurrence"
+      "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
       "note": "1 occurrence"
@@ -1430,7 +1524,7 @@
     },
     {
       "artifactId": "skill:skills/show-me-your-work/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "1 occurrence"
@@ -1458,30 +1552,37 @@
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-run-in-background",
       "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/swarm/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-task-tool",
       "note": "1 occurrence"
     },
     {
@@ -1563,6 +1664,20 @@
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
+      "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
+      "feature": "file predicates",
+      "fidelity": "approximated",
+      "ruleId": "drop-skill-path-filter",
+      "note": "dropped: **/*.ts, **/*.tsx"
+    },
+    {
+      "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
       "feature": "links",
       "fidelity": "unsupported",
       "ruleId": "flag-command-substitution",
@@ -1583,6 +1698,13 @@
       "note": "taken from the source path"
     },
     {
+      "artifactId": "skill:skills/unslop/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
       "artifactId": "skill:skills/why/SKILL.md",
       "feature": "layout",
       "fidelity": "exact",
@@ -1598,6 +1720,13 @@
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
+      "artifactId": "skill:skills/why/SKILL.md",
       "feature": "links",
       "fidelity": "exact",
       "ruleId": "relink-moved-file",
@@ -1605,17 +1734,24 @@
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
-      "feature": "body text",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
       "note": "2 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/why/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-task-tool",
+      "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
@@ -1627,11 +1763,18 @@
   ],
   "residue": [
     {
+      "artifact": "skill:skills/architect/SKILL.md",
+      "path": "skills/architect/SKILL.md",
+      "line": 34,
+      "kind": "foreign-token",
+      "detail": "matches /\\.mdc\\b/, use .md"
+    },
+    {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
       "line": 12,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: This skill orchestrates three others: an inline mining pass (see step 1), Cursor's built-in `create-skill` (authoring), and the **unslop** skill (prose discipline). It sequences them; it doesn't replace them."
+      "detail": "names the source runtime: This skill orchestrates three others: an inline mining pass (see step 1), Cursor's built-in `create-skill` (authoring), and the **unslop** skill (prose discipline). It sequences them. It doesn't replace them."
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
@@ -1641,25 +1784,25 @@
       "detail": "names the source runtime: Use Cursor's built-in `create-skill` skill to author the skill. Placement:"
     },
     {
-      "artifact": "skill:skills/automate-me/SKILL.md",
-      "path": "skills/automate-me/SKILL.md",
-      "line": 110,
-      "kind": "runtime-mention",
-      "detail": "names the source runtime: - Cursor's built-in `create-skill` skill: skill authoring process and writing guidelines."
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 12,
+      "kind": "foreign-token",
+      "detail": "matches /\\.mdc\\b/, use .md"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
       "line": 23,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: - Any prose surface → the **unslop** skill. Your reply is a prose surface; write it per **Writing the reply**. Agent-facing prose also follows the **create-skill** skill (Cursor's built-in for authoring SKILL.md files)."
+      "detail": "names the source runtime: - Any prose surface → the **unslop** skill. Your reply is a prose surface. Write it per **Writing the reply**. Agent-facing prose also follows the **create-skill** skill (Cursor's built-in for authoring SKILL.md files)."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
       "line": 28,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: - Any PR-status request → the **Babysit** playbook (`playbooks/babysit.md`), and not Cursor's built-in babysit skill, whose description matches the same words. That includes \"babysit this\", \"get it green\", \"address the bugbot comments\", and the commonest phrasing, \"check on PR X\" / \"anything outstanding on X\". Never triggered by merely opening a PR. Declare its mode before polling; the playbook's step 1 owns the request-to-mode mapping. Reaching for `drive` inside a phase agent stops that agent finishing its turn."
+      "detail": "names the source runtime: - Any PR-status request → the **Babysit** playbook (`playbooks/babysit.md`), and not Cursor's built-in babysit skill, whose description matches the same words. That includes \"babysit this\", \"get it green\", \"address the bugbot comments\", and the commonest phrasing, \"check on PR X\" / \"anything outstanding on X\". Never triggered by merely opening a PR. Declare its mode before polling. The playbook's step 1 owns the request-to-mode mapping. Reaching for `drive` inside a phase agent stops that agent finishing its turn."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1671,14 +1814,14 @@
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 129,
+      "line": 132,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 134,
+      "line": 137,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - **Pause safely.** Suspending in-flight work cleanly so it can be resumed, on an explicit pause, going offline, a Cursor restart, or imminent context compaction. The complement to Session pickup. Full steps: `playbooks/pause-safely.md`."
     },
@@ -1688,13 +1831,6 @@
       "line": 5,
       "kind": "runtime-mention",
       "detail": "names the source runtime: 1. Use the **create-skill** skill (Cursor's built-in for authoring SKILL.md files)."
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/autonomous-run.md",
-      "line": 3,
-      "kind": "foreign-token",
-      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1715,26 +1851,40 @@
       "path": "skills/poteto-mode/playbooks/autopilot-full.md",
       "line": 6,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 2. **Spawn one owner per PR with the full lifecycle.** One Cursor cloud agent per PR owns build, gt registration, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), a restack onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. The restack always precedes babysit and never waits for drift or conflicts. Every owner keeps a decisions.tsv trail per the **show-me-your-work** skill, never committed, returned with its reports. The merge is the one step an owner may not take alone; step 4 gates it."
+      "detail": "names the source runtime: 2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it."
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/autopilot-full.md",
+      "line": 10,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
       "line": 5,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 1. **Run the owner loop unchanged.** One Cursor cloud agent per PR owns its change end to end: build, `gt` registration of its own PR, self-proof (gates, CI, receipts), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Every owner keeps a `decisions.tsv` trail per the **show-me-your-work** skill, never committed, returned in its report."
+      "detail": "names the source runtime: 1. **Run the owner loop unchanged.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns its change end to end: build, first push, a ready PR opened before self-proof, self-proof (gates, CI, receipts), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Keep the trail uncommitted and return it in the report. Owners also keep the `children.tsv` of Autopilot-full step 2."
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
+      "line": 6,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/babysit.md",
       "line": 3,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: **You own the merge frontier. Declare a mode, clear one PR at a time, stop where the human's call begins.** For \"babysit this\", \"get it green\", \"all green\", \"merge-ready\", \"watch CI\", \"address the bugbot comments\", or \"check on PR X\". Step 1 owns the request-to-mode mapping. This playbook replaces Cursor's built-in babysit skill for these requests, so do not route there even though its description matches the same words. A request to land or ship is `playbooks/shipping.md`, which begins where this playbook ends."
+      "detail": "names the source runtime: **You own the merge frontier. Declare a mode, clear one PR at a time, stop where the human's call begins.** This playbook replaces Cursor's built-in babysit skill for these requests, so do not route there even though its description matches the same words. A request to land or ship is `playbooks/shipping.md`, which begins where this playbook ends."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/babysit.md",
-      "line": 14,
+      "line": 12,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
@@ -1743,7 +1893,7 @@
       "path": "skills/poteto-mode/playbooks/bug-fix.md",
       "line": 8,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 2. Binary-search the cause. Form the candidate hypotheses, then rule them out until one survives. Seed them with `how` over the affected subsystem and the **why** skill for regression history. Each pass, take the split that cuts the most remaining problem space, get runtime evidence, eliminate. When program state is unclear, add instrumentation or logging and read it as the code runs. Don't guess. Drive a long or stubborn hunt with Cursor's `/loop` command. Confirm the surviving *mechanism* with runtime evidence before the step-3 architect/interrogate fan-out; a design grounded on a plausible-but-unconfirmed cause can be unanimously wrong while the real cause sits one subsystem over."
+      "detail": "names the source runtime: 2. Binary-search the cause. Form the candidate hypotheses, then rule them out until one survives. Seed them with `how` over the affected subsystem and the **why** skill for regression history. Each pass, take the split that cuts the most remaining problem space, get runtime evidence, eliminate. When program state is unclear, add instrumentation or logging and read it as the code runs. Don't guess. Drive a long or stubborn hunt with Cursor's `/loop` command. Confirm the surviving *mechanism* with runtime evidence before the step-3 architect/interrogate fan-out."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1754,50 +1904,43 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-      "line": 9,
-      "kind": "runtime-mention",
-      "detail": "names the source runtime: **PRs.** `/deslop` the diff before commit; `/no-comments` the diff before review; apply the **unslop** skill to the PR description and commit bodies. Small PRs, 5 narrow over 1 fat; stack follow-ups, branch off main only for genuinely independent work. For stacked PRs, use whatever stacking tool your team uses; the principle is small, ordered slices with the stack visible to reviewers. `gh pr view <number>` before referencing PR status. Rebase on `main` before substantial stack work. No `## Summary` / `## Test plan` boilerplate on small PRs; commit bodies don't restate the subject. After opening, run Cursor's built-in **babysit** skill; push back when feedback drifts from intent."
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "line": 42,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/orchestrate.md",
-      "line": 73,
+      "line": 71,
       "kind": "foreign-token",
       "detail": "matches /\\bloop skill\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/orchestrate.md",
-      "line": 97,
+      "line": 95,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: - Never resume an agent to check on it; a resume restarts an idle agent. Probe read-only: the ledger, `units.tsv`, `gh`, pushed branches, the cloud agent's status in the Cursor dashboard. Transcript mtime is not liveness."
+      "detail": "names the source runtime: - Never resume an agent to check on it. A resume restarts an idle agent. Probe read-only: the ledger, `units.tsv`, `gh`, pushed branches, the cloud agent's status in the Cursor dashboard. Transcript mtime is not liveness."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/orchestrate.md",
-      "line": 103,
+      "line": 101,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: - After a Cursor restart: local agents are dead, cloud work is not. Re-read the standing orders and `units.tsv`, recompute the frontier, reattach cloud work by PR and branch rather than agent id, respawn one sub-coordinator per track from its stored brief plus current state, drain, resume. The dead session's store lock clears itself on the next write; `orch` replaces a lock whose holder pid is gone."
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/pause-safely.md",
-      "line": 3,
-      "kind": "runtime-mention",
-      "detail": "names the source runtime: **You own a clean stop. Leave a checkpoint a cold-start agent can resume from.** For \"pause safely\", \"I need to go offline\", \"restart Cursor\", or \"board my flight\", and when context is about to compact or summarize. This is explicit only. On \"keep going\", \"going to bed, keep going\", or \"don't stop\", do not pause. Those mean continue, and Autonomous run already checkpoints per iteration."
+      "detail": "names the source runtime: - After a Cursor restart: local agents are dead, cloud work is not. Re-read the standing orders and `units.tsv`, recompute the frontier, reattach cloud work by PR and branch rather than agent id, respawn one sub-coordinator per track from its stored brief plus current state, drain, resume. The dead session's store lock clears itself on the next write. `orch` replaces a lock whose holder pid is gone."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/shipping.md",
       "line": 7,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 1. **Verify every PR independently before arming anything.** One subagent per PR, not batched, each a Cursor cloud agent, each exercising the real surface (`control-ui` or `control-cli` from `cursor-team-kit` as the change demands) against parent versus head. Each returns `PASS`, `PASS+NOTES` or `FAIL` and posts that verdict on its own PR so the record outlives the chat. Safe means a verdict from an agent that did not write the code. CI green is not a verdict, and an approving bot review is not a verdict."
+      "detail": "names the source runtime: 1. **Resolve the forge, then verify every PR independently.** GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR view, watch, edit, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One subagent per PR, not batched, each a Cursor cloud agent, each exercising the real surface with the matching control skill (such as `control-ui` or `control-cli` from `cursor-team-kit`) against parent versus head. Each returns `PASS`, `PASS+NOTES` or `FAIL` and posts that verdict on its own PR. Safe means a verdict from an agent that did not write the code. CI green is not a verdict, and an approving bot review is not a verdict."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/shipping.md",
-      "line": 17,
+      "line": 14,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
@@ -1813,26 +1956,19 @@
       "path": "skills/poteto-mode/playbooks/worktree-cleanup.md",
       "line": 10,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 6. Simulators and other reclaimers. Simulators are usually the next-biggest win. `xcrun simctl --set testing delete all` (XCTestDevices clones), `xcrun simctl delete unavailable`, and `xcrun simctl runtime list` then `runtime delete <id>` for old runtimes. More when needed: Xcode `DerivedData` and `iOS DeviceSupport`; `~/Library/Application Support/Cursor` (`state.vscdb.backup`, and `snapshots/roots/<root>` where a `<root>` named for a folder you opened as a workspace balloons); package caches (pnpm, uv, brew, yarn). Clear only caches the user has not said to keep."
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/references/plan.md",
-      "line": 76,
-      "kind": "runtime-mention",
-      "detail": "names the source runtime: If a phase creates or edits a skill, the phase instructs the implementer to use the **create-skill** skill (Cursor's built-in for authoring SKILL.md files)."
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/references/plan.md",
-      "line": 101,
-      "kind": "runtime-mention",
-      "detail": "names the source runtime: - Cursor's built-in **babysit** skill after opening the PR."
+      "detail": "names the source runtime: 6. Simulators and other reclaimers. Simulators are usually the next-biggest win. `xcrun simctl --set testing delete all` (XCTestDevices clones), `xcrun simctl delete unavailable`, and `xcrun simctl runtime list` then `runtime delete <id>` for old runtimes. More when needed: Xcode `DerivedData` and `iOS DeviceSupport`, `~/Library/Application Support/Cursor` (`state.vscdb.backup`, and `snapshots/roots/<root>` where a `<root>` named for a folder you opened as a workspace balloons), package caches (pnpm, uv, brew, yarn). Clear only caches the user has not said to keep."
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 65,
+      "line": 34,
+      "kind": "foreign-token",
+      "detail": "matches /\\.mdc\\b/, use .md"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 61,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop."
     },
@@ -1841,12 +1977,19 @@
       "path": "skills/setup-pstack/SKILL.md",
       "line": 15,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: Enumerate the model slugs you can pass to a `task` subagent in this session; that is the dependable source. If Cursor also exposes a models API or CLI that lists the user's entitled models, prefer it for completeness. If you cannot detect any, ask the user to paste the slugs they have access to. Never write a real slug you have not confirmed is available. The aliases `inherit-parent` and `auto` are always valid even though they are not detected slugs."
+      "detail": "names the source runtime: Enumerate the model slugs you can pass to a `task` subagent in this session. That is the dependable source. If Cursor also exposes a models API or CLI that lists the user's entitled models, prefer it for completeness. If you cannot detect any, ask the user to paste the slugs they have access to. Never write a real slug you have not confirmed is available. The aliases `inherit-parent` and `auto` are always valid even though they are not detected slugs."
     },
     {
       "artifact": "skill:skills/typescript-best-practices/SKILL.md",
       "path": "skills/typescript-best-practices/SKILL.md",
-      "line": 15,
+      "line": null,
+      "kind": "unsupported-artifact",
+      "detail": "path filter not carried: **/*.ts, **/*.tsx"
+    },
+    {
+      "artifact": "skill:skills/typescript-best-practices/SKILL.md",
+      "path": "skills/typescript-best-practices/SKILL.md",
+      "line": 17,
       "kind": "command-substitution",
       "detail": "!`, a cast, or a \"should never happen\" throw. |\n| ` was executed by the source harness and is inert here"
     },
@@ -1860,7 +2003,14 @@
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 101,
+      "line": 14,
+      "kind": "foreign-token",
+      "detail": "matches /\\.mdc\\b/, use .md"
+    },
+    {
+      "artifact": "skill:skills/why/SKILL.md",
+      "path": "skills/why/SKILL.md",
+      "line": 65,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Before spawning investigators, list the available MCPs from the Cursor environment. Use the available-tools map when present. Otherwise inspect the `mcps/` directory Cursor exposes for enabled MCP servers."
     },
@@ -1940,11 +2090,24 @@
     },
     {
       "severity": "warning",
+      "ruleId": "drop-skill-path-filter",
+      "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
+      "span": null,
+      "message": "path filters are dropped: a Copilot skill is selected by relevance alone",
+      "fidelity": "approximated",
+      "evidence": {
+        "source": "docs/research/harness-format-survey.md",
+        "locator": "section D treating activation keys as decoration",
+        "quote": "Copilot skills have no such filter"
+      }
+    },
+    {
+      "severity": "warning",
       "ruleId": "flag-command-substitution",
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
       "span": {
         "file": "skills/typescript-best-practices/SKILL.md",
-        "line": 15,
+        "line": 17,
         "column": 139
       },
       "message": "`!`, a cast, or a \"should never happen\" throw. |\n| `` is left as text: Copilot does not run it before the model reads the skill",
@@ -1994,6 +2157,7 @@
     ".cursor-plugin/plugin.json",
     ".gitignore",
     "README.md",
+    "assets/logo.png",
     "automations/benny/FOR_AGENTS.md",
     "automations/benny/README.md",
     "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
@@ -2037,7 +2201,7 @@
     },
     {
       "path": "README.md",
-      "blob": "9c719dfa7a1ff6fdc7f712274b23ee3e6db12ed1",
+      "blob": "8cdf5736fc4ae60e21c642915ed764bf481c8510",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2069,10 +2233,10 @@
     },
     {
       "path": "skills/architect/SKILL.md",
-      "blob": "5ddb9ebddd94ef9ce55d9f9961e5dd105011839a",
+      "blob": "a17c0092d425327d8f1f9be7a0fa6184b5af1f91",
       "executable": false,
       "source": "skills/architect/SKILL.md",
-      "sourceBlob": "988462fcff7a519cf18eb30fc0223d7363f5e0c7",
+      "sourceBlob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2089,40 +2253,41 @@
     },
     {
       "path": "skills/architect/references/rationale-template.md",
-      "blob": "1ddd50545c977264ac387ab805afbef257df03b9",
+      "blob": "a10f77f59510c532cd909faaf3bfeee5ffbfd588",
       "executable": false,
       "source": "skills/architect/references/rationale-template.md",
-      "sourceBlob": "1ddd50545c977264ac387ab805afbef257df03b9",
+      "sourceBlob": "a10f77f59510c532cd909faaf3bfeee5ffbfd588",
       "rules": []
     },
     {
       "path": "skills/architect/references/runner-prompt.md",
-      "blob": "d2daeee48c50f31825fdb0645e0df05c08e37bb6",
+      "blob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
       "executable": false,
       "source": "skills/architect/references/runner-prompt.md",
-      "sourceBlob": "d2daeee48c50f31825fdb0645e0df05c08e37bb6",
+      "sourceBlob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
       "rules": []
     },
     {
       "path": "skills/arena/SKILL.md",
-      "blob": "ec91e53eeb2d908281a7edd74b31a0b2faf32367",
+      "blob": "728a0c33e08a47795ab42861ec497d613d1a934c",
       "executable": false,
       "source": "skills/arena/SKILL.md",
-      "sourceBlob": "e91aae666c9a15bf529eb8b09cefa55c87ba939c",
+      "sourceBlob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths",
-        "rewrite-run-in-background"
+        "rewrite-run-in-background",
+        "rewrite-task-tool"
       ]
     },
     {
       "path": "skills/automate-me/SKILL.md",
-      "blob": "09b9ff2f2bd7f3ef53153a11a5657722e8237dab",
+      "blob": "22557c05d52b56c47a5688b254f779e6ef2494f5",
       "executable": false,
       "source": "skills/automate-me/SKILL.md",
-      "sourceBlob": "56829250c1fdce1ad72456d5421e1f1e5142373f",
+      "sourceBlob": "cd3636e9a53c7c782cf15254204dccfc854086b5",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2133,10 +2298,10 @@
     },
     {
       "path": "skills/blast-radius/SKILL.md",
-      "blob": "5062d7bc5e33e2ec21e50fdb6745cf6458271c5b",
+      "blob": "0fcafd802847e6720fd6aa7af9859f07313cd012",
       "executable": false,
       "source": "skills/blast-radius/SKILL.md",
-      "sourceBlob": "4b24c77e102955af19ae60aa10af642f69eaa8ba",
+      "sourceBlob": "1713b283d477530be64e925ede2bdbe5ce2d6e31",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2196,10 +2361,10 @@
     },
     {
       "path": "skills/figure-it-out/SKILL.md",
-      "blob": "c85bd0a1bb9086a162af672d55ba597dc90efb37",
+      "blob": "ea94dfbc2d213030c38f251070864132b6c2eabd",
       "executable": false,
       "source": "skills/figure-it-out/SKILL.md",
-      "sourceBlob": "6ffc04db212737584aac966c69c53836757fa545",
+      "sourceBlob": "fbf3fb122cab127d71d3c41e84711e61cc5dec4c",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2208,11 +2373,12 @@
     },
     {
       "path": "skills/how/SKILL.md",
-      "blob": "f0772cefd694b0c7844b88f2463f5c3d942c8d9b",
+      "blob": "0164074c0901fc49ad5015f71c6636827d1b7424",
       "executable": false,
       "source": "skills/how/SKILL.md",
-      "sourceBlob": "490a6e348a2589fd6ebe661f2e19eb91107d601b",
+      "sourceBlob": "cd22fff659f14822ad2f485f711a355b6da0668d",
       "rules": [
+        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-general-purpose",
@@ -2221,43 +2387,27 @@
       ]
     },
     {
-      "path": "skills/how/references/critic-prompt.md",
-      "blob": "e17298e8499d919d7700d06334d0c3d1744c4bfb",
-      "executable": false,
-      "source": "skills/how/references/critic-prompt.md",
-      "sourceBlob": "e17298e8499d919d7700d06334d0c3d1744c4bfb",
-      "rules": []
-    },
-    {
-      "path": "skills/how/references/critique-rubric.md",
-      "blob": "b4d452f536de805107d3b96fc0772e9bbc1c1209",
-      "executable": false,
-      "source": "skills/how/references/critique-rubric.md",
-      "sourceBlob": "b4d452f536de805107d3b96fc0772e9bbc1c1209",
-      "rules": []
-    },
-    {
       "path": "skills/how/references/explainer-prompt.md",
-      "blob": "868c737894352bc4f9a401eb0c3ab2051f2be37f",
+      "blob": "3a36fb6736c5b74ac2774350841e332a019dec94",
       "executable": false,
       "source": "skills/how/references/explainer-prompt.md",
-      "sourceBlob": "868c737894352bc4f9a401eb0c3ab2051f2be37f",
+      "sourceBlob": "3a36fb6736c5b74ac2774350841e332a019dec94",
       "rules": []
     },
     {
       "path": "skills/how/references/explorer-prompt.md",
-      "blob": "80228270978dcd403bae34ed22b0f517fd38a6fc",
+      "blob": "9b4b0594bfd779015616e9d280369aba939583b4",
       "executable": false,
       "source": "skills/how/references/explorer-prompt.md",
-      "sourceBlob": "80228270978dcd403bae34ed22b0f517fd38a6fc",
+      "sourceBlob": "9b4b0594bfd779015616e9d280369aba939583b4",
       "rules": []
     },
     {
       "path": "skills/interrogate/SKILL.md",
-      "blob": "aa81212552f8c14df1e2ef7f1786e559e1789a6a",
+      "blob": "e002c62a6266871b4af5a7c1573e049dbd58d882",
       "executable": false,
       "source": "skills/interrogate/SKILL.md",
-      "sourceBlob": "62ae44cdb7cf62a35f208d30512897c144d7eda2",
+      "sourceBlob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2270,34 +2420,34 @@
     },
     {
       "path": "skills/interrogate/references/code-quality-review.md",
-      "blob": "569c9a4915dbbca8f02ede9359e1bad733fd7959",
+      "blob": "16581250d81044c7e80fe234c4970a3f7b7fc98a",
       "executable": false,
       "source": "skills/interrogate/references/code-quality-review.md",
-      "sourceBlob": "569c9a4915dbbca8f02ede9359e1bad733fd7959",
+      "sourceBlob": "16581250d81044c7e80fe234c4970a3f7b7fc98a",
       "rules": []
     },
     {
       "path": "skills/interrogate/references/lead-judgment.md",
-      "blob": "ea6262ebe540a156e7b12f6b353f92ad621114a6",
+      "blob": "5ce526097fdd3dfeaf4cd3b126a3f486c3ee36ae",
       "executable": false,
       "source": "skills/interrogate/references/lead-judgment.md",
-      "sourceBlob": "ea6262ebe540a156e7b12f6b353f92ad621114a6",
+      "sourceBlob": "5ce526097fdd3dfeaf4cd3b126a3f486c3ee36ae",
       "rules": []
     },
     {
       "path": "skills/interrogate/references/reviewer-prompt.md",
-      "blob": "53ffa747ff6af72ed24cc00e2622b2c14dd564a9",
+      "blob": "13a252b2c3cd18522d4c8dc39a7030477037b249",
       "executable": false,
       "source": "skills/interrogate/references/reviewer-prompt.md",
-      "sourceBlob": "53ffa747ff6af72ed24cc00e2622b2c14dd564a9",
+      "sourceBlob": "13a252b2c3cd18522d4c8dc39a7030477037b249",
       "rules": []
     },
     {
       "path": "skills/interrogate/references/rubric.md",
-      "blob": "0f63289b7138bd300ed302ebfb919f67c7f9cb83",
+      "blob": "2d92f1b83e13be03fb10f20cba12639a1406a2da",
       "executable": false,
       "source": "skills/interrogate/references/rubric.md",
-      "sourceBlob": "0f63289b7138bd300ed302ebfb919f67c7f9cb83",
+      "sourceBlob": "2d92f1b83e13be03fb10f20cba12639a1406a2da",
       "rules": []
     },
     {
@@ -2314,11 +2464,23 @@
       ]
     },
     {
+      "path": "skills/make-bot-ui/SKILL.md",
+      "blob": "f3fe17fb638ba75b7ec5cf019bfb030f441d4815",
+      "executable": false,
+      "source": "skills/make-bot-ui/SKILL.md",
+      "sourceBlob": "285df7569758a70e62e9f3596a1f829a5b6ba80e",
+      "rules": [
+        "keep-disable-model-invocation",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
       "path": "skills/no-comments/SKILL.md",
-      "blob": "5fbc6ffa0f46ac39d412d1f23cd450644a6952fc",
+      "blob": "c320cc0d4578ddb1b0e826bde42d98d9d2b27f59",
       "executable": false,
       "source": "skills/no-comments/SKILL.md",
-      "sourceBlob": "a14bdda050e71788638733d3b7c342be7f7a2523",
+      "sourceBlob": "3b3e76295a7ad66806dcc683e4de92fb25690f8b",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2329,10 +2491,10 @@
     },
     {
       "path": "skills/poteto-mode/SKILL.md",
-      "blob": "bca3c72723422e7665f1bc0ec4d2781ea4b1ec02",
+      "blob": "0f66ce19fe12c34268fd4242dad510112791f40f",
       "executable": false,
       "source": "skills/poteto-mode/SKILL.md",
-      "sourceBlob": "885fbca28589b9ebc266cb111d42723516b2dc98",
+      "sourceBlob": "f8ddcae379007d61aefcae39b18bd836a488ee21",
       "rules": [
         "drop-cosmetic-key",
         "drop-reminder",
@@ -2348,218 +2510,207 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/authoring-a-skill.md",
-      "blob": "0fc01383d072ceaf72b697076953d7376f162256",
+      "blob": "8c5a55a44f5e95bba92f652da0ac87e941c49538",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/authoring-a-skill.md",
-      "sourceBlob": "0fc01383d072ceaf72b697076953d7376f162256",
+      "sourceBlob": "8c5a55a44f5e95bba92f652da0ac87e941c49538",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/autonomous-run.md",
-      "blob": "5ec65d624292a74fbc7735d5e9b9193a0ab38c0f",
+      "blob": "2d21e4b35be6ed7af1ea9c6ec54f2ba435f069f6",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/autonomous-run.md",
-      "sourceBlob": "bc68ad73435547747876a84d0283b62f8e51cdb9",
+      "sourceBlob": "12c3a7d84effcacf3550cb893be67498d7b28a4a",
       "rules": [
         "rewrite-askquestion"
       ]
     },
     {
       "path": "skills/poteto-mode/playbooks/autopilot-full.md",
-      "blob": "04de277ab1da4c8e7abd0dc6d54d830b50e4f381",
+      "blob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/autopilot-full.md",
-      "sourceBlob": "04de277ab1da4c8e7abd0dc6d54d830b50e4f381",
+      "sourceBlob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
-      "blob": "a9c55a46f747ae6ce3902aa900faec167135005e",
+      "blob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/autopilot-stack.md",
-      "sourceBlob": "a9c55a46f747ae6ce3902aa900faec167135005e",
+      "sourceBlob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/babysit.md",
-      "blob": "ea83b98f081619c58c0a1c5fb6657e1c4db7d28a",
+      "blob": "683cf0ba889789cbe2d880fce667c75349f9ed12",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/babysit.md",
-      "sourceBlob": "ea83b98f081619c58c0a1c5fb6657e1c4db7d28a",
+      "sourceBlob": "683cf0ba889789cbe2d880fce667c75349f9ed12",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/bug-fix.md",
-      "blob": "3db48fb5adf75a5f9a3fcd2c6a1a1d79921ead99",
+      "blob": "eeebc42b7477d435d8ac61d631d84822f908f59c",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/bug-fix.md",
-      "sourceBlob": "3db48fb5adf75a5f9a3fcd2c6a1a1d79921ead99",
+      "sourceBlob": "eeebc42b7477d435d8ac61d631d84822f908f59c",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/eval.md",
-      "blob": "14ed5417e8a0f1e8d9d0bf81fbc4805c028947d1",
+      "blob": "c10b7602d4399042b6215adb7b975498c8961d0b",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/eval.md",
-      "sourceBlob": "fe18dd589045fe7400e1af3385f3e6dbe0d6e63a",
+      "sourceBlob": "3dae34e2ef0cbdd9bafa5ab372da5ea143d48452",
       "rules": [
         "rewrite-cursor-paths"
       ]
     },
     {
       "path": "skills/poteto-mode/playbooks/feature.md",
-      "blob": "3ed7bafc96ec799256a685d2aa765ddd0ee477e4",
+      "blob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/feature.md",
-      "sourceBlob": "3ed7bafc96ec799256a685d2aa765ddd0ee477e4",
+      "sourceBlob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/hillclimb.md",
-      "blob": "6ae44bb6c4430028e2540ce67f6a717f25238fa6",
+      "blob": "582555e826675068ceaea08e6134a44ba0ea4511",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/hillclimb.md",
-      "sourceBlob": "6ae44bb6c4430028e2540ce67f6a717f25238fa6",
+      "sourceBlob": "582555e826675068ceaea08e6134a44ba0ea4511",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/investigation.md",
-      "blob": "2f1e9ec991597c1263a842517754e75d4f09f671",
+      "blob": "cd119f04f23e0b7acb3f8cc5ba13ce4ab7aa6c7d",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/investigation.md",
-      "sourceBlob": "2f1e9ec991597c1263a842517754e75d4f09f671",
+      "sourceBlob": "cd119f04f23e0b7acb3f8cc5ba13ce4ab7aa6c7d",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "blob": "956eee23512e744e6e04b8846b7340de47f81344",
+      "blob": "8c3c97d68eb4f9f75e75ca53ecf8cd8b87467135",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "sourceBlob": "956eee23512e744e6e04b8846b7340de47f81344",
-      "rules": []
+      "sourceBlob": "fe006110f6005dcdb746d891e7901a1734a75538",
+      "rules": [
+        "rewrite-subagent-type"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-      "blob": "a73b9ec0f6f73e901d3c50b06854034bc6c9060a",
+      "blob": "b9fc5a1f5408de1ac6a47953b6a11e2b28d33ea2",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/opening-a-pr.md",
-      "sourceBlob": "c343d0cadaca6b7e972ad48ba7ac96e14b6aa447",
+      "sourceBlob": "626f376bd64e2e7b04c2575cb8b8f4ba70a6078d",
       "rules": [
         "rewrite-task-tool"
       ]
     },
     {
       "path": "skills/poteto-mode/playbooks/orchestrate.md",
-      "blob": "1c68996f328f2baea58ed34f403b4d8f3974eafa",
+      "blob": "2e1db758502aba62acd0424004a5ef2bca2aba1a",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/orchestrate.md",
-      "sourceBlob": "fcd5a3e15b6cf5d0a88197119a82b09c52ca0984",
+      "sourceBlob": "d5b6d008026ff0177f52e22a6fb4b2edae5c87e2",
       "rules": [
-        "rewrite-askquestion",
         "rewrite-task-tool"
       ]
     },
     {
       "path": "skills/poteto-mode/playbooks/pause-safely.md",
-      "blob": "b125efb8072e35d34639835d5bffddfc823cbd0a",
+      "blob": "9d1c5f8303976fff40de099f7f28185909430c11",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/pause-safely.md",
-      "sourceBlob": "b125efb8072e35d34639835d5bffddfc823cbd0a",
+      "sourceBlob": "9d1c5f8303976fff40de099f7f28185909430c11",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/perf-issue.md",
-      "blob": "e791de3562a3d0c660cfa7e9e12dc6dd9855f41f",
+      "blob": "688d483d4d4a6c58efa515558c822e11f621540f",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/perf-issue.md",
-      "sourceBlob": "e791de3562a3d0c660cfa7e9e12dc6dd9855f41f",
+      "sourceBlob": "688d483d4d4a6c58efa515558c822e11f621540f",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/prototype.md",
-      "blob": "0f0a888396f2ff1da11a56bb694ee65eb51529f8",
+      "blob": "18bedc7e9249d180f9198d5b4b13e3817d41d281",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/prototype.md",
-      "sourceBlob": "0f0a888396f2ff1da11a56bb694ee65eb51529f8",
+      "sourceBlob": "18bedc7e9249d180f9198d5b4b13e3817d41d281",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/refactoring.md",
-      "blob": "7a6e8b60925820510bde3912dfb6cf40c912bef5",
+      "blob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/refactoring.md",
-      "sourceBlob": "7a6e8b60925820510bde3912dfb6cf40c912bef5",
+      "sourceBlob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/runtime-forensics.md",
-      "blob": "76ebfb3a8c661fea4ab619968a1ac566797344d7",
+      "blob": "ba659bfe1c4c2f956f3285974bfdc941120f9948",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/runtime-forensics.md",
-      "sourceBlob": "76ebfb3a8c661fea4ab619968a1ac566797344d7",
+      "sourceBlob": "ba659bfe1c4c2f956f3285974bfdc941120f9948",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/session-pickup.md",
-      "blob": "5cf3327dd77848d96e339e0e498e873a4839b3da",
+      "blob": "9f75213eb45aceb199dbc25a0c198ef743ac6530",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/session-pickup.md",
-      "sourceBlob": "b75ce11a1fba2f5deff43c272e1d40303524bb09",
+      "sourceBlob": "9b2ed06e0ff8b01bf03b7a0d6a4cbb8ba3a46720",
       "rules": [
         "rewrite-cursor-paths"
       ]
     },
     {
       "path": "skills/poteto-mode/playbooks/shipping.md",
-      "blob": "43b575370a8a34b48b5ee217316d25650cfe5d21",
+      "blob": "0f1d41f189222b991734015926a3b22607e1b92f",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/shipping.md",
-      "sourceBlob": "43b575370a8a34b48b5ee217316d25650cfe5d21",
+      "sourceBlob": "0f1d41f189222b991734015926a3b22607e1b92f",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/trace-forensics.md",
-      "blob": "10f8209e3d9c0e6b50056c92a28d89d56f5a31e6",
+      "blob": "48ed6b2f690215027eda96a1897ed98212bbd07a",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/trace-forensics.md",
-      "sourceBlob": "10f8209e3d9c0e6b50056c92a28d89d56f5a31e6",
+      "sourceBlob": "48ed6b2f690215027eda96a1897ed98212bbd07a",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/visual-parity.md",
-      "blob": "ec4a449efdf4f1a3d4b81dc19797d7866545db95",
+      "blob": "248830ec74a593fc22143a842026388f92f1b9f4",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/visual-parity.md",
-      "sourceBlob": "ec4a449efdf4f1a3d4b81dc19797d7866545db95",
+      "sourceBlob": "248830ec74a593fc22143a842026388f92f1b9f4",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/worktree-cleanup.md",
-      "blob": "9f6be47290b138c30ed8bb7338cf15173899147a",
+      "blob": "39c9ef9f368ac63b0e4245503302a4c174e846d6",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/worktree-cleanup.md",
-      "sourceBlob": "9f6be47290b138c30ed8bb7338cf15173899147a",
+      "sourceBlob": "39c9ef9f368ac63b0e4245503302a4c174e846d6",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/references/bugbot-triage.md",
-      "blob": "da1e7a78ec4788f207033a46df425b6c5c472f80",
+      "blob": "b2fc7d35712783707607cf2f39752885c8d5105c",
       "executable": false,
       "source": "skills/poteto-mode/references/bugbot-triage.md",
-      "sourceBlob": "da1e7a78ec4788f207033a46df425b6c5c472f80",
+      "sourceBlob": "b2fc7d35712783707607cf2f39752885c8d5105c",
       "rules": []
-    },
-    {
-      "path": "skills/poteto-mode/references/plan.md",
-      "blob": "563fee1a5769420075683ccb42a6bab9c70b5533",
-      "executable": false,
-      "source": "skills/poteto-mode/references/plan.md",
-      "sourceBlob": "49ab89abf7644eac933f3d48cd2e587867db23e6",
-      "rules": [
-        "rewrite-askquestion",
-        "rewrite-general-purpose",
-        "rewrite-subagent-type"
-      ]
     },
     {
       "path": "skills/poteto-mode/scripts/bootstrap.ts",
@@ -2575,6 +2726,14 @@
       "executable": false,
       "source": "skills/poteto-mode/scripts/bun.lock",
       "sourceBlob": "65f0c662f300a0f72b319ca93ea18f56219c2581",
+      "rules": []
+    },
+    {
+      "path": "skills/poteto-mode/scripts/check-plan.mjs",
+      "blob": "6c07f4e903d10332702a2ac4602ada9273e71609",
+      "executable": true,
+      "source": "skills/poteto-mode/scripts/check-plan.mjs",
+      "sourceBlob": "6c07f4e903d10332702a2ac4602ada9273e71609",
       "rules": []
     },
     {
@@ -2714,11 +2873,23 @@
       "rules": []
     },
     {
+      "path": "skills/principle-attack-the-premise/SKILL.md",
+      "blob": "514905a29537d7b1178ea5e7e412fdc4b84c4908",
+      "executable": false,
+      "source": "skills/principle-attack-the-premise/SKILL.md",
+      "sourceBlob": "f9785ff9fdcf37d1c689e4468da7d611f3b76d4b",
+      "rules": [
+        "keep-disable-model-invocation",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
       "path": "skills/principle-boundary-discipline/SKILL.md",
-      "blob": "d8376327223606f074492b07fc2daca7d059f551",
+      "blob": "d334a696b67c416c70af7dfda3d52c263781d6df",
       "executable": false,
       "source": "skills/principle-boundary-discipline/SKILL.md",
-      "sourceBlob": "84d526ce7ea45d207587e80015912d5a01714e21",
+      "sourceBlob": "dfe9a6fb0e5acd6ae43a41437ee0951adfe839cb",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2727,10 +2898,10 @@
     },
     {
       "path": "skills/principle-build-the-lever/SKILL.md",
-      "blob": "e5403352dca24153c1476b445f9cf48a01cbd1cf",
+      "blob": "45ed2b5de38cd3c8847219dba0579bd8d17c908c",
       "executable": false,
       "source": "skills/principle-build-the-lever/SKILL.md",
-      "sourceBlob": "8ba6740bd3bd9b2e582080bce0917cc4a7293d2f",
+      "sourceBlob": "277189a10b00fddc7cbb63fcf2323c7341abb0df",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2739,10 +2910,10 @@
     },
     {
       "path": "skills/principle-encode-lessons-in-structure/SKILL.md",
-      "blob": "4d39e9bef6cc13081deac50e9b3d94f486887cda",
+      "blob": "e225a7c868af687eb60b85ee8c830101e1d98dbc",
       "executable": false,
       "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
-      "sourceBlob": "86a22f21146d358fc18afb2a0186da61470c3241",
+      "sourceBlob": "df9cd5ff2fb3c18267349cc6aecd8121848ef834",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2763,10 +2934,10 @@
     },
     {
       "path": "skills/principle-experience-first/SKILL.md",
-      "blob": "d58c6f445567185d38ed764e4e492b4b0c77517e",
+      "blob": "f9a68dc2a58d3bc5f0e0847b7429c2ae610e146b",
       "executable": false,
       "source": "skills/principle-experience-first/SKILL.md",
-      "sourceBlob": "be15f055d536721bbda859be3e3d202e78a2e001",
+      "sourceBlob": "5ea51741302cf3af4cc0b90ec70815bd3208dbf2",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2775,10 +2946,10 @@
     },
     {
       "path": "skills/principle-fix-root-causes/SKILL.md",
-      "blob": "fbe9a458796967f49a3c17c6b4b21b0e26157957",
+      "blob": "28d9dcb7392115de254f038358b58840a33413d1",
       "executable": false,
       "source": "skills/principle-fix-root-causes/SKILL.md",
-      "sourceBlob": "5b3b7916c961c231e7ce1430cd93541204ec0ec0",
+      "sourceBlob": "7e5a419aeec97b4076fa517865013677428a9fa3",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2787,10 +2958,10 @@
     },
     {
       "path": "skills/principle-foundational-thinking/SKILL.md",
-      "blob": "f3ce1fcfe7569f414196d12b084120d6f1baf177",
+      "blob": "34d621037c3e947c81f46766d21d0b22d6687884",
       "executable": false,
       "source": "skills/principle-foundational-thinking/SKILL.md",
-      "sourceBlob": "3fcc57b3a54dea965e245dad966cab423f768b11",
+      "sourceBlob": "19cc6c0eaa6fcbc2863fb73d1d25ca196c6a46e0",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2799,10 +2970,10 @@
     },
     {
       "path": "skills/principle-guard-the-context-window/SKILL.md",
-      "blob": "b4c85d4f1d1d84a394fc18f83d7f9da483c307c0",
+      "blob": "d703cbdc9e0f4385ee1cfd65719941095fda7f8b",
       "executable": false,
       "source": "skills/principle-guard-the-context-window/SKILL.md",
-      "sourceBlob": "0862757bbb63e314f13f18528c25db85d0901078",
+      "sourceBlob": "c4db544909b26981c45eed9caa6591d32885f841",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2811,10 +2982,10 @@
     },
     {
       "path": "skills/principle-laziness-protocol/SKILL.md",
-      "blob": "619c3d6e6defce6e207ab7f4dafe83f0eae2b522",
+      "blob": "6fd0d109f1b37593e6feefaac462df2059f6564e",
       "executable": false,
       "source": "skills/principle-laziness-protocol/SKILL.md",
-      "sourceBlob": "16bbb97426d1bbcbf957c032f0629a96a4709753",
+      "sourceBlob": "e5bc77e62aa96ae13e482a84df61b3c711c5d828",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2835,10 +3006,10 @@
     },
     {
       "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
-      "blob": "61330489a2328a34df49d01e92a4c4fae395257c",
+      "blob": "7863a843236c63535158a8dfd2db28b6956c7593",
       "executable": false,
       "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
-      "sourceBlob": "a0c6e65e1eaf58278fa6bac1a01c23f998759f5c",
+      "sourceBlob": "06c7cfd87becc62d614d0af075b792f8ec6eb21d",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2847,10 +3018,10 @@
     },
     {
       "path": "skills/principle-minimize-reader-load/SKILL.md",
-      "blob": "bf69a2e34154152a29e49c71e8c173244b3273b0",
+      "blob": "0bd6e900e99c55dc3e5c5a0ac5c3939360561499",
       "executable": false,
       "source": "skills/principle-minimize-reader-load/SKILL.md",
-      "sourceBlob": "1c5e18c332438ccd5e47f108ec28872e85e82501",
+      "sourceBlob": "64541d963123e344078d82fd3977e857e76129df",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2859,10 +3030,10 @@
     },
     {
       "path": "skills/principle-model-the-domain/SKILL.md",
-      "blob": "e694c2017d9ddc7687b00bb0933d1f5885e49985",
+      "blob": "b0fce69f9b7c9ff39d2c2a536e0d2862fda495e3",
       "executable": false,
       "source": "skills/principle-model-the-domain/SKILL.md",
-      "sourceBlob": "b2f6449498505a866592493ff3f3a10cfdd8ce5c",
+      "sourceBlob": "e1d664a19243c90a84e5e7a816e9e05146c88720",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2871,10 +3042,10 @@
     },
     {
       "path": "skills/principle-never-block-on-the-human/SKILL.md",
-      "blob": "a4dd1ff6d70668e9b8fedd3e8d63634cbe331bb0",
+      "blob": "c7072bcce3f4cf2ad6032476ed441b94dc06d6ae",
       "executable": false,
       "source": "skills/principle-never-block-on-the-human/SKILL.md",
-      "sourceBlob": "0c55555f85d6636cc26429cc18016ffdafaff576",
+      "sourceBlob": "11f08b6ef1fd93a3b3e47c57eb84716dc9acbff9",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2883,10 +3054,10 @@
     },
     {
       "path": "skills/principle-outcome-oriented-execution/SKILL.md",
-      "blob": "715153234b6cf6ad1479fcfd964ca21842d1e50e",
+      "blob": "c89bbeb30c0e6a6972ced9d55f632f0d353883a2",
       "executable": false,
       "source": "skills/principle-outcome-oriented-execution/SKILL.md",
-      "sourceBlob": "4c2ed4695b4ca15ea5a98468c13bfe5de97f16df",
+      "sourceBlob": "c49be0bc74783f0dee013101365ae09b2abb48a2",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2895,10 +3066,10 @@
     },
     {
       "path": "skills/principle-prove-it-works/SKILL.md",
-      "blob": "951522637185c7349b032369a6195828bbc6df61",
+      "blob": "ee0258a1ffb2eb01733320a6c716e72e32bbbac0",
       "executable": false,
       "source": "skills/principle-prove-it-works/SKILL.md",
-      "sourceBlob": "088c412cc38eb37442914a71d9e05bc6ee430a1b",
+      "sourceBlob": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2907,10 +3078,10 @@
     },
     {
       "path": "skills/principle-redesign-from-first-principles/SKILL.md",
-      "blob": "e24d7b2bddcfd8e395266eddd71e681395fba1ed",
+      "blob": "4716fad1292396c3644241d0cd4db3fb2e038655",
       "executable": false,
       "source": "skills/principle-redesign-from-first-principles/SKILL.md",
-      "sourceBlob": "6a8cf256d69d0d5f2ce4b57795f2794c41c8e5a0",
+      "sourceBlob": "090a4325f43a96080cce3895f0e932b62c39146a",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2919,10 +3090,10 @@
     },
     {
       "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
-      "blob": "5ab93eb1bc6b19f6b65957cbfe94691a5de444e6",
+      "blob": "907a8b1f02c3277aa07a5b74391352c4555eb128",
       "executable": false,
       "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
-      "sourceBlob": "523591e0a1bda493598292358bd2142277fdbd19",
+      "sourceBlob": "ff93b4a2032c08e2232992a9a24f2891ee14e58f",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2931,10 +3102,10 @@
     },
     {
       "path": "skills/principle-sequence-verifiable-units/SKILL.md",
-      "blob": "dbc709d672517597e279071d2616b3543add47db",
+      "blob": "377b28c8f94df3a4c8f7675c5ff2f1220388ff95",
       "executable": false,
       "source": "skills/principle-sequence-verifiable-units/SKILL.md",
-      "sourceBlob": "737480800564d634347afdcef25dd48851e9f2eb",
+      "sourceBlob": "986371260ebccd9a5a6818c9561e88c1d270d0ee",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2943,10 +3114,22 @@
     },
     {
       "path": "skills/principle-subtract-before-you-add/SKILL.md",
-      "blob": "c2e5b9406e3441ab6e1170acc126dc64bef7e0ce",
+      "blob": "35feea9f0983d1fa9cf835334226a19762160656",
       "executable": false,
       "source": "skills/principle-subtract-before-you-add/SKILL.md",
-      "sourceBlob": "1666d2617dbc9cf107ecb52aac30b6ffbcc1159b",
+      "sourceBlob": "d28770cf47a5798d0250a25ad494aedfecad154e",
+      "rules": [
+        "keep-disable-model-invocation",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
+      "path": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "blob": "80a163d83fbe99f24987851a7eb16d3aea1e1601",
+      "executable": false,
+      "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
+      "sourceBlob": "42de6f8f7cab01b9f67aa28bd59b128f7574fbab",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2955,10 +3138,10 @@
     },
     {
       "path": "skills/principle-type-system-discipline/SKILL.md",
-      "blob": "cfa5e54a359631a44252e0fe778bd61d94dfe935",
+      "blob": "b31f3e0a27d58ca8e9adf501e426572d2793e19f",
       "executable": false,
       "source": "skills/principle-type-system-discipline/SKILL.md",
-      "sourceBlob": "192a1255709e105cd055543b058b9e1bf66d84e1",
+      "sourceBlob": "6030f171bee0d1902cf7ca91f06225e09f0f5433",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2967,10 +3150,10 @@
     },
     {
       "path": "skills/recall/SKILL.md",
-      "blob": "7742d207cd958b2765529356dd34a17e016c5096",
+      "blob": "c1c106282672b9f2ba30c335749ac10289eadd99",
       "executable": false,
       "source": "skills/recall/SKILL.md",
-      "sourceBlob": "7e3f26595160dac08bfc3287cef48d7e75b74dfa",
+      "sourceBlob": "a70062a3f89a8d68b3391bc71fc4c6cc2dfcf6a4",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2980,10 +3163,10 @@
     },
     {
       "path": "skills/reflect/SKILL.md",
-      "blob": "992d5bdec0a480b904751a270214ec6165ae5ec5",
+      "blob": "ea716a96838e6a6e7ded83de044fbc6f9e9510c9",
       "executable": false,
       "source": "skills/reflect/SKILL.md",
-      "sourceBlob": "a0e50f7eeb993559744a7a8b44b7c4f8a432d92d",
+      "sourceBlob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -2996,10 +3179,10 @@
     },
     {
       "path": "skills/reflect/references/divergent-reviewer.md",
-      "blob": "de1573f3ecbc9f6a98da407ab54884b5b3aa0dc4",
+      "blob": "3236ab2490282a2089b3db86363ce560cd87fe68",
       "executable": false,
       "source": "skills/reflect/references/divergent-reviewer.md",
-      "sourceBlob": "70cfdff377e793208f7daa581caf8a7fbdfb2dd1",
+      "sourceBlob": "de95be3b9cc9c11052596249336dcc328473eb26",
       "rules": [
         "rewrite-cursor-paths",
         "rewrite-task-tool"
@@ -3007,10 +3190,10 @@
     },
     {
       "path": "skills/reflect/references/judgment-reviewer.md",
-      "blob": "5568d439fb713fe61e346aa2b6424550a2f5cce9",
+      "blob": "12c23a4238e35aeb78f2cd2a3b2f15ecf6ce2ec8",
       "executable": false,
       "source": "skills/reflect/references/judgment-reviewer.md",
-      "sourceBlob": "76261f1690adc8b8f845113466dd9e80c40f7103",
+      "sourceBlob": "222f02b1c3c6eb3e700fa09a71bad108807d3485",
       "rules": [
         "rewrite-cursor-paths",
         "rewrite-task-tool"
@@ -3018,18 +3201,18 @@
     },
     {
       "path": "skills/reflect/references/synthesizer.md",
-      "blob": "11040b0f4dc639517b569b55460f4a128f503e2a",
+      "blob": "d0e78195186c0dd6cfdc87ba19402ea8cd2aa385",
       "executable": false,
       "source": "skills/reflect/references/synthesizer.md",
-      "sourceBlob": "11040b0f4dc639517b569b55460f4a128f503e2a",
+      "sourceBlob": "d0e78195186c0dd6cfdc87ba19402ea8cd2aa385",
       "rules": []
     },
     {
       "path": "skills/reflect/references/tooling-reviewer.md",
-      "blob": "46fdd8571248227a4526b9e1d4f838d5f71cc8c7",
+      "blob": "5034b83ec006fe367682e8807a28091c6084b958",
       "executable": false,
       "source": "skills/reflect/references/tooling-reviewer.md",
-      "sourceBlob": "19f4aa48775da3409116cc05a2162dc3d361c839",
+      "sourceBlob": "a37e2009d6ef08f535df87e020e52426c6a5fa33",
       "rules": [
         "rewrite-cursor-paths",
         "rewrite-task-tool"
@@ -3037,10 +3220,10 @@
     },
     {
       "path": "skills/setup-pstack/SKILL.md",
-      "blob": "4dff4472877866d15c55ba3187b6dcde35c77d08",
+      "blob": "aac4975244697d95eed9eef9addd91dcf6a178a1",
       "executable": false,
       "source": "skills/setup-pstack/SKILL.md",
-      "sourceBlob": "1ad249548c8dd46dc17f9f49bd2872aec6015c16",
+      "sourceBlob": "1009e73c6116c8f6c24b5870c8f0600ae144b631",
       "rules": [
         "layout-skill-folder",
         "name-from-folder",
@@ -3051,10 +3234,10 @@
     },
     {
       "path": "skills/show-me-your-work/SKILL.md",
-      "blob": "5909a65e09fa3f42ad5a3e56b66c1cf6694065ea",
+      "blob": "cfb2d7db8d2004703d08b4e2b036ead89c2cfc4f",
       "executable": false,
       "source": "skills/show-me-your-work/SKILL.md",
-      "sourceBlob": "8a9c731acf5bb7ad789e10ec7c5af6970dce1176",
+      "sourceBlob": "d350a150c36ca16382b4aa6d4196b39e67454ad1",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -3072,18 +3255,18 @@
     },
     {
       "path": "skills/show-me-your-work/scripts/log.sh",
-      "blob": "523e2a74ee15bfe6528c795a347827f04ecc5e95",
+      "blob": "052e53b7e1090579eaec1d3d59f7a1cd2f2e452a",
       "executable": true,
       "source": "skills/show-me-your-work/scripts/log.sh",
-      "sourceBlob": "523e2a74ee15bfe6528c795a347827f04ecc5e95",
+      "sourceBlob": "052e53b7e1090579eaec1d3d59f7a1cd2f2e452a",
       "rules": []
     },
     {
       "path": "skills/swarm/SKILL.md",
-      "blob": "db6a7321f26a9c32fc68940b0211450cc5bf1277",
+      "blob": "0ccead76127377c6d8cd8adaad884b2d34f99557",
       "executable": false,
       "source": "skills/swarm/SKILL.md",
-      "sourceBlob": "13f9a41247cbc7f63d610e5cdbba21c18149d27d",
+      "sourceBlob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -3091,15 +3274,16 @@
         "rewrite-cursor-paths",
         "rewrite-general-purpose",
         "rewrite-run-in-background",
-        "rewrite-subagent-type"
+        "rewrite-subagent-type",
+        "rewrite-task-tool"
       ]
     },
     {
       "path": "skills/tdd/SKILL.md",
-      "blob": "7522d96964332311cca22b72bdbbd741cbc5f9b2",
+      "blob": "95eabd175b2af7e1a637d3741b98e6d59c599e43",
       "executable": false,
       "source": "skills/tdd/SKILL.md",
-      "sourceBlob": "7d923bd705e4727b0bc9a378ca0928cc825035de",
+      "sourceBlob": "ca6f24c963001d9d518db2936dfe3d12f29b4e94",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -3108,10 +3292,10 @@
     },
     {
       "path": "skills/teach/SKILL.md",
-      "blob": "e5e133a8bbca6af3109d26769e3ce7eafce4bc2d",
+      "blob": "0e9c674ff2a16264199accadba757eaf1c7e4412",
       "executable": false,
       "source": "skills/teach/SKILL.md",
-      "sourceBlob": "beea0ffaa916e8fcf93f2bf13c632f2a9259d1e2",
+      "sourceBlob": "25369f3f554ed6b5826340ae3eee688fac0bda80",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -3120,10 +3304,10 @@
     },
     {
       "path": "skills/technical-writing/SKILL.md",
-      "blob": "48b4a149cdb366e3cd9bb7759f7ceb38e346f7b7",
+      "blob": "45f59a2dc9973e3a8aa1a8a25bc41c6bb47d8c40",
       "executable": false,
       "source": "skills/technical-writing/SKILL.md",
-      "sourceBlob": "d13baf98426a72764f94d18ab45d1549151a6c38",
+      "sourceBlob": "1cd44cf2595a5caeda1f702aacd4f8a25aa8166a",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
@@ -3132,72 +3316,77 @@
     },
     {
       "path": "skills/typescript-best-practices/SKILL.md",
-      "blob": "78ac8ce8733190f0cb42cd89102de861bd8488e3",
+      "blob": "ed723036c12fb4b74a77f6d4a68a3fb878016c58",
       "executable": false,
       "source": "skills/typescript-best-practices/SKILL.md",
-      "sourceBlob": "93114d1a822292cfa3d86c2f2f82e2f9988a6def",
+      "sourceBlob": "2c0279d9a5f800192605e47b55cae4e75a17ec27",
       "rules": [
+        "drop-skill-path-filter",
         "flag-command-substitution",
+        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/typescript-best-practices/references/patterns.md",
-      "blob": "f8a6c78755010d27a7c1fc8fc48fffe02f29283f",
+      "blob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
       "executable": false,
       "source": "skills/typescript-best-practices/references/patterns.md",
-      "sourceBlob": "f8a6c78755010d27a7c1fc8fc48fffe02f29283f",
+      "sourceBlob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
       "rules": [
         "flag-command-substitution"
       ]
     },
     {
       "path": "skills/unslop/SKILL.md",
-      "blob": "b349752bc82c1e3f7514be5dfe792b08a755fbdf",
+      "blob": "79a004bb1e4b4528e95ee33d425ac84a1b218718",
       "executable": false,
       "source": "skills/unslop/SKILL.md",
-      "sourceBlob": "2a93c06bbe54fde89a36c88e63ef07477da323d4",
+      "sourceBlob": "229a090708710c36caa0017f8d33e90880dc6846",
       "rules": [
+        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/why/SKILL.md",
-      "blob": "47f0fe05bb711b5ebf54d6c48c8b2274e0680cd6",
+      "blob": "cb97d02b0b4e3475c46900174289ad8f68808e03",
       "executable": false,
       "source": "skills/why/SKILL.md",
-      "sourceBlob": "0be904438fe9d1a243e736da054fba8008536ab1",
+      "sourceBlob": "daac2c734a8f8fe43d30663054d694066f2b41ec",
       "rules": [
+        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-general-purpose",
-        "rewrite-subagent-type"
+        "rewrite-subagent-type",
+        "rewrite-task-tool"
       ]
     },
     {
       "path": "skills/why/references/epistemics.md",
-      "blob": "aca563ef9fe4ce27797a73027c6fb38b6d93e6f7",
+      "blob": "3732bf6881b60d1337fa3498574452a85d33ba30",
       "executable": false,
       "source": "skills/why/references/epistemics.md",
-      "sourceBlob": "aca563ef9fe4ce27797a73027c6fb38b6d93e6f7",
+      "sourceBlob": "3732bf6881b60d1337fa3498574452a85d33ba30",
       "rules": []
     },
     {
       "path": "skills/why/references/investigator-prompt.md",
-      "blob": "1886b46deb20ef1f13d409a0ad7f6c3fb885eb6a",
+      "blob": "3b56af44c589833508f4605cfdd4432b39a16739",
       "executable": false,
       "source": "skills/why/references/investigator-prompt.md",
-      "sourceBlob": "1886b46deb20ef1f13d409a0ad7f6c3fb885eb6a",
+      "sourceBlob": "3b56af44c589833508f4605cfdd4432b39a16739",
       "rules": []
     },
     {
       "path": "skills/why/references/source-playbook.md",
-      "blob": "d489ea9d581a79342b2b9505ed0b621da40a2b85",
+      "blob": "8fcce91cf33c37fe38d439a87902e54f33764238",
       "executable": false,
       "source": "skills/why/references/source-playbook.md",
-      "sourceBlob": "bcf11e1315e7774651649dbf91b67213463c8073",
+      "sourceBlob": "aa3d877cd539763ff05e266ae0a02dd811441e2b",
       "rules": [
         "relink-moved-file"
       ]
@@ -3212,69 +3401,70 @@
     },
     {
       "path": "skills/why/references/sources/databricks.md",
-      "blob": "5e82b90536b81f395c74aa5f98c387bc0d5d5d79",
+      "blob": "2770763ff5d0d1ad004abcc9a0138c9537ad1978",
       "executable": false,
       "source": "skills/why/references/sources/databricks.md",
-      "sourceBlob": "5e82b90536b81f395c74aa5f98c387bc0d5d5d79",
+      "sourceBlob": "2770763ff5d0d1ad004abcc9a0138c9537ad1978",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/datadog.md",
-      "blob": "039330e8491430a34167005c55a0baa29f7eeb67",
+      "blob": "d8363b1c1d1c7eadb15d47abd83bf70537c39620",
       "executable": false,
       "source": "skills/why/references/sources/datadog.md",
-      "sourceBlob": "039330e8491430a34167005c55a0baa29f7eeb67",
+      "sourceBlob": "d8363b1c1d1c7eadb15d47abd83bf70537c39620",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/incident-postmortem.md",
-      "blob": "e5afc3204ba7e2b15b01e5abc538d26d8b1b3b53",
+      "blob": "450d6e52f25b1b41f741cb3e9c93e1c74ef858b4",
       "executable": false,
       "source": "skills/why/references/sources/incident-postmortem.md",
-      "sourceBlob": "e5afc3204ba7e2b15b01e5abc538d26d8b1b3b53",
+      "sourceBlob": "450d6e52f25b1b41f741cb3e9c93e1c74ef858b4",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/linear.md",
-      "blob": "c000efd5aad749a4483e2563a63d460903eae124",
+      "blob": "899c643c078f322afe6ae0ef78a007f8ffd356c1",
       "executable": false,
       "source": "skills/why/references/sources/linear.md",
-      "sourceBlob": "c000efd5aad749a4483e2563a63d460903eae124",
+      "sourceBlob": "899c643c078f322afe6ae0ef78a007f8ffd356c1",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/notion.md",
-      "blob": "ea6ab335c40834ba79e0085ae2d7a94950502f49",
+      "blob": "d16230a4105fd1dacf870da0950a38faeb9381e6",
       "executable": false,
       "source": "skills/why/references/sources/notion.md",
-      "sourceBlob": "ea6ab335c40834ba79e0085ae2d7a94950502f49",
+      "sourceBlob": "d16230a4105fd1dacf870da0950a38faeb9381e6",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/sentry.md",
-      "blob": "fe09d17254e7653a7c75f855cecc779d5512a02e",
+      "blob": "2b7cf6f3098ee868547dc4e69efacfe9c255246b",
       "executable": false,
       "source": "skills/why/references/sources/sentry.md",
-      "sourceBlob": "fe09d17254e7653a7c75f855cecc779d5512a02e",
+      "sourceBlob": "2b7cf6f3098ee868547dc4e69efacfe9c255246b",
       "rules": []
     },
     {
       "path": "skills/why/references/sources/slack.md",
-      "blob": "d4a5f23646053516bb1235f06dcf697b49acda23",
+      "blob": "863a527d60e4e055e680834ef8098ea04273a1ae",
       "executable": false,
       "source": "skills/why/references/sources/slack.md",
-      "sourceBlob": "d4a5f23646053516bb1235f06dcf697b49acda23",
+      "sourceBlob": "863a527d60e4e055e680834ef8098ea04273a1ae",
       "rules": []
     },
     {
       "path": "skills/why/references/synthesizer-prompt.md",
-      "blob": "dafdd2abcd87f21af9b817c826f9f6443fd36046",
+      "blob": "06e22f29c068f2735f92552bc78e93af0e7829f3",
       "executable": false,
       "source": "skills/why/references/synthesizer-prompt.md",
-      "sourceBlob": "dae7efc580f5bc8e63b2fd28a1462fe2b8445d07",
+      "sourceBlob": "9707dfcc2fc57ea126484a433c5cd9ee4d400ef3",
       "rules": [
         "unlink-missing-target"
       ]
     }
-  ]
+  ],
+  "retained": []
 }
