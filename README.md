@@ -92,7 +92,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | --- | --- |
 | command-substitution | 2 |
 | dropped-link | 1 |
-| foreign-token | 15 |
+| foreign-token | 21 |
 | runtime-mention | 18 |
 | unsupported-artifact | 1 |
 
@@ -114,6 +114,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | Where | Detail |
 | --- | --- |
 | `skills/architect/SKILL.md:34` | matches /\.mdc\b/, use .md |
+| `skills/automate-me/SKILL.md:30` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/how/SKILL.md:12` | matches /\.mdc\b/, use .md |
 | `skills/poteto-mode/SKILL.md:32` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/SKILL.md:132` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
@@ -122,11 +123,16 @@ The converter does these deterministically only as far as it can. Each item belo
 | `skills/poteto-mode/playbooks/autopilot-stack.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| `skills/poteto-mode/playbooks/eval.md:22` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/poteto-mode/playbooks/multi-phase-plan.md:42` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/orchestrate.md:71` | matches /\bloop skill\b/, use autopilot mode |
+| `skills/poteto-mode/playbooks/session-pickup.md:5` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/poteto-mode/playbooks/shipping.md:14` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/visual-parity.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| `skills/recall/SKILL.md:16` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
+| `skills/reflect/SKILL.md:20` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/reflect/SKILL.md:34` | matches /\.mdc\b/, use .md |
+| `skills/show-me-your-work/SKILL.md:58` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/why/SKILL.md:14` | matches /\.mdc\b/, use .md |
 
 ### runtime-mention
@@ -164,7 +170,7 @@ One row per feature the converter decided on.
 
 | Fidelity | Features | Meaning |
 | --- | --- | --- |
-| exact | 179 | behaves the same in Copilot CLI |
+| exact | 177 | behaves the same in Copilot CLI |
 | approximated | 9 | converted, with a known difference noted in manifest.json |
 | unsupported | 5 | no Copilot equivalent; dropped or not converted |
 | unverified | 0 | converted to a Copilot feature whose behaviour no primary source confirms |

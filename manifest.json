@@ -547,7 +547,7 @@
       "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
-      "note": "7 occurrences"
+      "note": "6 occurrences"
     },
     {
       "artifactId": "skill:skills/blast-radius/SKILL.md",
@@ -812,6 +812,13 @@
       "artifactId": "skill:skills/no-comments/SKILL.md",
       "feature": "text",
       "fidelity": "exact",
+      "ruleId": "rewrite-agent-reference",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/no-comments/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
       "ruleId": "rewrite-subagent-type",
       "note": "1 occurrence"
     },
@@ -876,13 +883,6 @@
       "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
-      "note": "2 occurrences"
-    },
-    {
-      "artifactId": "skill:skills/poteto-mode/SKILL.md",
-      "feature": "text",
-      "fidelity": "exact",
-      "ruleId": "rewrite-cursor-paths",
       "note": "2 occurrences"
     },
     {
@@ -1411,13 +1411,6 @@
       "note": "carried as disable-model-invocation: true"
     },
     {
-      "artifactId": "skill:skills/recall/SKILL.md",
-      "feature": "text",
-      "fidelity": "exact",
-      "ruleId": "rewrite-cursor-paths",
-      "note": "1 occurrence"
-    },
-    {
       "artifactId": "skill:skills/reflect/SKILL.md",
       "feature": "layout",
       "fidelity": "exact",
@@ -1443,7 +1436,7 @@
       "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
-      "note": "10 occurrences"
+      "note": "9 occurrences"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -1521,13 +1514,6 @@
       "fidelity": "exact",
       "ruleId": "keep-disable-model-invocation",
       "note": "carried as disable-model-invocation: true"
-    },
-    {
-      "artifactId": "skill:skills/show-me-your-work/SKILL.md",
-      "feature": "text",
-      "fidelity": "exact",
-      "ruleId": "rewrite-cursor-paths",
-      "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1779,6 +1765,13 @@
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
+      "line": 30,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/automate-me/SKILL.md",
+      "path": "skills/automate-me/SKILL.md",
       "line": 68,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Use Cursor's built-in `create-skill` skill to author the skill. Placement:"
@@ -1904,6 +1897,13 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/eval.md",
+      "line": 22,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
       "line": 42,
       "kind": "foreign-token",
@@ -1929,6 +1929,13 @@
       "line": 101,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - After a Cursor restart: local agents are dead, cloud work is not. Re-read the standing orders and `units.tsv`, recompute the frontier, reattach cloud work by PR and branch rather than agent id, respawn one sub-coordinator per track from its stored brief plus current state, drain, resume. The dead session's store lock clears itself on the next write. `orch` replaces a lock whose holder pid is gone."
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/session-pickup.md",
+      "line": 5,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1959,6 +1966,20 @@
       "detail": "names the source runtime: 6. Simulators and other reclaimers. Simulators are usually the next-biggest win. `xcrun simctl --set testing delete all` (XCTestDevices clones), `xcrun simctl delete unavailable`, and `xcrun simctl runtime list` then `runtime delete <id>` for old runtimes. More when needed: Xcode `DerivedData` and `iOS DeviceSupport`, `~/Library/Application Support/Cursor` (`state.vscdb.backup`, and `snapshots/roots/<root>` where a `<root>` named for a folder you opened as a workspace balloons), package caches (pnpm, uv, brew, yarn). Clear only caches the user has not said to keep."
     },
     {
+      "artifact": "skill:skills/recall/SKILL.md",
+      "path": "skills/recall/SKILL.md",
+      "line": 16,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 20,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 34,
@@ -1978,6 +1999,13 @@
       "line": 15,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Enumerate the model slugs you can pass to a `task` subagent in this session. That is the dependable source. If Cursor also exposes a models API or CLI that lists the user's entitled models, prefer it for completeness. If you cannot detect any, ask the user to paste the slugs they have access to. Never write a real slug you have not confirmed is available. The aliases `inherit-parent` and `auto` are always valid even though they are not detected slugs."
+    },
+    {
+      "artifact": "skill:skills/show-me-your-work/SKILL.md",
+      "path": "skills/show-me-your-work/SKILL.md",
+      "line": 58,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/typescript-best-practices/SKILL.md",
@@ -2201,7 +2229,7 @@
     },
     {
       "path": "README.md",
-      "blob": "8cdf5736fc4ae60e21c642915ed764bf481c8510",
+      "blob": "09399a56bf5f58d9a1c3f1ac4dded8b1e283f73c",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2284,7 +2312,7 @@
     },
     {
       "path": "skills/automate-me/SKILL.md",
-      "blob": "22557c05d52b56c47a5688b254f779e6ef2494f5",
+      "blob": "696f623133dbedbf5a28bb54251fd9924d94d9f5",
       "executable": false,
       "source": "skills/automate-me/SKILL.md",
       "sourceBlob": "cd3636e9a53c7c782cf15254204dccfc854086b5",
@@ -2477,7 +2505,7 @@
     },
     {
       "path": "skills/no-comments/SKILL.md",
-      "blob": "c320cc0d4578ddb1b0e826bde42d98d9d2b27f59",
+      "blob": "58263f4d3792d7cc1b667cc0171e8898016748fb",
       "executable": false,
       "source": "skills/no-comments/SKILL.md",
       "sourceBlob": "3b3e76295a7ad66806dcc683e4de92fb25690f8b",
@@ -2485,6 +2513,7 @@
         "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-agent-reference",
         "rewrite-subagent-type",
         "rewrite-task-tool"
       ]
@@ -2560,13 +2589,11 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/eval.md",
-      "blob": "c10b7602d4399042b6215adb7b975498c8961d0b",
+      "blob": "3dae34e2ef0cbdd9bafa5ab372da5ea143d48452",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/eval.md",
       "sourceBlob": "3dae34e2ef0cbdd9bafa5ab372da5ea143d48452",
-      "rules": [
-        "rewrite-cursor-paths"
-      ]
+      "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/feature.md",
@@ -2664,13 +2691,11 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/session-pickup.md",
-      "blob": "9f75213eb45aceb199dbc25a0c198ef743ac6530",
+      "blob": "9b2ed06e0ff8b01bf03b7a0d6a4cbb8ba3a46720",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/session-pickup.md",
       "sourceBlob": "9b2ed06e0ff8b01bf03b7a0d6a4cbb8ba3a46720",
-      "rules": [
-        "rewrite-cursor-paths"
-      ]
+      "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/shipping.md",
@@ -3150,20 +3175,19 @@
     },
     {
       "path": "skills/recall/SKILL.md",
-      "blob": "c1c106282672b9f2ba30c335749ac10289eadd99",
+      "blob": "07c72c4fddebc629974b43a99c30796919cbdee0",
       "executable": false,
       "source": "skills/recall/SKILL.md",
       "sourceBlob": "a70062a3f89a8d68b3391bc71fc4c6cc2dfcf6a4",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
-        "name-from-folder",
-        "rewrite-cursor-paths"
+        "name-from-folder"
       ]
     },
     {
       "path": "skills/reflect/SKILL.md",
-      "blob": "ea716a96838e6a6e7ded83de044fbc6f9e9510c9",
+      "blob": "8542c30b63c392142c1f1191029c067a1881e0e9",
       "executable": false,
       "source": "skills/reflect/SKILL.md",
       "sourceBlob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
@@ -3171,7 +3195,6 @@
         "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
-        "rewrite-cursor-paths",
         "rewrite-general-purpose",
         "rewrite-subagent-type",
         "rewrite-task-tool"
@@ -3179,7 +3202,7 @@
     },
     {
       "path": "skills/reflect/references/divergent-reviewer.md",
-      "blob": "3236ab2490282a2089b3db86363ce560cd87fe68",
+      "blob": "db65ce7b6f54d89a089ec21f4c9caeb966d77580",
       "executable": false,
       "source": "skills/reflect/references/divergent-reviewer.md",
       "sourceBlob": "de95be3b9cc9c11052596249336dcc328473eb26",
@@ -3190,7 +3213,7 @@
     },
     {
       "path": "skills/reflect/references/judgment-reviewer.md",
-      "blob": "12c23a4238e35aeb78f2cd2a3b2f15ecf6ce2ec8",
+      "blob": "60e6ba506795343284a0b8a2b1f470571dc310c4",
       "executable": false,
       "source": "skills/reflect/references/judgment-reviewer.md",
       "sourceBlob": "222f02b1c3c6eb3e700fa09a71bad108807d3485",
@@ -3209,7 +3232,7 @@
     },
     {
       "path": "skills/reflect/references/tooling-reviewer.md",
-      "blob": "5034b83ec006fe367682e8807a28091c6084b958",
+      "blob": "232de5da4d995bbe122012ae89d86e1629fd623a",
       "executable": false,
       "source": "skills/reflect/references/tooling-reviewer.md",
       "sourceBlob": "a37e2009d6ef08f535df87e020e52426c6a5fa33",
@@ -3234,15 +3257,14 @@
     },
     {
       "path": "skills/show-me-your-work/SKILL.md",
-      "blob": "cfb2d7db8d2004703d08b4e2b036ead89c2cfc4f",
+      "blob": "ea588b001ab2f6ca625000ff70e087460e446542",
       "executable": false,
       "source": "skills/show-me-your-work/SKILL.md",
       "sourceBlob": "d350a150c36ca16382b4aa6d4196b39e67454ad1",
       "rules": [
         "keep-disable-model-invocation",
         "layout-skill-folder",
-        "name-from-folder",
-        "rewrite-cursor-paths"
+        "name-from-folder"
       ]
     },
     {
