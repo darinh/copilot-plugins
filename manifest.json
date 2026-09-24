@@ -1756,6 +1756,27 @@
       "detail": "matches /\\.mdc\\b/, use .md"
     },
     {
+      "artifact": "skill:skills/architect/SKILL.md",
+      "path": "skills/architect/SKILL.md",
+      "line": 34,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/arena/SKILL.md",
+      "path": "skills/arena/SKILL.md",
+      "line": 29,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/arena/SKILL.md",
+      "path": "skills/arena/SKILL.md",
+      "line": 42,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
       "line": 12,
@@ -1784,6 +1805,76 @@
       "detail": "matches /\\.mdc\\b/, use .md"
     },
     {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 28,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 29,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 38,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 39,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 48,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 49,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": "skill:skills/interrogate/SKILL.md",
+      "path": "skills/interrogate/SKILL.md",
+      "line": 41,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/interrogate/SKILL.md",
+      "path": "skills/interrogate/SKILL.md",
+      "line": 42,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/interrogate/SKILL.md",
+      "path": "skills/interrogate/SKILL.md",
+      "line": 43,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/interrogate/SKILL.md",
+      "path": "skills/interrogate/SKILL.md",
+      "line": 48,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
       "line": 23,
@@ -1803,6 +1894,13 @@
       "line": 32,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/SKILL.md",
+      "line": 90,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1897,6 +1995,13 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/bug-fix.md",
+      "line": 9,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/eval.md",
       "line": 22,
       "kind": "foreign-token",
@@ -1904,10 +2009,38 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/feature.md",
+      "line": 12,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/hillclimb.md",
+      "line": 12,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
+      "line": 13,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
       "line": 42,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/orchestrate.md",
+      "line": 17,
+      "kind": "foreign-token",
+      "detail": "matches /\\benvironment:\\s*\"cloud\"/, use a local background agent, mode: \"background\""
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1929,6 +2062,20 @@
       "line": 101,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - After a Cursor restart: local agents are dead, cloud work is not. Re-read the standing orders and `units.tsv`, recompute the frontier, reattach cloud work by PR and branch rather than agent id, respawn one sub-coordinator per track from its stored brief plus current state, drain, resume. The dead session's store lock clears itself on the next write. `orch` replaces a lock whose holder pid is gone."
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/perf-issue.md",
+      "line": 16,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/refactoring.md",
+      "line": 11,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1989,6 +2136,34 @@
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
+      "line": 38,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 39,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 40,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 46,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
       "line": 61,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop."
@@ -2001,11 +2176,32 @@
       "detail": "names the source runtime: Enumerate the model slugs you can pass to a `task` subagent in this session. That is the dependable source. If Cursor also exposes a models API or CLI that lists the user's entitled models, prefer it for completeness. If you cannot detect any, ask the user to paste the slugs they have access to. Never write a real slug you have not confirmed is available. The aliases `inherit-parent` and `auto` are always valid even though they are not detected slugs."
     },
     {
+      "artifact": "skill:skills/setup-pstack/SKILL.md",
+      "path": "skills/setup-pstack/SKILL.md",
+      "line": 30,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
       "artifact": "skill:skills/show-me-your-work/SKILL.md",
       "path": "skills/show-me-your-work/SKILL.md",
       "line": 58,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/swarm/SKILL.md",
+      "path": "skills/swarm/SKILL.md",
+      "line": 26,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/swarm/SKILL.md",
+      "path": "skills/swarm/SKILL.md",
+      "line": 31,
+      "kind": "foreign-token",
+      "detail": "matches /\\benvironment:\\s*\"cloud\"/, use a local background agent, mode: \"background\""
     },
     {
       "artifact": "skill:skills/typescript-best-practices/SKILL.md",
@@ -2041,6 +2237,34 @@
       "line": 65,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Before spawning investigators, list the available MCPs from the Cursor environment. Use the available-tools map when present. Otherwise inspect the `mcps/` directory Cursor exposes for enabled MCP servers."
+    },
+    {
+      "artifact": "skill:skills/why/SKILL.md",
+      "path": "skills/why/SKILL.md",
+      "line": 85,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/why/SKILL.md",
+      "path": "skills/why/SKILL.md",
+      "line": 86,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": "skill:skills/why/SKILL.md",
+      "path": "skills/why/SKILL.md",
+      "line": 129,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field"
+    },
+    {
+      "artifact": "skill:skills/why/SKILL.md",
+      "path": "skills/why/SKILL.md",
+      "line": 130,
+      "kind": "foreign-token",
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
@@ -2229,7 +2453,7 @@
     },
     {
       "path": "README.md",
-      "blob": "09399a56bf5f58d9a1c3f1ac4dded8b1e283f73c",
+      "blob": "c2c7cc98364a32c73400f05d140d20c37b3ed1d9",
       "executable": false,
       "source": null,
       "sourceBlob": null,

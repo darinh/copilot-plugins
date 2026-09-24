@@ -92,7 +92,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | --- | --- |
 | command-substitution | 2 |
 | dropped-link | 1 |
-| foreign-token | 21 |
+| foreign-token | 53 |
 | runtime-mention | 18 |
 | unsupported-artifact | 1 |
 
@@ -114,26 +114,31 @@ The converter does these deterministically only as far as it can. Each item belo
 | Where | Detail |
 | --- | --- |
 | `skills/architect/SKILL.md:34` | matches /\.mdc\b/, use .md |
+| `skills/architect/SKILL.md:34` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/arena/SKILL.md:29` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/arena/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
 | `skills/automate-me/SKILL.md:30` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/how/SKILL.md:12` | matches /\.mdc\b/, use .md |
+| `skills/how/SKILL.md:28` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:29` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
+| `skills/how/SKILL.md:38` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:39` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
+| `skills/how/SKILL.md:48` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/how/SKILL.md:49` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
+| `skills/interrogate/SKILL.md:41` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/interrogate/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/interrogate/SKILL.md:43` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| `skills/interrogate/SKILL.md:48` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
 | `skills/poteto-mode/SKILL.md:32` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| `skills/poteto-mode/SKILL.md:90` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
 | `skills/poteto-mode/SKILL.md:132` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autonomous-run.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-full.md:10` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-stack.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/eval.md:22` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/poteto-mode/playbooks/multi-phase-plan.md:42` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/orchestrate.md:71` | matches /\bloop skill\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/session-pickup.md:5` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/poteto-mode/playbooks/shipping.md:14` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/visual-parity.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/recall/SKILL.md:16` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/reflect/SKILL.md:20` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/reflect/SKILL.md:34` | matches /\.mdc\b/, use .md |
-| `skills/show-me-your-work/SKILL.md:58` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
-| `skills/why/SKILL.md:14` | matches /\.mdc\b/, use .md |
+| `skills/poteto-mode/playbooks/bug-fix.md:9` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use a Copilot model name, with reasoning_effort as its own task field |
+| | and 28 more in `manifest.json` |
 
 ### runtime-mention
 
