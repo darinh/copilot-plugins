@@ -9,7 +9,7 @@ Converted: 2 agent, 47 skill.
 | --- | --- |
 | Repository | [https://github.com/cursor/plugins](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad) |
 | Path | `pstack` |
-| Tracking | `main` |
+| Tracking | `fadd23794c0075468eb8964b0fd93e06e09486ad` |
 | Commit | [`fadd23794c00`](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad) |
 | Read as | Cursor plugin (reader `cursor-plugin`) |
 | License | MIT, see [LICENSE](LICENSE) |
