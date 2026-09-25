@@ -1436,7 +1436,7 @@
       "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
-      "note": "9 occurrences"
+      "note": "6 occurrences"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -2169,6 +2169,27 @@
       "detail": "names the source runtime: - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop."
     },
     {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/references/divergent-reviewer.md",
+      "line": 23,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/references/judgment-reviewer.md",
+      "line": 22,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/references/tooling-reviewer.md",
+      "line": 35,
+      "kind": "foreign-token",
+      "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
       "artifact": "skill:skills/setup-pstack/SKILL.md",
       "path": "skills/setup-pstack/SKILL.md",
       "line": 15,
@@ -2453,7 +2474,7 @@
     },
     {
       "path": "README.md",
-      "blob": "82718e193911b6f2747da119df95efd68e6dcb31",
+      "blob": "cec3b78ca7fd7e3dafa1674b57856db8554dfc66",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -3426,7 +3447,7 @@
     },
     {
       "path": "skills/reflect/references/divergent-reviewer.md",
-      "blob": "db65ce7b6f54d89a089ec21f4c9caeb966d77580",
+      "blob": "0f5b4ad6d5e2730037c2cf99cb085259e7e7d106",
       "executable": false,
       "source": "skills/reflect/references/divergent-reviewer.md",
       "sourceBlob": "de95be3b9cc9c11052596249336dcc328473eb26",
@@ -3437,7 +3458,7 @@
     },
     {
       "path": "skills/reflect/references/judgment-reviewer.md",
-      "blob": "60e6ba506795343284a0b8a2b1f470571dc310c4",
+      "blob": "aadb775d7b2cb1d9a9133b351c4180bf044843b8",
       "executable": false,
       "source": "skills/reflect/references/judgment-reviewer.md",
       "sourceBlob": "222f02b1c3c6eb3e700fa09a71bad108807d3485",
@@ -3456,7 +3477,7 @@
     },
     {
       "path": "skills/reflect/references/tooling-reviewer.md",
-      "blob": "232de5da4d995bbe122012ae89d86e1629fd623a",
+      "blob": "368537d87f0dac4eb8b4885b2d2deea2b524a6cb",
       "executable": false,
       "source": "skills/reflect/references/tooling-reviewer.md",
       "sourceBlob": "a37e2009d6ef08f535df87e020e52426c6a5fa33",

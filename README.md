@@ -1,7 +1,7 @@
 # pstack
 
 GitHub Copilot CLI artifacts converted from [cursor/plugins](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad/pstack) (a Cursor plugin) at commit `fadd23794c00`, by convert-skills 0.1.0.
-Converted: 2 agent, 47 skill.
+Converted: 2 agents, 47 skills.
 
 ## Source
 
@@ -31,6 +31,8 @@ convert-skills sync pstack
 Sync converts the new upstream commit and three-way merges it into these files, so hand edits survive. An edit that collides with an upstream change stops the sync with conflict markers. A file upstream deletes stays until `--prune`, and manifest.json lists it under `retained`. `--regenerate` discards local edits instead.
 
 ## Contents
+
+Each artifact's fidelity is the worst of its features, so one dropped key makes it `unsupported` even when the rest converted exactly. `manifest.json` lists every feature.
 
 | Name | Kind | Path | Fidelity |
 | --- | --- | --- | --- |
@@ -92,7 +94,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | --- | --- |
 | command-substitution | 2 |
 | dropped-link | 1 |
-| foreign-token | 53 |
+| foreign-token | 56 |
 | runtime-mention | 18 |
 | unsupported-artifact | 1 |
 
@@ -138,7 +140,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:9` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| | and 28 more in `manifest.json` |
+| | and 31 more in `manifest.json` |
 
 ### runtime-mention
 
