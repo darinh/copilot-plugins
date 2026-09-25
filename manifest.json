@@ -1793,6 +1793,13 @@
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
+      "line": 30,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
+    },
+    {
+      "artifact": "skill:skills/automate-me/SKILL.md",
+      "path": "skills/automate-me/SKILL.md",
       "line": 68,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Use Cursor's built-in `create-skill` skill to author the skill. Placement:"
@@ -2009,6 +2016,13 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/eval.md",
+      "line": 22,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/feature.md",
       "line": 12,
       "kind": "foreign-token",
@@ -2041,6 +2055,13 @@
       "line": 17,
       "kind": "foreign-token",
       "detail": "matches /\\benvironment:\\s*\"cloud\"/, use a local background agent, mode: \"background\""
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/orchestrate.md",
+      "line": 17,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2086,6 +2107,13 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
+      "path": "skills/poteto-mode/playbooks/session-pickup.md",
+      "line": 5,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
+    },
+    {
+      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/shipping.md",
       "line": 7,
       "kind": "runtime-mention",
@@ -2120,11 +2148,25 @@
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
+      "artifact": "skill:skills/recall/SKILL.md",
+      "path": "skills/recall/SKILL.md",
+      "line": 16,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
+    },
+    {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
       "line": 20,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 20,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
@@ -2204,11 +2246,32 @@
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
+      "artifact": "skill:skills/setup-pstack/SKILL.md",
+      "path": "skills/setup-pstack/SKILL.md",
+      "line": 40,
+      "kind": "foreign-token",
+      "detail": "matches /\\balwaysApply\\b/, use applyTo: \"**\" in the frontmatter of a Copilot .instructions.md file"
+    },
+    {
+      "artifact": "skill:skills/setup-pstack/SKILL.md",
+      "path": "skills/setup-pstack/SKILL.md",
+      "line": 45,
+      "kind": "foreign-token",
+      "detail": "matches /\\balwaysApply\\b/, use applyTo: \"**\" in the frontmatter of a Copilot .instructions.md file"
+    },
+    {
       "artifact": "skill:skills/show-me-your-work/SKILL.md",
       "path": "skills/show-me-your-work/SKILL.md",
       "line": 58,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
+    },
+    {
+      "artifact": "skill:skills/show-me-your-work/SKILL.md",
+      "path": "skills/show-me-your-work/SKILL.md",
+      "line": 58,
+      "kind": "foreign-token",
+      "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/swarm/SKILL.md",
@@ -2474,7 +2537,7 @@
     },
     {
       "path": "README.md",
-      "blob": "cec3b78ca7fd7e3dafa1674b57856db8554dfc66",
+      "blob": "aa5f405ab08e7281b57c794581679b5bf98440f8",
       "executable": false,
       "source": null,
       "sourceBlob": null,

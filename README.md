@@ -94,7 +94,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | --- | --- |
 | command-substitution | 2 |
 | dropped-link | 1 |
-| foreign-token | 56 |
+| foreign-token | 65 |
 | runtime-mention | 18 |
 | unsupported-artifact | 1 |
 
@@ -120,6 +120,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | `skills/arena/SKILL.md:29` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/arena/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/automate-me/SKILL.md:30` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
+| `skills/automate-me/SKILL.md:30` | matches /\bagent-transcripts\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names |
 | `skills/how/SKILL.md:12` | matches /\.mdc\b/, use a Copilot .instructions.md file |
 | `skills/how/SKILL.md:28` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:29` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
@@ -139,8 +140,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | `skills/poteto-mode/playbooks/autopilot-stack.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/playbooks/bug-fix.md:9` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| | and 31 more in `manifest.json` |
+| | and 40 more in `manifest.json` |
 
 ### runtime-mention
 
