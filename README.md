@@ -1,16 +1,16 @@
 # pstack
 
-GitHub Copilot CLI artifacts converted from [cursor/plugins](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad/pstack) (a Cursor plugin) at commit `fadd23794c00`, by convert-skills 0.1.0.
+GitHub Copilot CLI artifacts converted from [cursor/plugins](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539/pstack) (a Cursor plugin) at commit `adf3218ca2f5`, by convert-skills 0.1.0.
 Converted: 2 agents, 47 skills.
 
 ## Source
 
 | | |
 | --- | --- |
-| Repository | [https://github.com/cursor/plugins](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad) |
+| Repository | [https://github.com/cursor/plugins](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539) |
 | Path | `pstack` |
 | Tracking | `main` |
-| Commit | [`fadd23794c00`](https://github.com/cursor/plugins/tree/fadd23794c0075468eb8964b0fd93e06e09486ad) |
+| Commit | [`adf3218ca2f5`](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539) |
 | Read as | Cursor plugin (reader `cursor-plugin`) |
 | License | MIT, see [LICENSE](LICENSE) |
 
@@ -85,6 +85,19 @@ Each artifact's fidelity is the worst of its features, so one dropped key makes 
 | typescript-best-practices | skill | `skills/typescript-best-practices/SKILL.md` | unsupported |
 | unslop | skill | `skills/unslop/SKILL.md` | exact |
 | why | skill | `skills/why/SKILL.md` | approximated |
+
+## Not carried
+
+These source files have no Copilot CLI equivalent in this package and are listed in `manifest.json` under `notCarried`.
+
+| Path | Files | Examples |
+| --- | --- | --- |
+| `.cursor-plugin/` | 1 | `.cursor-plugin/plugin.json` |
+| `.gitignore` | 1 | |
+| `README.md` | 1 | |
+| `assets/` | 1 | `assets/logo.png` |
+| `automations/` | 12 | `automations/benny/FOR_AGENTS.md`, `automations/benny/README.md`, `automations/benny/skills/reproduce-and-fix-issues/SKILL.md` |
+| `docs/` | 17 | `docs/guide/01-setup.md`, `docs/guide/02-poteto-mode.md`, `docs/guide/03-understand.md` |
 
 ## Needs a human
 
