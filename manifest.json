@@ -54,7 +54,7 @@
       "name": "architect",
       "source": "skills/architect/SKILL.md",
       "output": "skills/architect/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/arena/SKILL.md",
@@ -70,7 +70,7 @@
       "name": "automate-me",
       "source": "skills/automate-me/SKILL.md",
       "output": "skills/automate-me/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/blast-radius/SKILL.md",
@@ -94,7 +94,7 @@
       "name": "create-verification-skill",
       "source": "skills/create-verification-skill/SKILL.md",
       "output": "skills/create-verification-skill/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/figure-it-out/SKILL.md",
@@ -102,7 +102,7 @@
       "name": "figure-it-out",
       "source": "skills/figure-it-out/SKILL.md",
       "output": "skills/figure-it-out/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/how/SKILL.md",
@@ -110,7 +110,7 @@
       "name": "how",
       "source": "skills/how/SKILL.md",
       "output": "skills/how/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/interrogate/SKILL.md",
@@ -118,7 +118,7 @@
       "name": "interrogate",
       "source": "skills/interrogate/SKILL.md",
       "output": "skills/interrogate/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/maintain-verification-skill/SKILL.md",
@@ -126,7 +126,7 @@
       "name": "maintain-verification-skill",
       "source": "skills/maintain-verification-skill/SKILL.md",
       "output": "skills/maintain-verification-skill/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/make-bot-ui/SKILL.md",
@@ -142,7 +142,7 @@
       "name": "no-comments",
       "source": "skills/no-comments/SKILL.md",
       "output": "skills/no-comments/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/poteto-mode/SKILL.md",
@@ -158,7 +158,7 @@
       "name": "principle-attack-the-premise",
       "source": "skills/principle-attack-the-premise/SKILL.md",
       "output": "skills/principle-attack-the-premise/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-boundary-discipline/SKILL.md",
@@ -166,7 +166,7 @@
       "name": "principle-boundary-discipline",
       "source": "skills/principle-boundary-discipline/SKILL.md",
       "output": "skills/principle-boundary-discipline/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-build-the-lever/SKILL.md",
@@ -174,7 +174,7 @@
       "name": "principle-build-the-lever",
       "source": "skills/principle-build-the-lever/SKILL.md",
       "output": "skills/principle-build-the-lever/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-encode-lessons-in-structure/SKILL.md",
@@ -182,7 +182,7 @@
       "name": "principle-encode-lessons-in-structure",
       "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
       "output": "skills/principle-encode-lessons-in-structure/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-exhaust-the-design-space/SKILL.md",
@@ -190,7 +190,7 @@
       "name": "principle-exhaust-the-design-space",
       "source": "skills/principle-exhaust-the-design-space/SKILL.md",
       "output": "skills/principle-exhaust-the-design-space/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-experience-first/SKILL.md",
@@ -198,7 +198,7 @@
       "name": "principle-experience-first",
       "source": "skills/principle-experience-first/SKILL.md",
       "output": "skills/principle-experience-first/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-fix-root-causes/SKILL.md",
@@ -206,7 +206,7 @@
       "name": "principle-fix-root-causes",
       "source": "skills/principle-fix-root-causes/SKILL.md",
       "output": "skills/principle-fix-root-causes/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-foundational-thinking/SKILL.md",
@@ -214,7 +214,7 @@
       "name": "principle-foundational-thinking",
       "source": "skills/principle-foundational-thinking/SKILL.md",
       "output": "skills/principle-foundational-thinking/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-guard-the-context-window/SKILL.md",
@@ -222,7 +222,7 @@
       "name": "principle-guard-the-context-window",
       "source": "skills/principle-guard-the-context-window/SKILL.md",
       "output": "skills/principle-guard-the-context-window/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-laziness-protocol/SKILL.md",
@@ -230,7 +230,7 @@
       "name": "principle-laziness-protocol",
       "source": "skills/principle-laziness-protocol/SKILL.md",
       "output": "skills/principle-laziness-protocol/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-make-operations-idempotent/SKILL.md",
@@ -238,7 +238,7 @@
       "name": "principle-make-operations-idempotent",
       "source": "skills/principle-make-operations-idempotent/SKILL.md",
       "output": "skills/principle-make-operations-idempotent/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
@@ -246,7 +246,7 @@
       "name": "principle-migrate-callers-then-delete-legacy-apis",
       "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
       "output": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-minimize-reader-load/SKILL.md",
@@ -254,7 +254,7 @@
       "name": "principle-minimize-reader-load",
       "source": "skills/principle-minimize-reader-load/SKILL.md",
       "output": "skills/principle-minimize-reader-load/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-model-the-domain/SKILL.md",
@@ -262,7 +262,7 @@
       "name": "principle-model-the-domain",
       "source": "skills/principle-model-the-domain/SKILL.md",
       "output": "skills/principle-model-the-domain/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-never-block-on-the-human/SKILL.md",
@@ -270,7 +270,7 @@
       "name": "principle-never-block-on-the-human",
       "source": "skills/principle-never-block-on-the-human/SKILL.md",
       "output": "skills/principle-never-block-on-the-human/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-outcome-oriented-execution/SKILL.md",
@@ -278,7 +278,7 @@
       "name": "principle-outcome-oriented-execution",
       "source": "skills/principle-outcome-oriented-execution/SKILL.md",
       "output": "skills/principle-outcome-oriented-execution/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-prove-it-works/SKILL.md",
@@ -286,7 +286,7 @@
       "name": "principle-prove-it-works",
       "source": "skills/principle-prove-it-works/SKILL.md",
       "output": "skills/principle-prove-it-works/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-redesign-from-first-principles/SKILL.md",
@@ -294,7 +294,7 @@
       "name": "principle-redesign-from-first-principles",
       "source": "skills/principle-redesign-from-first-principles/SKILL.md",
       "output": "skills/principle-redesign-from-first-principles/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-separate-before-serializing-shared-state/SKILL.md",
@@ -302,7 +302,7 @@
       "name": "principle-separate-before-serializing-shared-state",
       "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
       "output": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-sequence-verifiable-units/SKILL.md",
@@ -310,7 +310,7 @@
       "name": "principle-sequence-verifiable-units",
       "source": "skills/principle-sequence-verifiable-units/SKILL.md",
       "output": "skills/principle-sequence-verifiable-units/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-subtract-before-you-add/SKILL.md",
@@ -318,7 +318,7 @@
       "name": "principle-subtract-before-you-add",
       "source": "skills/principle-subtract-before-you-add/SKILL.md",
       "output": "skills/principle-subtract-before-you-add/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
@@ -326,7 +326,7 @@
       "name": "principle-test-behavior-not-implementation",
       "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
       "output": "skills/principle-test-behavior-not-implementation/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/principle-type-system-discipline/SKILL.md",
@@ -334,7 +334,7 @@
       "name": "principle-type-system-discipline",
       "source": "skills/principle-type-system-discipline/SKILL.md",
       "output": "skills/principle-type-system-discipline/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/recall/SKILL.md",
@@ -350,7 +350,7 @@
       "name": "reflect",
       "source": "skills/reflect/SKILL.md",
       "output": "skills/reflect/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/setup-pstack/SKILL.md",
@@ -366,7 +366,7 @@
       "name": "show-me-your-work",
       "source": "skills/show-me-your-work/SKILL.md",
       "output": "skills/show-me-your-work/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/swarm/SKILL.md",
@@ -382,7 +382,7 @@
       "name": "tdd",
       "source": "skills/tdd/SKILL.md",
       "output": "skills/tdd/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/teach/SKILL.md",
@@ -398,7 +398,7 @@
       "name": "technical-writing",
       "source": "skills/technical-writing/SKILL.md",
       "output": "skills/technical-writing/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/typescript-best-practices/SKILL.md",
@@ -414,7 +414,7 @@
       "name": "unslop",
       "source": "skills/unslop/SKILL.md",
       "output": "skills/unslop/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/why/SKILL.md",
@@ -486,9 +486,9 @@
     {
       "artifactId": "skill:skills/architect/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -507,9 +507,9 @@
     {
       "artifactId": "skill:skills/arena/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -549,9 +549,9 @@
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/recall/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
@@ -626,9 +626,9 @@
     {
       "artifactId": "skill:skills/create-verification-skill/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/maintain-verification-skill/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/create-verification-skill/SKILL.md",
@@ -661,9 +661,9 @@
     {
       "artifactId": "skill:skills/figure-it-out/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
@@ -682,9 +682,9 @@
     {
       "artifactId": "skill:skills/how/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: agent:agents/comment-sicko.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
@@ -724,9 +724,9 @@
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
@@ -773,9 +773,9 @@
     {
       "artifactId": "skill:skills/maintain-verification-skill/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/create-verification-skill/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/maintain-verification-skill/SKILL.md",
@@ -822,9 +822,9 @@
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
@@ -864,9 +864,9 @@
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: agent:agents/poteto-agent.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
@@ -941,9 +941,9 @@
     {
       "artifactId": "skill:skills/principle-attack-the-premise/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-boundary-discipline/SKILL.md",
@@ -962,9 +962,9 @@
     {
       "artifactId": "skill:skills/principle-boundary-discipline/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-build-the-lever/SKILL.md",
@@ -983,9 +983,9 @@
     {
       "artifactId": "skill:skills/principle-build-the-lever/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-encode-lessons-in-structure/SKILL.md",
@@ -1004,9 +1004,9 @@
     {
       "artifactId": "skill:skills/principle-encode-lessons-in-structure/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-exhaust-the-design-space/SKILL.md",
@@ -1025,9 +1025,9 @@
     {
       "artifactId": "skill:skills/principle-exhaust-the-design-space/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-experience-first/SKILL.md",
@@ -1046,9 +1046,9 @@
     {
       "artifactId": "skill:skills/principle-experience-first/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-fix-root-causes/SKILL.md",
@@ -1067,9 +1067,9 @@
     {
       "artifactId": "skill:skills/principle-fix-root-causes/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/no-comments/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-foundational-thinking/SKILL.md",
@@ -1088,9 +1088,9 @@
     {
       "artifactId": "skill:skills/principle-foundational-thinking/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-guard-the-context-window/SKILL.md",
@@ -1109,9 +1109,9 @@
     {
       "artifactId": "skill:skills/principle-guard-the-context-window/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-laziness-protocol/SKILL.md",
@@ -1130,9 +1130,9 @@
     {
       "artifactId": "skill:skills/principle-laziness-protocol/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-make-operations-idempotent/SKILL.md",
@@ -1151,9 +1151,9 @@
     {
       "artifactId": "skill:skills/principle-make-operations-idempotent/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
@@ -1172,9 +1172,9 @@
     {
       "artifactId": "skill:skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-minimize-reader-load/SKILL.md",
@@ -1193,9 +1193,9 @@
     {
       "artifactId": "skill:skills/principle-minimize-reader-load/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-model-the-domain/SKILL.md",
@@ -1214,9 +1214,9 @@
     {
       "artifactId": "skill:skills/principle-model-the-domain/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-never-block-on-the-human/SKILL.md",
@@ -1235,9 +1235,9 @@
     {
       "artifactId": "skill:skills/principle-never-block-on-the-human/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-outcome-oriented-execution/SKILL.md",
@@ -1256,9 +1256,9 @@
     {
       "artifactId": "skill:skills/principle-outcome-oriented-execution/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-prove-it-works/SKILL.md",
@@ -1277,9 +1277,9 @@
     {
       "artifactId": "skill:skills/principle-prove-it-works/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-redesign-from-first-principles/SKILL.md",
@@ -1298,9 +1298,9 @@
     {
       "artifactId": "skill:skills/principle-redesign-from-first-principles/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/no-comments/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-separate-before-serializing-shared-state/SKILL.md",
@@ -1319,9 +1319,9 @@
     {
       "artifactId": "skill:skills/principle-separate-before-serializing-shared-state/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-sequence-verifiable-units/SKILL.md",
@@ -1340,9 +1340,9 @@
     {
       "artifactId": "skill:skills/principle-sequence-verifiable-units/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-subtract-before-you-add/SKILL.md",
@@ -1361,9 +1361,9 @@
     {
       "artifactId": "skill:skills/principle-subtract-before-you-add/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
@@ -1382,9 +1382,9 @@
     {
       "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-type-system-discipline/SKILL.md",
@@ -1403,9 +1403,9 @@
     {
       "artifactId": "skill:skills/principle-type-system-discipline/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/recall/SKILL.md",
@@ -1445,9 +1445,9 @@
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -1529,9 +1529,9 @@
     {
       "artifactId": "skill:skills/show-me-your-work/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1550,9 +1550,9 @@
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1606,9 +1606,9 @@
     {
       "artifactId": "skill:skills/tdd/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/teach/SKILL.md",
@@ -1648,9 +1648,9 @@
     {
       "artifactId": "skill:skills/technical-writing/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1669,9 +1669,9 @@
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/principle-type-system-discipline/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1704,9 +1704,9 @@
     {
       "artifactId": "skill:skills/unslop/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/automate-me/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
@@ -1725,9 +1725,9 @@
     {
       "artifactId": "skill:skills/why/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: agent:agents/comment-sicko.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
@@ -1769,107 +1769,114 @@
     {
       "artifact": "skill:skills/architect/SKILL.md",
       "path": "skills/architect/SKILL.md",
-      "line": 34,
+      "line": 33,
       "kind": "foreign-token",
       "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/architect/SKILL.md",
       "path": "skills/architect/SKILL.md",
-      "line": 34,
+      "line": 33,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/arena/SKILL.md",
       "path": "skills/arena/SKILL.md",
-      "line": 29,
+      "line": 28,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/arena/SKILL.md",
       "path": "skills/arena/SKILL.md",
-      "line": 42,
+      "line": 41,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
-      "line": 12,
+      "line": 11,
       "kind": "runtime-mention",
       "detail": "names the source runtime: This skill orchestrates three others: an inline mining pass (see step 1), Cursor's built-in `create-skill` (authoring), and the **unslop** skill (prose discipline). It sequences them. It doesn't replace them."
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
-      "line": 30,
+      "line": 29,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
-      "line": 30,
+      "line": 29,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
       "path": "skills/automate-me/SKILL.md",
-      "line": 68,
+      "line": 67,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Use Cursor's built-in `create-skill` skill to author the skill. Placement:"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 12,
+      "line": 11,
       "kind": "foreign-token",
       "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 28,
+      "line": 27,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 29,
+      "line": 28,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": "skill:skills/how/SKILL.md",
+      "path": "skills/how/SKILL.md",
+      "line": 37,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
       "line": 38,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 39,
+      "line": 47,
       "kind": "foreign-token",
-      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
       "line": 48,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
+      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
     {
-      "artifact": "skill:skills/how/SKILL.md",
-      "path": "skills/how/SKILL.md",
-      "line": 49,
+      "artifact": "skill:skills/interrogate/SKILL.md",
+      "path": "skills/interrogate/SKILL.md",
+      "line": 40,
       "kind": "foreign-token",
-      "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
@@ -1888,56 +1895,49 @@
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
       "path": "skills/interrogate/SKILL.md",
-      "line": 43,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/interrogate/SKILL.md",
-      "path": "skills/interrogate/SKILL.md",
-      "line": 48,
+      "line": 47,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 23,
+      "line": 22,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Any prose surface → the **unslop** skill. Your reply is a prose surface. Write it per **Writing the reply**. Agent-facing prose also follows the **create-skill** skill (Cursor's built-in for authoring SKILL.md files)."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 28,
+      "line": 27,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Any PR-status request → the **Babysit** playbook (`playbooks/babysit.md`), and not Cursor's built-in babysit skill, whose description matches the same words. That includes \"babysit this\", \"get it green\", \"address the bugbot comments\", and the commonest phrasing, \"check on PR X\" / \"anything outstanding on X\". Never triggered by merely opening a PR. Declare its mode before polling. The playbook's step 1 owns the request-to-mode mapping. Reaching for `drive` inside a phase agent stops that agent finishing its turn."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 32,
+      "line": 31,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 90,
+      "line": 89,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 132,
+      "line": 131,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 137,
+      "line": 136,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - **Pause safely.** Suspending in-flight work cleanly so it can be resumed, on an explicit pause, going offline, a Cursor restart, or imminent context compaction. The complement to Session pickup. Full steps: `playbooks/pause-safely.md`."
     },
@@ -2175,23 +2175,30 @@
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 20,
+      "line": 19,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 20,
+      "line": 19,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 34,
+      "line": 33,
       "kind": "foreign-token",
       "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
+    },
+    {
+      "artifact": "skill:skills/reflect/SKILL.md",
+      "path": "skills/reflect/SKILL.md",
+      "line": 37,
+      "kind": "foreign-token",
+      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
@@ -2210,21 +2217,14 @@
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 40,
+      "line": 45,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 46,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/reflect/SKILL.md",
-      "path": "skills/reflect/SKILL.md",
-      "line": 61,
+      "line": 60,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop."
     },
@@ -2280,28 +2280,28 @@
     {
       "artifact": "skill:skills/show-me-your-work/SKILL.md",
       "path": "skills/show-me-your-work/SKILL.md",
-      "line": 58,
+      "line": 57,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/show-me-your-work/SKILL.md",
       "path": "skills/show-me-your-work/SKILL.md",
-      "line": 58,
+      "line": 57,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
     {
       "artifact": "skill:skills/swarm/SKILL.md",
       "path": "skills/swarm/SKILL.md",
-      "line": 26,
+      "line": 25,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/swarm/SKILL.md",
       "path": "skills/swarm/SKILL.md",
-      "line": 31,
+      "line": 30,
       "kind": "foreign-token",
       "detail": "matches /\\benvironment:\\s*\"cloud\"/, use a local background agent, mode: \"background\""
     },
@@ -2329,42 +2329,42 @@
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 14,
+      "line": 13,
       "kind": "foreign-token",
       "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 65,
+      "line": 64,
       "kind": "runtime-mention",
       "detail": "names the source runtime: Before spawning investigators, list the available MCPs from the Cursor environment. Use the available-tools map when present. Otherwise inspect the `mcps/` directory Cursor exposes for enabled MCP servers."
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 85,
+      "line": 84,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 86,
+      "line": 85,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 129,
+      "line": 128,
       "kind": "foreign-token",
       "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 130,
+      "line": 129,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
     },
@@ -2555,7 +2555,7 @@
     },
     {
       "path": "README.md",
-      "blob": "a6608d763d65192d73012cbdc1e184b9ce3c8876",
+      "blob": "bba72a249e250a3d4140ae24da55626343ba503a",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2587,12 +2587,12 @@
     },
     {
       "path": "skills/architect/SKILL.md",
-      "blob": "a17c0092d425327d8f1f9be7a0fa6184b5af1f91",
+      "blob": "7ee675169ea205694a926401bd3588b3a1bd95d7",
       "executable": false,
       "source": "skills/architect/SKILL.md",
       "sourceBlob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -2623,12 +2623,12 @@
     },
     {
       "path": "skills/arena/SKILL.md",
-      "blob": "728a0c33e08a47795ab42861ec497d613d1a934c",
+      "blob": "d51d832976fea9ae7a0fc6bc52ea1aad3099ec87",
       "executable": false,
       "source": "skills/arena/SKILL.md",
       "sourceBlob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths",
@@ -2638,12 +2638,12 @@
     },
     {
       "path": "skills/automate-me/SKILL.md",
-      "blob": "696f623133dbedbf5a28bb54251fd9924d94d9f5",
+      "blob": "139b93f15698c92870ec6635c3117aa2f52fb25c",
       "executable": false,
       "source": "skills/automate-me/SKILL.md",
       "sourceBlob": "cd3636e9a53c7c782cf15254204dccfc854086b5",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-askquestion",
@@ -2676,12 +2676,12 @@
     },
     {
       "path": "skills/create-verification-skill/SKILL.md",
-      "blob": "d3d3af2d47f80933f6a2c096543356fb340ec373",
+      "blob": "b33244fecd351f65617abb194cf3016e81d38418",
       "executable": false,
       "source": "skills/create-verification-skill/SKILL.md",
       "sourceBlob": "f869e26122991252373d5b8f6357e5b9ff195a00",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths"
@@ -2715,24 +2715,24 @@
     },
     {
       "path": "skills/figure-it-out/SKILL.md",
-      "blob": "ea94dfbc2d213030c38f251070864132b6c2eabd",
+      "blob": "59558814290eb7b993b4999001def96d33cb7741",
       "executable": false,
       "source": "skills/figure-it-out/SKILL.md",
       "sourceBlob": "fbf3fb122cab127d71d3c41e84711e61cc5dec4c",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/how/SKILL.md",
-      "blob": "0164074c0901fc49ad5015f71c6636827d1b7424",
+      "blob": "6bc77e4c901c6ffc8f31b632b9565de8fa975c6e",
       "executable": false,
       "source": "skills/how/SKILL.md",
       "sourceBlob": "cd22fff659f14822ad2f485f711a355b6da0668d",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-general-purpose",
@@ -2758,12 +2758,12 @@
     },
     {
       "path": "skills/interrogate/SKILL.md",
-      "blob": "e002c62a6266871b4af5a7c1573e049dbd58d882",
+      "blob": "f69d56390f0077135bd8bd3ac720f5c85c9af48c",
       "executable": false,
       "source": "skills/interrogate/SKILL.md",
       "sourceBlob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths",
@@ -2806,12 +2806,12 @@
     },
     {
       "path": "skills/maintain-verification-skill/SKILL.md",
-      "blob": "88389a2b5cd8c718e552dafd5121698f4586c7b1",
+      "blob": "15b85c3a968be0199780d6515668e5731b9fecfc",
       "executable": false,
       "source": "skills/maintain-verification-skill/SKILL.md",
       "sourceBlob": "a2680b91fead45a0b4963d8c367a854956bea59d",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths"
@@ -2831,12 +2831,12 @@
     },
     {
       "path": "skills/no-comments/SKILL.md",
-      "blob": "58263f4d3792d7cc1b667cc0171e8898016748fb",
+      "blob": "9d74d2b9ef93d77ff57a427b2faed17b3b587e99",
       "executable": false,
       "source": "skills/no-comments/SKILL.md",
       "sourceBlob": "3b3e76295a7ad66806dcc683e4de92fb25690f8b",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-agent-reference",
@@ -2846,15 +2846,15 @@
     },
     {
       "path": "skills/poteto-mode/SKILL.md",
-      "blob": "0f66ce19fe12c34268fd4242dad510112791f40f",
+      "blob": "1fefcde1b3cc2dab030d10788d7e393a7240d19f",
       "executable": false,
       "source": "skills/poteto-mode/SKILL.md",
       "sourceBlob": "f8ddcae379007d61aefcae39b18bd836a488ee21",
       "rules": [
         "drop-cosmetic-key",
+        "drop-disable-model-invocation-routed",
         "drop-reminder",
         "drop-sticky-mode",
-        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-askquestion",
@@ -3225,276 +3225,276 @@
     },
     {
       "path": "skills/principle-attack-the-premise/SKILL.md",
-      "blob": "514905a29537d7b1178ea5e7e412fdc4b84c4908",
+      "blob": "1314901847762e95c12cff3f88fe7d072b427071",
       "executable": false,
       "source": "skills/principle-attack-the-premise/SKILL.md",
       "sourceBlob": "f9785ff9fdcf37d1c689e4468da7d611f3b76d4b",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-boundary-discipline/SKILL.md",
-      "blob": "d334a696b67c416c70af7dfda3d52c263781d6df",
+      "blob": "e7853e2650715dabd3911883d2790c099d52e5d7",
       "executable": false,
       "source": "skills/principle-boundary-discipline/SKILL.md",
       "sourceBlob": "dfe9a6fb0e5acd6ae43a41437ee0951adfe839cb",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-build-the-lever/SKILL.md",
-      "blob": "45ed2b5de38cd3c8847219dba0579bd8d17c908c",
+      "blob": "648458b38abfca8b510111ffe327c0f87a254b9b",
       "executable": false,
       "source": "skills/principle-build-the-lever/SKILL.md",
       "sourceBlob": "277189a10b00fddc7cbb63fcf2323c7341abb0df",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-encode-lessons-in-structure/SKILL.md",
-      "blob": "e225a7c868af687eb60b85ee8c830101e1d98dbc",
+      "blob": "7dad1848dada042345d2869492901e18966ded89",
       "executable": false,
       "source": "skills/principle-encode-lessons-in-structure/SKILL.md",
       "sourceBlob": "df9cd5ff2fb3c18267349cc6aecd8121848ef834",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-exhaust-the-design-space/SKILL.md",
-      "blob": "ec9de8222dd08a66b233a0cc9be6245924aea845",
+      "blob": "b295df1dbec3d5dcbe26fe50b299d76b21b195ab",
       "executable": false,
       "source": "skills/principle-exhaust-the-design-space/SKILL.md",
       "sourceBlob": "85dd16f1312f3427e2dddcfc8e7deb89e2555bb3",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-experience-first/SKILL.md",
-      "blob": "f9a68dc2a58d3bc5f0e0847b7429c2ae610e146b",
+      "blob": "d17a296ca28d278a81c592912bdf9da7061a9b40",
       "executable": false,
       "source": "skills/principle-experience-first/SKILL.md",
       "sourceBlob": "5ea51741302cf3af4cc0b90ec70815bd3208dbf2",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-fix-root-causes/SKILL.md",
-      "blob": "28d9dcb7392115de254f038358b58840a33413d1",
+      "blob": "5bad94fd5fd55dff9bbfa8ef62f94cd13f5c348a",
       "executable": false,
       "source": "skills/principle-fix-root-causes/SKILL.md",
       "sourceBlob": "7e5a419aeec97b4076fa517865013677428a9fa3",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-foundational-thinking/SKILL.md",
-      "blob": "34d621037c3e947c81f46766d21d0b22d6687884",
+      "blob": "8634e854673bc369c6a158fad711ef0cc3fca599",
       "executable": false,
       "source": "skills/principle-foundational-thinking/SKILL.md",
       "sourceBlob": "19cc6c0eaa6fcbc2863fb73d1d25ca196c6a46e0",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-guard-the-context-window/SKILL.md",
-      "blob": "d703cbdc9e0f4385ee1cfd65719941095fda7f8b",
+      "blob": "23007dfbf7853acb0f20491a5f560ff736bf8277",
       "executable": false,
       "source": "skills/principle-guard-the-context-window/SKILL.md",
       "sourceBlob": "c4db544909b26981c45eed9caa6591d32885f841",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-laziness-protocol/SKILL.md",
-      "blob": "6fd0d109f1b37593e6feefaac462df2059f6564e",
+      "blob": "b62ea778ebabff6dae6ade3db711e446056e74dd",
       "executable": false,
       "source": "skills/principle-laziness-protocol/SKILL.md",
       "sourceBlob": "e5bc77e62aa96ae13e482a84df61b3c711c5d828",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-make-operations-idempotent/SKILL.md",
-      "blob": "c1c7ded38e73b72f129d59bb7f754c4160ce2778",
+      "blob": "a7a012f89a3bdce2698b2efc5bacfd7f1503c2db",
       "executable": false,
       "source": "skills/principle-make-operations-idempotent/SKILL.md",
       "sourceBlob": "a0834247ca99b09c11441747717a8034d4c22d7c",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
-      "blob": "7863a843236c63535158a8dfd2db28b6956c7593",
+      "blob": "3dfa89352340781d6787ae8a6f4ba19fb6170d9f",
       "executable": false,
       "source": "skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
       "sourceBlob": "06c7cfd87becc62d614d0af075b792f8ec6eb21d",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-minimize-reader-load/SKILL.md",
-      "blob": "0bd6e900e99c55dc3e5c5a0ac5c3939360561499",
+      "blob": "7abe6b4e8a330bd4fb06baa5494b14264ed25036",
       "executable": false,
       "source": "skills/principle-minimize-reader-load/SKILL.md",
       "sourceBlob": "64541d963123e344078d82fd3977e857e76129df",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-model-the-domain/SKILL.md",
-      "blob": "b0fce69f9b7c9ff39d2c2a536e0d2862fda495e3",
+      "blob": "5ca25d5b3670c06ce860184842e202d6734779e3",
       "executable": false,
       "source": "skills/principle-model-the-domain/SKILL.md",
       "sourceBlob": "e1d664a19243c90a84e5e7a816e9e05146c88720",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-never-block-on-the-human/SKILL.md",
-      "blob": "c7072bcce3f4cf2ad6032476ed441b94dc06d6ae",
+      "blob": "48ea3bc902219de61bd45d4ad30c331887b39a85",
       "executable": false,
       "source": "skills/principle-never-block-on-the-human/SKILL.md",
       "sourceBlob": "11f08b6ef1fd93a3b3e47c57eb84716dc9acbff9",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-outcome-oriented-execution/SKILL.md",
-      "blob": "c89bbeb30c0e6a6972ced9d55f632f0d353883a2",
+      "blob": "1b6e2e547974483a5e71109befe8bc5fcabba36f",
       "executable": false,
       "source": "skills/principle-outcome-oriented-execution/SKILL.md",
       "sourceBlob": "c49be0bc74783f0dee013101365ae09b2abb48a2",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-prove-it-works/SKILL.md",
-      "blob": "ee0258a1ffb2eb01733320a6c716e72e32bbbac0",
+      "blob": "7e6bad660e309acc1674216cb5e686fce1f87e59",
       "executable": false,
       "source": "skills/principle-prove-it-works/SKILL.md",
       "sourceBlob": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-redesign-from-first-principles/SKILL.md",
-      "blob": "4716fad1292396c3644241d0cd4db3fb2e038655",
+      "blob": "c127b141105494fa12e965f0e5d15c3a3c8d69e3",
       "executable": false,
       "source": "skills/principle-redesign-from-first-principles/SKILL.md",
       "sourceBlob": "090a4325f43a96080cce3895f0e932b62c39146a",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
-      "blob": "907a8b1f02c3277aa07a5b74391352c4555eb128",
+      "blob": "34210adf15c50a542d1b2cbebeccd446f52aa4d7",
       "executable": false,
       "source": "skills/principle-separate-before-serializing-shared-state/SKILL.md",
       "sourceBlob": "ff93b4a2032c08e2232992a9a24f2891ee14e58f",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-sequence-verifiable-units/SKILL.md",
-      "blob": "377b28c8f94df3a4c8f7675c5ff2f1220388ff95",
+      "blob": "b0fd737e9c03806c4f9cd1b7cacdb21d6f9ff9ab",
       "executable": false,
       "source": "skills/principle-sequence-verifiable-units/SKILL.md",
       "sourceBlob": "986371260ebccd9a5a6818c9561e88c1d270d0ee",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-subtract-before-you-add/SKILL.md",
-      "blob": "35feea9f0983d1fa9cf835334226a19762160656",
+      "blob": "77ff76e037a4d55fef565fe96b1876b988df3bb4",
       "executable": false,
       "source": "skills/principle-subtract-before-you-add/SKILL.md",
       "sourceBlob": "d28770cf47a5798d0250a25ad494aedfecad154e",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-test-behavior-not-implementation/SKILL.md",
-      "blob": "80a163d83fbe99f24987851a7eb16d3aea1e1601",
+      "blob": "056e8f6271388be81c63c6ce5b68eb38c7117ee9",
       "executable": false,
       "source": "skills/principle-test-behavior-not-implementation/SKILL.md",
       "sourceBlob": "42de6f8f7cab01b9f67aa28bd59b128f7574fbab",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/principle-type-system-discipline/SKILL.md",
-      "blob": "b31f3e0a27d58ca8e9adf501e426572d2793e19f",
+      "blob": "2c8506d3b3aea1b5e4e1a990a224d2e89ad4aaee",
       "executable": false,
       "source": "skills/principle-type-system-discipline/SKILL.md",
       "sourceBlob": "6030f171bee0d1902cf7ca91f06225e09f0f5433",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -3513,12 +3513,12 @@
     },
     {
       "path": "skills/reflect/SKILL.md",
-      "blob": "8542c30b63c392142c1f1191029c067a1881e0e9",
+      "blob": "8442117dc7f46b0b011276f2938bb3d11e6ae1c5",
       "executable": false,
       "source": "skills/reflect/SKILL.md",
       "sourceBlob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-general-purpose",
@@ -3583,12 +3583,12 @@
     },
     {
       "path": "skills/show-me-your-work/SKILL.md",
-      "blob": "ea588b001ab2f6ca625000ff70e087460e446542",
+      "blob": "ea10b1415f8405f75b2ad0c7668ce71fd5433007",
       "executable": false,
       "source": "skills/show-me-your-work/SKILL.md",
       "sourceBlob": "d350a150c36ca16382b4aa6d4196b39e67454ad1",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -3611,12 +3611,12 @@
     },
     {
       "path": "skills/swarm/SKILL.md",
-      "blob": "0ccead76127377c6d8cd8adaad884b2d34f99557",
+      "blob": "94927d188df678523420e84e93f818d95744d390",
       "executable": false,
       "source": "skills/swarm/SKILL.md",
       "sourceBlob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-cursor-paths",
@@ -3628,12 +3628,12 @@
     },
     {
       "path": "skills/tdd/SKILL.md",
-      "blob": "95eabd175b2af7e1a637d3741b98e6d59c599e43",
+      "blob": "9d85ff6a63c2c34cd9d4403b0aec9bcfed0d67f9",
       "executable": false,
       "source": "skills/tdd/SKILL.md",
       "sourceBlob": "ca6f24c963001d9d518db2936dfe3d12f29b4e94",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -3652,26 +3652,26 @@
     },
     {
       "path": "skills/technical-writing/SKILL.md",
-      "blob": "45f59a2dc9973e3a8aa1a8a25bc41c6bb47d8c40",
+      "blob": "7f10bac230a6fbf74c57b5cdb1db30897f347c80",
       "executable": false,
       "source": "skills/technical-writing/SKILL.md",
       "sourceBlob": "1cd44cf2595a5caeda1f702aacd4f8a25aa8166a",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/typescript-best-practices/SKILL.md",
-      "blob": "ed723036c12fb4b74a77f6d4a68a3fb878016c58",
+      "blob": "fc1ba6f4916999765a1f92df45860a14e8df20e1",
       "executable": false,
       "source": "skills/typescript-best-practices/SKILL.md",
       "sourceBlob": "2c0279d9a5f800192605e47b55cae4e75a17ec27",
       "rules": [
+        "drop-disable-model-invocation-routed",
         "drop-skill-path-filter",
         "flag-command-substitution",
-        "keep-disable-model-invocation",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -3688,24 +3688,24 @@
     },
     {
       "path": "skills/unslop/SKILL.md",
-      "blob": "79a004bb1e4b4528e95ee33d425ac84a1b218718",
+      "blob": "d97e337a7edc084682812244e9ae73f80df51359",
       "executable": false,
       "source": "skills/unslop/SKILL.md",
       "sourceBlob": "229a090708710c36caa0017f8d33e90880dc6846",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/why/SKILL.md",
-      "blob": "cb97d02b0b4e3475c46900174289ad8f68808e03",
+      "blob": "f4293ff4eef2a7e82d27768dd89c7de48f8430f8",
       "executable": false,
       "source": "skills/why/SKILL.md",
       "sourceBlob": "daac2c734a8f8fe43d30663054d694066f2b41ec",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-general-purpose",
