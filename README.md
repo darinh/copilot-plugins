@@ -20,15 +20,16 @@ Converted: 2 agents, 47 skills.
 convert-skills install pstack
 ```
 
-That registers `skills/` with Copilot CLI, the same as `copilot skill add <this directory>/skills`. Add `--target agents,instructions` for the rest, and `convert-skills uninstall pstack` reverses every target.
+That installs the package as the `pstack` Copilot CLI plugin. Its agents answer to `pstack:<name>`, and `copilot plugin list` shows it. `convert-skills uninstall pstack` removes it and puts `settings.json` back as it was.
 
 ## Update
 
 ```
 convert-skills sync pstack
+convert-skills install pstack
 ```
 
-Sync converts the new upstream commit and three-way merges it into these files, so hand edits survive. An edit that collides with an upstream change stops the sync with conflict markers. A file upstream deletes stays until `--prune`, and manifest.json lists it under `retained`. `--regenerate` discards local edits instead.
+Sync converts the new upstream commit and three-way merges it into these files, so hand edits survive. An edit that collides with an upstream change stops the sync with conflict markers. A file upstream deletes stays until `--prune`, and manifest.json lists it under `retained`. `--regenerate` discards local edits instead. Copilot CLI loads the plugin from its own copy, so run `install` again after a sync to update it.
 
 ## Contents
 
