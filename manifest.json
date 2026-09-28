@@ -488,7 +488,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -509,7 +509,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -551,7 +551,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/recall/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/recall/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
@@ -628,7 +628,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/maintain-verification-skill/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/maintain-verification-skill/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/create-verification-skill/SKILL.md",
@@ -663,7 +663,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
@@ -684,7 +684,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: agent:agents/comment-sicko.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: agent:agents/comment-sicko.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
@@ -726,7 +726,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
@@ -775,7 +775,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/create-verification-skill/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/create-verification-skill/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/maintain-verification-skill/SKILL.md",
@@ -824,7 +824,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
@@ -866,7 +866,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: agent:agents/poteto-agent.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: agent:agents/poteto-agent.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
@@ -943,7 +943,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-boundary-discipline/SKILL.md",
@@ -964,7 +964,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-build-the-lever/SKILL.md",
@@ -985,7 +985,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-encode-lessons-in-structure/SKILL.md",
@@ -1006,7 +1006,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-exhaust-the-design-space/SKILL.md",
@@ -1027,7 +1027,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-experience-first/SKILL.md",
@@ -1048,7 +1048,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-fix-root-causes/SKILL.md",
@@ -1069,7 +1069,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-foundational-thinking/SKILL.md",
@@ -1090,7 +1090,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-guard-the-context-window/SKILL.md",
@@ -1111,7 +1111,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-laziness-protocol/SKILL.md",
@@ -1132,7 +1132,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-make-operations-idempotent/SKILL.md",
@@ -1153,7 +1153,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md",
@@ -1174,7 +1174,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-minimize-reader-load/SKILL.md",
@@ -1195,7 +1195,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-model-the-domain/SKILL.md",
@@ -1216,7 +1216,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-never-block-on-the-human/SKILL.md",
@@ -1237,7 +1237,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-outcome-oriented-execution/SKILL.md",
@@ -1258,7 +1258,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-prove-it-works/SKILL.md",
@@ -1279,7 +1279,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/arena/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/arena/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-redesign-from-first-principles/SKILL.md",
@@ -1300,7 +1300,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/arena/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/arena/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-separate-before-serializing-shared-state/SKILL.md",
@@ -1321,7 +1321,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-sequence-verifiable-units/SKILL.md",
@@ -1342,7 +1342,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-subtract-before-you-add/SKILL.md",
@@ -1363,7 +1363,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/architect/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-test-behavior-not-implementation/SKILL.md",
@@ -1384,7 +1384,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/principle-type-system-discipline/SKILL.md",
@@ -1405,7 +1405,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/recall/SKILL.md",
@@ -1447,7 +1447,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -1531,7 +1531,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/figure-it-out/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1552,7 +1552,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1608,7 +1608,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/teach/SKILL.md",
@@ -1650,7 +1650,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1671,7 +1671,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/principle-type-system-discipline/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/principle-type-system-discipline/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1706,7 +1706,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/automate-me/SKILL.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/automate-me/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
@@ -1727,7 +1727,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: agent:agents/comment-sicko.md sends the model to this skill by name, and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: agent:agents/comment-sicko.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/why/SKILL.md",
