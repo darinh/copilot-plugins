@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "slug": "pstack",
+  "origin": "https://github.com/cursor/plugins",
+  "ref": "main",
+  "subpath": "pstack",
+  "harness": null,
+  "oracle": {
+    "origin": "https://github.com/doublexmax/pstack-copilot",
+    "commit": "94e59ec07dbff98259dfbb0140db5effe3b416fb",
+    "subpath": "pstack",
+    "sourceCommit": "6dbbdd50cef1bdbfb540f80df8b598d0a546e3aa",
+    "counterparts": [
+      {
+        "ours": "agents/*.agent.md",
+        "theirs": "agents/*.md"
+      }
+    ],
+    "deliberate": [
+      {
+        "key": "disable-model-invocation",
+        "reason": "Copilot hides a disable-model-invocation skill from the model's skill tool (copilot-artifact-contract.md F), so the converter drops the key from a skill another artifact routes to by name, as the port did, and keeps it on a skill nothing routes to, where the port stripped it"
+      },
+      {
+        "key": "name",
+        "reason": "Copilot registers a skill by its folder and an agent by its file stem, so the converter writes those (pstack-port-rule-catalog.md subagent-kebab-agent-names); the port still had Poteto Mode and Comment Sicko at this commit and fixed both later"
+      },
+      {
+        "key": "is_background",
+        "reason": "Copilot agent frontmatter has no background key; a caller chooses background per task call with mode: \"background\" (pstack-port-rule-catalog.md rewrite-background-and-drop-readonly)"
+      }
+    ]
+  }
+}
