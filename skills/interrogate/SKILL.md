@@ -37,9 +37,9 @@ Launch all reviewers in a single message using the task tool. Use the `interroga
 
 | Subagent | Default model |
 |----------|---------------|
-| Reviewer A | `claude-opus-5.5` (`max`) |
-| Reviewer B | `gpt-5.6-sol` (`max`) |
-| Reviewer C | `grok-4.7` (`xhigh`) |
+| Reviewer A | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` |
+| Reviewer B | `model: "gpt-5.6-sol"`, `reasoning_effort: "max"` |
+| Reviewer C | `model: "grok-4.7"`, `reasoning_effort: "xhigh"` |
 
 For each reviewer:
 - `agent_type`: `general-purpose`

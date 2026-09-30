@@ -34,9 +34,9 @@ Each reviewer and the synthesizer name a role line in the `pstack-models.mdc` ru
 
 | Lens | Role line | Default `model` | Prompt template |
 |---|---|---|---|
-| Judgment | `reflect judgment, divergent, synthesizer` | `claude-opus-5.5` (`max`) | `references/judgment-reviewer.md` |
-| Tooling | `reflect tooling` | `gpt-5.6-sol` (`max`) | `references/tooling-reviewer.md` |
-| Divergent | `reflect judgment, divergent, synthesizer` | `claude-opus-5.5` (`max`) | `references/divergent-reviewer.md` |
+| Judgment | `reflect judgment, divergent, synthesizer` | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` | `references/judgment-reviewer.md` |
+| Tooling | `reflect tooling` | `model: "gpt-5.6-sol"`, `reasoning_effort: "max"` | `references/tooling-reviewer.md` |
+| Divergent | `reflect judgment, divergent, synthesizer` | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` | `references/divergent-reviewer.md` |
 
 Pass each template verbatim, substituting the transcript path or digest where marked. Reviewers return findings in the `task` response body.
 
