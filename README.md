@@ -77,7 +77,7 @@ Each artifact's fidelity is the worst of its features, so one dropped key makes 
 | principle-type-system-discipline | skill | `skills/principle-type-system-discipline/SKILL.md` | approximated |
 | recall | skill | `skills/recall/SKILL.md` | exact |
 | reflect | skill | `skills/reflect/SKILL.md` | approximated |
-| setup-pstack | skill | `skills/setup-pstack/SKILL.md` | exact |
+| setup-pstack | skill | `skills/setup-pstack/SKILL.md` | approximated |
 | show-me-your-work | skill | `skills/show-me-your-work/SKILL.md` | approximated |
 | swarm | skill | `skills/swarm/SKILL.md` | approximated |
 | tdd | skill | `skills/tdd/SKILL.md` | approximated |
@@ -108,7 +108,7 @@ The converter does these deterministically only as far as it can. Each item belo
 | --- | --- |
 | command-substitution | 2 |
 | dropped-link | 1 |
-| foreign-token | 65 |
+| foreign-token | 42 |
 | runtime-mention | 18 |
 | unsupported-artifact | 1 |
 
@@ -130,31 +130,31 @@ The converter does these deterministically only as far as it can. Each item belo
 | Where | Detail |
 | --- | --- |
 | `skills/architect/SKILL.md:33` | matches /\.mdc\b/, use a Copilot .instructions.md file |
-| `skills/architect/SKILL.md:33` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| `skills/arena/SKILL.md:28` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| `skills/arena/SKILL.md:41` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/automate-me/SKILL.md:29` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
 | `skills/automate-me/SKILL.md:29` | matches /\bagent-transcripts\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names |
 | `skills/how/SKILL.md:11` | matches /\.mdc\b/, use a Copilot .instructions.md file |
-| `skills/how/SKILL.md:27` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:28` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/how/SKILL.md:37` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:38` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/how/SKILL.md:47` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/how/SKILL.md:48` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
-| `skills/interrogate/SKILL.md:40` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| `skills/interrogate/SKILL.md:41` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
-| `skills/interrogate/SKILL.md:42` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/interrogate/SKILL.md:47` | matches /`readonly`/, use agent_type "explore" for pure reads, or a prompt that forbids writes |
 | `skills/poteto-mode/SKILL.md:31` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| `skills/poteto-mode/SKILL.md:89` | matches /`(?:gpt\|claude\|grok\|gemini\|composer)-\[\w.-\]*-(?:max\|xhigh\|high\|medium\|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: "gpt-5.6-sol"` with `reasoning_effort: "max"`) |
 | `skills/poteto-mode/SKILL.md:131` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autonomous-run.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-full.md:10` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/autopilot-stack.md:6` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/babysit.md:12` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
 | `skills/poteto-mode/playbooks/bug-fix.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
-| | and 40 more in `manifest.json` |
+| `skills/poteto-mode/playbooks/eval.md:22` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
+| `skills/poteto-mode/playbooks/eval.md:22` | matches /\bagent-transcripts\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names |
+| `skills/poteto-mode/playbooks/multi-phase-plan.md:42` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| `skills/poteto-mode/playbooks/orchestrate.md:17` | matches /\benvironment:\s*"cloud"/, use a local background agent, mode: "background" |
+| `skills/poteto-mode/playbooks/orchestrate.md:17` | matches /\bagent-transcripts\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names |
+| `skills/poteto-mode/playbooks/orchestrate.md:71` | matches /\bloop skill\b/, use autopilot mode |
+| `skills/poteto-mode/playbooks/session-pickup.md:5` | matches /~\/\.cursor\//, use the Copilot counterpart under ~/.copilot, if there is one |
+| `skills/poteto-mode/playbooks/session-pickup.md:5` | matches /\bagent-transcripts\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names |
+| `skills/poteto-mode/playbooks/shipping.md:14` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| `skills/poteto-mode/playbooks/visual-parity.md:8` | matches /(?<!\[\w/.\])\/loop\b/, use autopilot mode |
+| | and 17 more in `manifest.json` |
 
 ### runtime-mention
 
@@ -192,6 +192,6 @@ One row per feature the converter decided on.
 | Fidelity | Features | Meaning |
 | --- | --- | --- |
 | exact | 136 | behaves the same in Copilot CLI |
-| approximated | 50 | converted, with a known difference noted in manifest.json |
+| approximated | 59 | converted, with a known difference noted in manifest.json |
 | unsupported | 5 | no Copilot equivalent; dropped or not converted |
 | unverified | 0 | converted to a Copilot feature whose behaviour no primary source confirms |

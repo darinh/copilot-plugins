@@ -358,7 +358,7 @@
       "name": "setup-pstack",
       "source": "skills/setup-pstack/SKILL.md",
       "output": "skills/setup-pstack/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/show-me-your-work/SKILL.md",
@@ -491,6 +491,13 @@
       "note": "dropped: skill:skills/figure-it-out/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
+      "artifactId": "skill:skills/architect/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "3 occurrences"
+    },
+    {
       "artifactId": "skill:skills/arena/SKILL.md",
       "feature": "layout",
       "fidelity": "exact",
@@ -510,6 +517,13 @@
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
       "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+    },
+    {
+      "artifactId": "skill:skills/arena/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "7 occurrences"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -689,6 +703,13 @@
     {
       "artifactId": "skill:skills/how/SKILL.md",
       "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "3 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/how/SKILL.md",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "3 occurrences"
@@ -727,6 +748,13 @@
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
       "note": "dropped: skill:skills/architect/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+    },
+    {
+      "artifactId": "skill:skills/interrogate/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "3 occurrences"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
@@ -902,6 +930,13 @@
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
       "note": "2 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/poteto-mode/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "9 occurrences"
     },
     {
       "artifactId": "skill:skills/poteto-mode/SKILL.md",
@@ -1452,6 +1487,13 @@
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
       "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "4 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/reflect/SKILL.md",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "6 occurrences"
@@ -1497,6 +1539,13 @@
       "fidelity": "exact",
       "ruleId": "rewrite-askquestion",
       "note": "2 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/setup-pstack/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "29 occurrences"
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
@@ -1553,6 +1602,13 @@
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
       "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+    },
+    {
+      "artifactId": "skill:skills/swarm/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "1 occurrence"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1739,6 +1795,13 @@
     {
       "artifactId": "skill:skills/why/SKILL.md",
       "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-cursor-model-slug",
+      "note": "2 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/why/SKILL.md",
+      "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-general-purpose",
       "note": "2 occurrences"
@@ -1772,27 +1835,6 @@
       "line": 33,
       "kind": "foreign-token",
       "detail": "matches /\\.mdc\\b/, use a Copilot .instructions.md file"
-    },
-    {
-      "artifact": "skill:skills/architect/SKILL.md",
-      "path": "skills/architect/SKILL.md",
-      "line": 33,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/arena/SKILL.md",
-      "path": "skills/arena/SKILL.md",
-      "line": 28,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/arena/SKILL.md",
-      "path": "skills/arena/SKILL.md",
-      "line": 41,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/automate-me/SKILL.md",
@@ -1832,23 +1874,9 @@
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 27,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/how/SKILL.md",
-      "path": "skills/how/SKILL.md",
       "line": 28,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
-    },
-    {
-      "artifact": "skill:skills/how/SKILL.md",
-      "path": "skills/how/SKILL.md",
-      "line": 37,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/how/SKILL.md",
@@ -1860,37 +1888,9 @@
     {
       "artifact": "skill:skills/how/SKILL.md",
       "path": "skills/how/SKILL.md",
-      "line": 47,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/how/SKILL.md",
-      "path": "skills/how/SKILL.md",
       "line": 48,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
-    },
-    {
-      "artifact": "skill:skills/interrogate/SKILL.md",
-      "path": "skills/interrogate/SKILL.md",
-      "line": 40,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/interrogate/SKILL.md",
-      "path": "skills/interrogate/SKILL.md",
-      "line": 41,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/interrogate/SKILL.md",
-      "path": "skills/interrogate/SKILL.md",
-      "line": 42,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
@@ -1919,13 +1919,6 @@
       "line": 31,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/SKILL.md",
-      "line": 89,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2020,13 +2013,6 @@
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/bug-fix.md",
-      "line": 9,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/eval.md",
       "line": 22,
       "kind": "foreign-token",
@@ -2038,27 +2024,6 @@
       "line": 22,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/feature.md",
-      "line": 12,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/hillclimb.md",
-      "line": 12,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "line": 13,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2101,20 +2066,6 @@
       "line": 101,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - After a Cursor restart: local agents are dead, cloud work is not. Re-read the standing orders and `units.tsv`, recompute the frontier, reattach cloud work by PR and branch rather than agent id, respawn one sub-coordinator per track from its stored brief plus current state, drain, resume. The dead session's store lock clears itself on the next write. `orch` replaces a lock whose holder pid is gone."
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/perf-issue.md",
-      "line": 16,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/poteto-mode/SKILL.md",
-      "path": "skills/poteto-mode/playbooks/refactoring.md",
-      "line": 11,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2196,34 +2147,6 @@
     {
       "artifact": "skill:skills/reflect/SKILL.md",
       "path": "skills/reflect/SKILL.md",
-      "line": 37,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/reflect/SKILL.md",
-      "path": "skills/reflect/SKILL.md",
-      "line": 38,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/reflect/SKILL.md",
-      "path": "skills/reflect/SKILL.md",
-      "line": 39,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/reflect/SKILL.md",
-      "path": "skills/reflect/SKILL.md",
-      "line": 45,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/reflect/SKILL.md",
-      "path": "skills/reflect/SKILL.md",
       "line": 60,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Substantive existing-skill edit (a new section, a new pattern table, more than ~10 lines): hand to Cursor's built-in `create-skill` skill and run its draft / test / iterate loop."
@@ -2261,7 +2184,7 @@
       "path": "skills/setup-pstack/SKILL.md",
       "line": 30,
       "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
+      "detail": "matches /\\b(?:set the effort token of every real slug|effort token is the last token)\\b/, use model slug grammar: set each entry's separate effort instead of editing its model name"
     },
     {
       "artifact": "skill:skills/setup-pstack/SKILL.md",
@@ -2290,13 +2213,6 @@
       "line": 57,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
-    },
-    {
-      "artifact": "skill:skills/swarm/SKILL.md",
-      "path": "skills/swarm/SKILL.md",
-      "line": 25,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/swarm/SKILL.md",
@@ -2343,23 +2259,9 @@
     {
       "artifact": "skill:skills/why/SKILL.md",
       "path": "skills/why/SKILL.md",
-      "line": 84,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
-    },
-    {
-      "artifact": "skill:skills/why/SKILL.md",
-      "path": "skills/why/SKILL.md",
       "line": 85,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
-    },
-    {
-      "artifact": "skill:skills/why/SKILL.md",
-      "path": "skills/why/SKILL.md",
-      "line": 128,
-      "kind": "foreign-token",
-      "detail": "matches /`(?:gpt|claude|grok|gemini|composer)-[\\w.-]*-(?:max|xhigh|high|medium|low)(?:-fast)?`/, use the same model with reasoning_effort as its own task field (`gpt-5.6-sol-max` becomes `model: \"gpt-5.6-sol\"` with `reasoning_effort: \"max\"`)"
     },
     {
       "artifact": "skill:skills/why/SKILL.md",
@@ -2555,7 +2457,7 @@
     },
     {
       "path": "README.md",
-      "blob": "bba72a249e250a3d4140ae24da55626343ba503a",
+      "blob": "7016c60b829a16dc6a006086235f356c7b499299",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2587,14 +2489,15 @@
     },
     {
       "path": "skills/architect/SKILL.md",
-      "blob": "7ee675169ea205694a926401bd3588b3a1bd95d7",
+      "blob": "0e9c8aeba8a1f6e0ffdca3759254448d6b0a6b5d",
       "executable": false,
       "source": "skills/architect/SKILL.md",
       "sourceBlob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
-        "name-from-folder"
+        "name-from-folder",
+        "rewrite-cursor-model-slug"
       ]
     },
     {
@@ -2623,7 +2526,7 @@
     },
     {
       "path": "skills/arena/SKILL.md",
-      "blob": "d51d832976fea9ae7a0fc6bc52ea1aad3099ec87",
+      "blob": "15b53f41004ca208350a8cf56d1230e416c36a1a",
       "executable": false,
       "source": "skills/arena/SKILL.md",
       "sourceBlob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059",
@@ -2631,6 +2534,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-cursor-paths",
         "rewrite-run-in-background",
         "rewrite-task-tool"
@@ -2727,7 +2631,7 @@
     },
     {
       "path": "skills/how/SKILL.md",
-      "blob": "6bc77e4c901c6ffc8f31b632b9565de8fa975c6e",
+      "blob": "0199626059973edcfd90a4012b44918da7e7e20b",
       "executable": false,
       "source": "skills/how/SKILL.md",
       "sourceBlob": "cd22fff659f14822ad2f485f711a355b6da0668d",
@@ -2735,6 +2639,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-general-purpose",
         "rewrite-subagent-type",
         "rewrite-task-tool"
@@ -2758,7 +2663,7 @@
     },
     {
       "path": "skills/interrogate/SKILL.md",
-      "blob": "f69d56390f0077135bd8bd3ac720f5c85c9af48c",
+      "blob": "e3be03f4c8c16eb63b04eda31c7118558db473f1",
       "executable": false,
       "source": "skills/interrogate/SKILL.md",
       "sourceBlob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846",
@@ -2766,6 +2671,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-cursor-paths",
         "rewrite-general-purpose",
         "rewrite-subagent-type",
@@ -2846,7 +2752,7 @@
     },
     {
       "path": "skills/poteto-mode/SKILL.md",
-      "blob": "1fefcde1b3cc2dab030d10788d7e393a7240d19f",
+      "blob": "d0ae1e1a7bceda06075e4a6cbf66490495d7408a",
       "executable": false,
       "source": "skills/poteto-mode/SKILL.md",
       "sourceBlob": "f8ddcae379007d61aefcae39b18bd836a488ee21",
@@ -2858,6 +2764,7 @@
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-askquestion",
+        "rewrite-cursor-model-slug",
         "rewrite-run-in-background",
         "rewrite-subagent-type",
         "rewrite-task-tool"
@@ -2907,11 +2814,13 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/bug-fix.md",
-      "blob": "eeebc42b7477d435d8ac61d631d84822f908f59c",
+      "blob": "34afe7ab60f74f28c740970d291dd539e6086b68",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/bug-fix.md",
       "sourceBlob": "eeebc42b7477d435d8ac61d631d84822f908f59c",
-      "rules": []
+      "rules": [
+        "rewrite-cursor-model-slug"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/eval.md",
@@ -2923,19 +2832,23 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/feature.md",
-      "blob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6",
+      "blob": "d86752a0785674f5ec7fc158eb851e3e7991bfc7",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/feature.md",
       "sourceBlob": "79a6bbbe0ce61c3b5ef9af1ee8e3ccdb0557edc6",
-      "rules": []
+      "rules": [
+        "rewrite-cursor-model-slug"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/hillclimb.md",
-      "blob": "582555e826675068ceaea08e6134a44ba0ea4511",
+      "blob": "a594c8328acfad044444b89a784e2c448bd17629",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/hillclimb.md",
       "sourceBlob": "582555e826675068ceaea08e6134a44ba0ea4511",
-      "rules": []
+      "rules": [
+        "rewrite-cursor-model-slug"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/investigation.md",
@@ -2947,11 +2860,12 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "blob": "8c3c97d68eb4f9f75e75ca53ecf8cd8b87467135",
+      "blob": "67669b9d06cb96b4d82f003b4be878e0ea171a47",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/multi-phase-plan.md",
       "sourceBlob": "fe006110f6005dcdb746d891e7901a1734a75538",
       "rules": [
+        "rewrite-cursor-model-slug",
         "rewrite-subagent-type"
       ]
     },
@@ -2985,11 +2899,13 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/perf-issue.md",
-      "blob": "688d483d4d4a6c58efa515558c822e11f621540f",
+      "blob": "bb759259ec75cd4a4c52ba811bf973dc560631eb",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/perf-issue.md",
       "sourceBlob": "688d483d4d4a6c58efa515558c822e11f621540f",
-      "rules": []
+      "rules": [
+        "rewrite-cursor-model-slug"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/prototype.md",
@@ -3001,11 +2917,13 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/refactoring.md",
-      "blob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665",
+      "blob": "fdc8c501f71fb172a8640e4fc8bfa51dfa40d043",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/refactoring.md",
       "sourceBlob": "df2a863b531906c64f92b9f9d8feb62f8c7a8665",
-      "rules": []
+      "rules": [
+        "rewrite-cursor-model-slug"
+      ]
     },
     {
       "path": "skills/poteto-mode/playbooks/runtime-forensics.md",
@@ -3513,7 +3431,7 @@
     },
     {
       "path": "skills/reflect/SKILL.md",
-      "blob": "8442117dc7f46b0b011276f2938bb3d11e6ae1c5",
+      "blob": "0401bce20a1454103d9380f7bb0ea23584e777e7",
       "executable": false,
       "source": "skills/reflect/SKILL.md",
       "sourceBlob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
@@ -3521,6 +3439,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-general-purpose",
         "rewrite-subagent-type",
         "rewrite-task-tool"
@@ -3569,7 +3488,7 @@
     },
     {
       "path": "skills/setup-pstack/SKILL.md",
-      "blob": "aac4975244697d95eed9eef9addd91dcf6a178a1",
+      "blob": "b26141be8a923f421e1407f45f51ef9931edefe1",
       "executable": false,
       "source": "skills/setup-pstack/SKILL.md",
       "sourceBlob": "1009e73c6116c8f6c24b5870c8f0600ae144b631",
@@ -3577,6 +3496,7 @@
         "layout-skill-folder",
         "name-from-folder",
         "rewrite-askquestion",
+        "rewrite-cursor-model-slug",
         "rewrite-cursor-paths",
         "rewrite-task-tool"
       ]
@@ -3611,7 +3531,7 @@
     },
     {
       "path": "skills/swarm/SKILL.md",
-      "blob": "94927d188df678523420e84e93f818d95744d390",
+      "blob": "48469fcd79f80e294f8b0e775f5f1968fea14912",
       "executable": false,
       "source": "skills/swarm/SKILL.md",
       "sourceBlob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f",
@@ -3619,6 +3539,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-cursor-paths",
         "rewrite-general-purpose",
         "rewrite-run-in-background",
@@ -3700,7 +3621,7 @@
     },
     {
       "path": "skills/why/SKILL.md",
-      "blob": "f4293ff4eef2a7e82d27768dd89c7de48f8430f8",
+      "blob": "d51a097e3312b9a09324e296e4f97a054a45e475",
       "executable": false,
       "source": "skills/why/SKILL.md",
       "sourceBlob": "daac2c734a8f8fe43d30663054d694066f2b41ec",
@@ -3708,6 +3629,7 @@
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder",
+        "rewrite-cursor-model-slug",
         "rewrite-general-purpose",
         "rewrite-subagent-type",
         "rewrite-task-tool"
