@@ -5,7 +5,7 @@
     "harness": "cursor",
     "origin": "https://github.com/cursor/plugins",
     "ref": "main",
-    "commit": "adf3218ca2f5b9971eedc07a76bef22df7701539",
+    "commit": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
     "subpath": "pstack",
     "license": "MIT",
     "metadata": {
@@ -2457,7 +2457,7 @@
     },
     {
       "path": "README.md",
-      "blob": "7016c60b829a16dc6a006086235f356c7b499299",
+      "blob": "2eac4fffe38693189346d64b2ad45b27a31afecf",
       "executable": false,
       "source": null,
       "sourceBlob": null,
