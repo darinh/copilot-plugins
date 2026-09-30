@@ -8,7 +8,7 @@ description: Use for "how does X work", code walkthroughs before changing someth
 
 Explore the codebase to answer "how does X work?" questions. Produce architectural explanations at the level of a senior engineer onboarding onto a subsystem, enough to build a working mental model, not so much that it reads like annotated source code.
 
-Each spawn below names a role line in the `pstack-models.instructions.md` instructions file and a default. Set `model` to that line's value, or to the default if the file or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the task tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.
+Each spawn below names a role line in `~/.copilot/instructions/pstack-models.instructions.md` and a default. Split `<model> (<effort>)` into `model` and `reasoning_effort`, or use the default if the file or line is missing. Omit both for `auto` or `inherit-parent`. If the task tool rejects a model, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.
 
 ## Step 1. Assess Complexity
 

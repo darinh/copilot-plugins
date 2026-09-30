@@ -30,19 +30,19 @@ For each candidate, read the first JSONL line and check that `message.content[0]
 
 One message, three `task` calls, `agent_type: general-purpose`, with `model` set as below, agent mode (`readonly: false`). Reviewers need MCP access for context lookups (tickets, chat threads, observability traces referenced in the transcript). Readonly strips MCPs.
 
-Each reviewer and the synthesizer name a role line in the `pstack-models.mdc` rule and a default. Set `model` to that line's value, or to the default if the rule or the line is missing. Leave `model` unset when the value is `auto` or `inherit-parent`. If the task tool rejects a slug, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.
+Each reviewer and the synthesizer name a role line in `~/.copilot/instructions/pstack-models.instructions.md` and a default. Split `<model> (<effort>)` into `model` and `reasoning_effort`, or use the default if the file or line is missing. Omit both for `auto` or `inherit-parent`. If the task tool rejects a model, use the default and say so. If it rejects the default, use the closest valid slug of the same family from its error message.
 
 | Lens | Role line | Default `model` | Prompt template |
 |---|---|---|---|
-| Judgment | `reflect judgment, divergent, synthesizer` | `claude-opus-5.5` (`max`) | `references/judgment-reviewer.md` |
-| Tooling | `reflect tooling` | `gpt-5.6-sol` (`max`) | `references/tooling-reviewer.md` |
-| Divergent | `reflect judgment, divergent, synthesizer` | `claude-opus-5.5` (`max`) | `references/divergent-reviewer.md` |
+| Judgment | `reflect judgment, divergent, synthesizer` | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` | `references/judgment-reviewer.md` |
+| Tooling | `reflect tooling` | `model: "gpt-5.6-sol"`, `reasoning_effort: "max"` | `references/tooling-reviewer.md` |
+| Divergent | `reflect judgment, divergent, synthesizer` | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` | `references/divergent-reviewer.md` |
 
 Pass each template verbatim, substituting the transcript path or digest where marked. Reviewers return findings in the `task` response body.
 
 ### 3. Synthesize
 
-One `task` call, `agent_type: general-purpose`, with `model` from the `reflect judgment, divergent, synthesizer` line (default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`), agent mode (`readonly: false`). The synthesizer's quality check includes spot-verifying citations, which can require MCP access. Readonly strips MCPs. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.
+One `task` call, `agent_type: general-purpose`, with the `reflect judgment, divergent, synthesizer` `<model> (<effort>)` entry split into `model` and `reasoning_effort` (default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`), agent mode (`readonly: false`). The synthesizer's quality check includes spot-verifying citations, which can require MCP access. Readonly strips MCPs. Use `references/synthesizer.md` verbatim, with each reviewer's full output inlined where marked. The synthesizer returns a structured Accepted / Rejected / Backlog list.
 
 ### 4. Structural enforcement check
 

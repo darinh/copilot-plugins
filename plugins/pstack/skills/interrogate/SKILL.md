@@ -33,17 +33,17 @@ Write one clear paragraph. If you're unsure about the intent, ask the user befor
 
 ## Step 3, Spawn Reviewers
 
-Launch all reviewers in a single message using the task tool. Use the `interrogate reviewers` line in `~/.copilot/instructions/pstack-models.instructions.md`, one reviewer per entry, extending or shrinking the Reviewer A/B/C labels below to the configured entry count. If the rule or that line is missing, use the table defaults.
+Launch all reviewers in a single message using the task tool. Use the `interrogate reviewers` line in `~/.copilot/instructions/pstack-models.instructions.md`, splitting each `<model> (<effort>)` entry into `model` and `reasoning_effort`. Run one reviewer per entry, extending or shrinking the Reviewer A/B/C labels below to the configured entry count. If the rule or that line is missing, use the table defaults.
 
 | Subagent | Default model |
 |----------|---------------|
-| Reviewer A | `claude-opus-5.5` (`max`) |
-| Reviewer B | `gpt-5.6-sol` (`max`) |
-| Reviewer C | `grok-4.7` (`xhigh`) |
+| Reviewer A | `model: "claude-opus-5.5"`, `reasoning_effort: "max"` |
+| Reviewer B | `model: "gpt-5.6-sol"`, `reasoning_effort: "max"` |
+| Reviewer C | `model: "grok-4.7"`, `reasoning_effort: "xhigh"` |
 
 For each reviewer:
 - `agent_type`: `general-purpose`
-- `model`: the configured `interrogate reviewers` entry, or the table default with no configured line. For an `auto` or `inherit-parent` entry, omit `model` so that reviewer runs on the parent model.
+- `model` and `reasoning_effort`: split the configured `interrogate reviewers` `<model> (<effort>)` entry, or use the table default with no configured line. For an `auto` or `inherit-parent` entry, omit both so that reviewer runs on the parent model.
 - `readonly`: `true`
 
 If the task tool rejects a configured entry, run that reviewer on the table default of its family and say so. Families go by prefix: `claude-*`, `gpt-*`, and `grok-*`. With no family match, use Reviewer A's default. If it rejects a table default, check the valid slugs in the task tool's error message, pick the closest equivalent (prefer the highest-reasoning tier of the same family), spawn with it, and open a separate PR to update the default table. Do not block the review on the slug issue. Never treat an alias entry as a rejected slug or apply either fallback to it.

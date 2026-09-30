@@ -6,7 +6,7 @@ description: Configure which models pstack uses per role and at what reasoning b
 
 # Setup pstack
 
-Write `~/.copilot/instructions/pstack-models.instructions.md`, an always-applied rule that sets pstack's model per role.
+Write `~/.copilot/instructions/pstack-models.instructions.md` with `<model> (<effort>)` entries for separate task `model` and `reasoning_effort` fields.
 
 ## Steps
 
@@ -16,7 +16,7 @@ Enumerate the model slugs you can pass to a `task` subagent in this session. Tha
 
 ### 2. Load current state
 
-The default role-to-model mapping is the rule shape shown in step 5 below. If `~/.copilot/instructions/pstack-models.instructions.md` already exists, read it and treat its `# budget` line and its role values as the current choices. Otherwise start from those defaults. A line whose role is not in step 5, such as `how critics`, is from a retired role. Drop it.
+The default role-to-model mapping is the rule shape shown in step 5 below. If `~/.copilot/instructions/pstack-models.instructions.md` already exists, read its `# budget` and split each `<model> (<effort>)` role value into `model` and `reasoning_effort` choices. Otherwise start from those defaults. A line whose role is not in step 5, such as `how critics`, is from a retired role. Drop it.
 
 ### 3. Budget, map, and confirm
 
@@ -37,7 +37,7 @@ Every real slug written must be in the detected set. `inherit-parent` and `auto`
 
 ### 5. Write the rule
 
-Write `~/.copilot/instructions/pstack-models.instructions.md` with `alwaysApply: true`, a `# budget` line with the chosen label and its target effort, and one line per role, using the same labels poteto-mode uses. Overwrite the whole file so re-runs stay idempotent. Shape:
+Write `~/.copilot/instructions/pstack-models.instructions.md` with `alwaysApply: true` and a `# budget` line with the chosen label and target effort. Use poteto-mode's role labels and `<model> (<effort>)` entries that supply separate `model` and `reasoning_effort` task fields. Overwrite the file so re-runs keep the same output. Shape:
 
 ```
 ---
@@ -45,7 +45,8 @@ description: pstack per-role model choices (overrides skill defaults)
 alwaysApply: true
 ---
 # pstack model configuration. One line per role. Delete a line to fall back to the skill default.
-# `inherit-parent` or `auto` as a value: the role runs on the parent chat model (omit Task `model`). Alias entries in a panel list still count toward its fan-out.
+# Each value is <model> (<reasoning effort>): pass the model as the task tool's model and the value in parentheses as reasoning_effort. inherit-parent or auto: omit both.
+# `inherit-parent` or `auto` uses the parent chat model. Omit both `model` and `reasoning_effort`. Alias entries in a panel list still count toward its fan-out.
 # budget: unlimited (max)
 feature, refactoring: grok-4.7 (xhigh)
 bug-fix: grok-4.7 (xhigh)
