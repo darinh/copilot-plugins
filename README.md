@@ -60,22 +60,31 @@ session instead, set `"autoUpdate": true` on the `darinh` entry under `extraKnow
 ## How the plugins are made
 
 Nothing in `plugins/` is edited by hand. `convert-skills`, a command-line tool by the owner of this
-repository, generates it:
+repository, generates it, and this repository is also its workspace:
 
-- `convert-skills` reads an upstream repository and converts each skill and agent into the form
-  Copilot CLI expects. Frontmatter, tool names, agent references and file layout all change.
-- `convert-skills sync` pulls later upstream changes and merges them into the converted copy.
-- `convert-skills publish` writes the plugin into `plugins/<plugin>/` and its entry into the
-  catalog. It copies that upstream's own license files into the plugin, and leaves every other
-  plugin alone.
+- `sources/<plugin>.json` names each plugin's upstream repository.
+- `packages/<plugin>/` is the converted copy. `convert-skills` reads the upstream repository and
+  converts each skill and agent into the form Copilot CLI expects. Hand edits made here survive
+  later updates, because each update is a three-way merge.
+- `plugins/<plugin>/` is what Copilot CLI installs. It is published from `packages/<plugin>/`, with
+  that upstream's own license files, and each plugin's entry is in `.github/plugin/marketplace.json`.
+- The merge bases the three-way merge needs are pushed as `refs/convert-skills-bases/*`.
 
-To publish a new version of a plugin, on the computer that holds the `convert-skills` workspace:
+Every change arrives as a pull request. On a computer with `convert-skills` and a clone of this
+repository:
 
 ```shell
-convert-skills sync <plugin>
-convert-skills publish <plugin> --out <path to this repository>
-git -C <path to this repository> commit -m "feat: publish <plugin> <version>"
-git -C <path to this repository> push
+convert-skills attach <path to this clone>
+convert-skills onboard <upstream repository URL> --subpath <folder>
+convert-skills pull <plugin>
+convert-skills pull --all
 ```
 
-`publish` stages what it writes, so git records the executable bit on each plugin's scripts.
+`onboard` adds a new plugin. `pull` brings one plugin or all of them up to date with upstream. Each
+works on its own branch in a temporary worktree, publishes the plugin, pushes the branch, and opens a
+pull request here. If an upstream change collides with a hand edit, `pull` stops, keeps the
+worktree, and prints the file to resolve and the command that finishes the update. `onboard` and
+`pull` refuse a plugin whose upstream has no license file.
+
+After a pull request merges, `copilot plugin update <plugin>@darinh` installs the new version, as
+does `convert-skills update`.
