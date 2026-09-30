@@ -24,7 +24,7 @@ When in doubt, take the simple path.
 Decompose the question into 2 to 4 exploration angles, each a distinct slice of the subsystem. Spawn all explorers in a single message:
 
 - `agent_type`: `general-purpose`
-- `model`: the `how explorer` line, default `model: "grok-4.7"` with `reasoning_effort: "xhigh"`
+- `model` and `reasoning_effort`: split the `how explorer` `<model> (<effort>)` entry. Default to `model: "grok-4.7"` with `reasoning_effort: "xhigh"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `true`
 
 Each explorer gets the prompt in `references/explorer-prompt.md` with its angle filled in. Then go to Step 3.
@@ -34,7 +34,7 @@ Each explorer gets the prompt in `references/explorer-prompt.md` with its angle 
 Spawn one task subagent that explores and explains in one pass:
 
 - `agent_type`: `general-purpose`
-- `model`: the `how explainer` line, default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`
+- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "max"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` without the explorer-findings section. Go to Step 4.
@@ -44,7 +44,7 @@ Build its prompt from `references/explainer-prompt.md` without the explorer-find
 Once all explorers have returned, spawn one task subagent to synthesize their findings into one explanation:
 
 - `agent_type`: `general-purpose`
-- `model`: the `how explainer` line, default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`
+- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "max"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in.
