@@ -34,7 +34,7 @@ Each explorer gets the prompt in `references/explorer-prompt.md` with its angle 
 Spawn one task subagent that explores and explains in one pass:
 
 - `agent_type`: `general-purpose`
-- `model`: the `how explainer` line, default `claude-opus-5-5-max`
+- `model`: the `how explainer` line, default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` without the explorer-findings section. Go to Step 4.
@@ -44,7 +44,7 @@ Build its prompt from `references/explainer-prompt.md` without the explorer-find
 Once all explorers have returned, spawn one task subagent to synthesize their findings into one explanation:
 
 - `agent_type`: `general-purpose`
-- `model`: the `how explainer` line, default `claude-opus-5-5-max`
+- `model`: the `how explainer` line, default `model: "claude-opus-5.5"` with `reasoning_effort: "max"`
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in.
