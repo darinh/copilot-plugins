@@ -1,16 +1,16 @@
 # pstack
 
-GitHub Copilot CLI artifacts converted from [cursor/plugins](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539/pstack) (a Cursor plugin) at commit `adf3218ca2f5`, by convert-skills 0.1.0.
+GitHub Copilot CLI artifacts converted from [cursor/plugins](https://github.com/cursor/plugins/tree/fae2c6ed95821bd85f614a73e4842e13229fa5e5/pstack) (a Cursor plugin) at commit `fae2c6ed9582`, by convert-skills 0.1.0.
 Converted: 2 agents, 47 skills.
 
 ## Source
 
 | | |
 | --- | --- |
-| Repository | [https://github.com/cursor/plugins](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539) |
+| Repository | [https://github.com/cursor/plugins](https://github.com/cursor/plugins/tree/fae2c6ed95821bd85f614a73e4842e13229fa5e5) |
 | Path | `pstack` |
 | Tracking | `main` |
-| Commit | [`adf3218ca2f5`](https://github.com/cursor/plugins/tree/adf3218ca2f5b9971eedc07a76bef22df7701539) |
+| Commit | [`fae2c6ed9582`](https://github.com/cursor/plugins/tree/fae2c6ed95821bd85f614a73e4842e13229fa5e5) |
 | Read as | Cursor plugin (reader `cursor-plugin`) |
 | License | MIT, see [LICENSE](LICENSE) |
 
