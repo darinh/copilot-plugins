@@ -34,7 +34,7 @@ Each explorer gets the prompt in `references/explorer-prompt.md` with its angle 
 Spawn one task subagent that explores and explains in one pass:
 
 - `agent_type`: `general-purpose`
-- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "max"`. Omit both for `auto` or `inherit-parent`.
+- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "xhigh"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` without the explorer-findings section. Go to Step 4.
@@ -44,7 +44,7 @@ Build its prompt from `references/explainer-prompt.md` without the explorer-find
 Once all explorers have returned, spawn one task subagent to synthesize their findings into one explanation:
 
 - `agent_type`: `general-purpose`
-- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "max"`. Omit both for `auto` or `inherit-parent`.
+- `model` and `reasoning_effort`: split the `how explainer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "xhigh"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `true`
 
 Build its prompt from `references/explainer-prompt.md` with every explorer's findings filled in.

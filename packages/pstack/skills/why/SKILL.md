@@ -125,7 +125,7 @@ If your scope assessment suggests a single-commit trivial target where the PR de
 Spawn one synthesizer subagent:
 
 - `agent_type`: `general-purpose`
-- `model` and `reasoning_effort`: split the `why synthesizer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "max"`. Omit both for `auto` or `inherit-parent`.
+- `model` and `reasoning_effort`: split the `why synthesizer` `<model> (<effort>)` entry. Default to `model: "claude-opus-5.5"` with `reasoning_effort: "xhigh"`. Omit both for `auto` or `inherit-parent`.
 - `readonly`: `false` (agent mode). The synthesizer's quality check spot-verifies citations, which can require MCP access. Readonly/Ask mode strips MCPs and defeats that.
 
 The synthesizer gets:

@@ -5,11 +5,11 @@
     "harness": "cursor",
     "origin": "https://github.com/cursor/plugins",
     "ref": "main",
-    "commit": "adf3218ca2f5b9971eedc07a76bef22df7701539",
+    "commit": "d0ef80d86795816da932a153458c5dbe192d294e",
     "subpath": "pstack",
     "license": "MIT",
     "metadata": {
-      "version": "0.15.5",
+      "version": "0.15.15",
       "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
       "author": {
         "name": "Lauren Tan"
@@ -73,12 +73,20 @@
       "fidelity": "approximated"
     },
     {
+      "id": "skill:skills/benchmark-checklist/SKILL.md",
+      "kind": "skill",
+      "name": "benchmark-checklist",
+      "source": "skills/benchmark-checklist/SKILL.md",
+      "output": "skills/benchmark-checklist/SKILL.md",
+      "fidelity": "approximated"
+    },
+    {
       "id": "skill:skills/blast-radius/SKILL.md",
       "kind": "skill",
       "name": "blast-radius",
       "source": "skills/blast-radius/SKILL.md",
       "output": "skills/blast-radius/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/bro/SKILL.md",
@@ -86,7 +94,15 @@
       "name": "bro",
       "source": "skills/bro/SKILL.md",
       "output": "skills/bro/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
+    },
+    {
+      "id": "skill:skills/correct/SKILL.md",
+      "kind": "skill",
+      "name": "correct",
+      "source": "skills/correct/SKILL.md",
+      "output": "skills/correct/SKILL.md",
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/create-verification-skill/SKILL.md",
@@ -145,6 +161,14 @@
       "fidelity": "approximated"
     },
     {
+      "id": "skill:skills/poteto-help/SKILL.md",
+      "kind": "skill",
+      "name": "poteto-help",
+      "source": "skills/poteto-help/SKILL.md",
+      "output": "skills/poteto-help/SKILL.md",
+      "fidelity": "approximated"
+    },
+    {
       "id": "skill:skills/poteto-mode/SKILL.md",
       "kind": "skill",
       "name": "poteto-mode",
@@ -198,6 +222,14 @@
       "name": "principle-experience-first",
       "source": "skills/principle-experience-first/SKILL.md",
       "output": "skills/principle-experience-first/SKILL.md",
+      "fidelity": "approximated"
+    },
+    {
+      "id": "skill:skills/principle-explain-the-number/SKILL.md",
+      "kind": "skill",
+      "name": "principle-explain-the-number",
+      "source": "skills/principle-explain-the-number/SKILL.md",
+      "output": "skills/principle-explain-the-number/SKILL.md",
       "fidelity": "approximated"
     },
     {
@@ -342,7 +374,7 @@
       "name": "recall",
       "source": "skills/recall/SKILL.md",
       "output": "skills/recall/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/reflect/SKILL.md",
@@ -390,7 +422,7 @@
       "name": "teach",
       "source": "skills/teach/SKILL.md",
       "output": "skills/teach/SKILL.md",
-      "fidelity": "exact"
+      "fidelity": "approximated"
     },
     {
       "id": "skill:skills/technical-writing/SKILL.md",
@@ -495,7 +527,7 @@
       "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-cursor-model-slug",
-      "note": "3 occurrences"
+      "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -523,7 +555,7 @@
       "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-cursor-model-slug",
-      "note": "7 occurrences"
+      "note": "5 occurrences"
     },
     {
       "artifactId": "skill:skills/arena/SKILL.md",
@@ -565,7 +597,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/recall/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/automate-me/SKILL.md",
@@ -580,6 +612,27 @@
       "fidelity": "exact",
       "ruleId": "rewrite-cursor-paths",
       "note": "6 occurrences"
+    },
+    {
+      "artifactId": "skill:skills/benchmark-checklist/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/benchmark-checklist/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/benchmark-checklist/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/benchmark-checklist/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/blast-radius/SKILL.md",
@@ -598,9 +651,9 @@
     {
       "artifactId": "skill:skills/blast-radius/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/bro/SKILL.md",
@@ -619,9 +672,30 @@
     {
       "artifactId": "skill:skills/bro/SKILL.md",
       "feature": "model invocation",
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+    },
+    {
+      "artifactId": "skill:skills/correct/SKILL.md",
+      "feature": "layout",
       "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/correct/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/correct/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/correct/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/create-verification-skill/SKILL.md",
@@ -677,7 +751,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/how/SKILL.md",
@@ -754,7 +828,7 @@
       "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-cursor-model-slug",
-      "note": "3 occurrences"
+      "note": "2 occurrences"
     },
     {
       "artifactId": "skill:skills/interrogate/SKILL.md",
@@ -829,9 +903,9 @@
     {
       "artifactId": "skill:skills/make-bot-ui/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
@@ -852,7 +926,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/no-comments/SKILL.md",
@@ -873,6 +947,55 @@
       "feature": "text",
       "fidelity": "exact",
       "ruleId": "rewrite-task-tool",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/poteto-help/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "exact",
+      "ruleId": "keep-disable-model-invocation",
+      "note": "carried as disable-model-invocation: true"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "links",
+      "fidelity": "exact",
+      "ruleId": "carry-linked-file",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "text",
+      "fidelity": "approximated",
+      "ruleId": "rewrite-add-plugin",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-cursor-paths",
+      "note": "1 occurrence"
+    },
+    {
+      "artifactId": "skill:skills/poteto-help/SKILL.md",
+      "feature": "text",
+      "fidelity": "exact",
+      "ruleId": "rewrite-subagent-type",
       "note": "1 occurrence"
     },
     {
@@ -1080,6 +1203,27 @@
     },
     {
       "artifactId": "skill:skills/principle-experience-first/SKILL.md",
+      "feature": "model invocation",
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+    },
+    {
+      "artifactId": "skill:skills/principle-explain-the-number/SKILL.md",
+      "feature": "layout",
+      "fidelity": "exact",
+      "ruleId": "layout-skill-folder",
+      "note": "emitted at skills/principle-explain-the-number/SKILL.md"
+    },
+    {
+      "artifactId": "skill:skills/principle-explain-the-number/SKILL.md",
+      "feature": "name",
+      "fidelity": "exact",
+      "ruleId": "name-from-folder",
+      "note": "taken from the source path"
+    },
+    {
+      "artifactId": "skill:skills/principle-explain-the-number/SKILL.md",
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
@@ -1459,9 +1603,9 @@
     {
       "artifactId": "skill:skills/recall/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -1482,7 +1626,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/reflect/SKILL.md",
@@ -1545,7 +1689,7 @@
       "feature": "text",
       "fidelity": "approximated",
       "ruleId": "rewrite-cursor-model-slug",
-      "note": "29 occurrences"
+      "note": "26 occurrences"
     },
     {
       "artifactId": "skill:skills/setup-pstack/SKILL.md",
@@ -1601,7 +1745,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/swarm/SKILL.md",
@@ -1664,7 +1808,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/teach/SKILL.md",
@@ -1683,9 +1827,9 @@
     {
       "artifactId": "skill:skills/teach/SKILL.md",
       "feature": "model invocation",
-      "fidelity": "exact",
-      "ruleId": "keep-disable-model-invocation",
-      "note": "carried as disable-model-invocation: true"
+      "fidelity": "approximated",
+      "ruleId": "drop-disable-model-invocation-routed",
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/technical-writing/SKILL.md",
@@ -1706,7 +1850,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/poteto-mode/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1727,7 +1871,7 @@
       "feature": "model invocation",
       "fidelity": "approximated",
       "ruleId": "drop-disable-model-invocation-routed",
-      "note": "dropped: skill:skills/principle-type-system-discipline/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
+      "note": "dropped: skill:skills/poteto-help/SKILL.md names this skill as a route (code span, bold, /command or \"skill\"), and Copilot hides a disable-model-invocation skill from the model"
     },
     {
       "artifactId": "skill:skills/typescript-best-practices/SKILL.md",
@@ -1895,9 +2039,93 @@
     {
       "artifact": "skill:skills/interrogate/SKILL.md",
       "path": "skills/interrogate/SKILL.md",
-      "line": 47,
+      "line": 46,
       "kind": "foreign-token",
       "detail": "matches /`readonly`/, use agent_type \"explore\" for pure reads, or a prompt that forbids writes"
+    },
+    {
+      "artifact": null,
+      "path": "README.md",
+      "line": null,
+      "kind": "dropped-link",
+      "detail": "[benny automation pack](./automations/benny/) pointed at automations/benny, which is not in the converted package"
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 46,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: pstack is built for Cursor. Its skills use the Agent Skills format, so other tools can read them. But most workflow skills, including `/poteto-mode`, `/how`, `/why`, and `/teach`, spawn Cursor subagents with per-role models, and Custom Modes and `/loop` are Cursor features, so those parts may not work there."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 46,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 56,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: - Cursor's docs list Custom Modes in the Agents Window and the CLI. Elsewhere, start each new task with `/poteto-mode`."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 58,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: Link [Cursor's skills docs](https://cursor.com/docs/skills) when this comes up. Mid-chat, \"new task\" makes the mode match a fresh playbook. `/poteto-mode` already uses `poteto-agent` for the subagents its playbook steps spawn. To get the same style from a subagent of your own, spawn it with `agent_type: \"poteto-agent\"`."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 108,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: - `/loop` and `/create-skill` are Cursor built-ins."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 108,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 122,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: Without `/poteto-mode`, a phrase such as \"babysit this pr\" can start Cursor's own skill for the same job instead. The Playbooks section of [`poteto-mode`](../poteto-mode/SKILL.md) lists every playbook and when it applies. [Guide page 6](../../docs/guide/06-verify-and-ship.md) covers opening, babysitting, and landing a PR."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 124,
+      "kind": "runtime-mention",
+      "detail": "names the source runtime: pstack has no planning skill. Cursor's Plan Mode works alongside it. For work that spans phases or stacked PRs, asking `/poteto-mode` for a plan runs the [Multi-phase plan playbook](../poteto-mode/playbooks/multi-phase-plan.md), which writes the plan and doesn't implement it. For a design question, the Prototype playbook or `/architect` settles it in code first."
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/SKILL.md",
+      "line": 138,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/references/prompting.md",
+      "line": 41,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
+    },
+    {
+      "artifact": "skill:skills/poteto-help/SKILL.md",
+      "path": "skills/poteto-help/references/recipes.md",
+      "line": 42,
+      "kind": "foreign-token",
+      "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1909,28 +2137,28 @@
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 27,
+      "line": 28,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - Any PR-status request → the **Babysit** playbook (`playbooks/babysit.md`), and not Cursor's built-in babysit skill, whose description matches the same words. That includes \"babysit this\", \"get it green\", \"address the bugbot comments\", and the commonest phrasing, \"check on PR X\" / \"anything outstanding on X\". Never triggered by merely opening a PR. Declare its mode before polling. The playbook's step 1 owns the request-to-mode mapping. Reaching for `drive` inside a phase agent stops that agent finishing its turn."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 31,
+      "line": 32,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 131,
+      "line": 135,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/SKILL.md",
-      "line": 136,
+      "line": 140,
       "kind": "runtime-mention",
       "detail": "names the source runtime: - **Pause safely.** Suspending in-flight work cleanly so it can be resumed, on an explicit pause, going offline, a Cursor restart, or imminent context compaction. The complement to Session pickup. Full steps: `playbooks/pause-safely.md`."
     },
@@ -1960,7 +2188,7 @@
       "path": "skills/poteto-mode/playbooks/autopilot-full.md",
       "line": 6,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it."
+      "detail": "names the source runtime: 2. **Spawn one owner per PR with the full lifecycle and an early trail.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns build, the first push, a ready PR, self-proof on the real artifact (the **prove-it-works** principle skill), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), a rebase onto current trunk, the babysit loop to green (`playbooks/babysit.md`), and the merge itself. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. After that, the owner pushes its branch again after every verifiable unit (hooks on, a WIP commit is fine). Open the PR before self-proof so the URL, decisions, and checks form a durable trail. Keep `decisions.tsv` uncommitted and return it with the reports. As soon as a subagent starts, the owner adds its ID, expected runtime (at least the longest past run of that kind), and state to a `children.tsv` kept the same way. The owner does the first rebase before the code-ready report and babysit, whether or not trunk has drifted. In fix rounds, the owner keeps that merge base. The owner rebases again only at merge prep (step 5), on a `git merge-tree` conflict with trunk, or on a CI failure that comes from a change on trunk. When the shipped code is final, after the slop-strip and `/no-comments`, it reports the code-ready head SHA. It also reports the SHA of each later push that changes the patch. Self-proof, CI, and babysit then run in parallel with the swarm. The owner reports merge-ready with the head SHA when self-proof, CI, and babysit finish. Before a push that starts a round, run the pre-review checks that the repo's AGENTS.md files and rules name for the touched paths. Run them on the committed head. A hook pass is not proof. To publish each rebase, push the owner's own branch with `git push --force-with-lease` after an `ls-remote` check. Never force-push a shared branch. The merge is the one step an owner may not take alone. Step 4 gates it."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -1974,7 +2202,7 @@
       "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
       "line": 5,
       "kind": "runtime-mention",
-      "detail": "names the source runtime: 1. **Run the owner loop unchanged.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns its change end to end: build, first push, a ready PR opened before self-proof, self-proof (gates, CI, receipts), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. Keep the trail uncommitted and return it in the report. Owners also keep the `children.tsv` of Autopilot-full step 2."
+      "detail": "names the source runtime: 1. **Run the owner loop unchanged.** Resolve the forge once for the program. GitHub CLI (`gh`) is the default. If `command -v origin` succeeds and Origin can resolve the repository, use `origin pr ...` for PR create, edit, view, watch, and merge operations. Otherwise stay on `gh` and record the fallback. Never require Graphite (`gt`). One Cursor cloud agent per PR owns its change end to end: build, first push, a ready PR opened before self-proof, self-proof (gates, CI, receipts), skeptical Bugbot triage per `../references/bugbot-triage.md`, a slop-strip (the `deslop` skill from the `cursor-team-kit` plugin (`/deslop`)), `/no-comments` (the **no-comments** skill), and babysit to green per `playbooks/babysit.md`. Owners parallelize when the work is self-contained. Within about 15 minutes, every owner starts a `decisions.tsv` trail per the **show-me-your-work** skill, pushes its first branch snapshot, and opens the PR ready, never draft. After that, the owner pushes its branch again after every verifiable unit (hooks on, a WIP commit is fine). Keep the trail uncommitted and return it in the report. Owners also keep the `children.tsv` of Autopilot-full step 2."
     },
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
@@ -2028,7 +2256,7 @@
     {
       "artifact": "skill:skills/poteto-mode/SKILL.md",
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "line": 42,
+      "line": 41,
       "kind": "foreign-token",
       "detail": "matches /(?<![\\w/.])\\/loop\\b/, use autopilot mode"
     },
@@ -2112,14 +2340,14 @@
     {
       "artifact": "skill:skills/recall/SKILL.md",
       "path": "skills/recall/SKILL.md",
-      "line": 16,
+      "line": 15,
       "kind": "foreign-token",
       "detail": "matches /~\\/\\.cursor\\//, use the Copilot counterpart under ~/.copilot, if there is one"
     },
     {
       "artifact": "skill:skills/recall/SKILL.md",
       "path": "skills/recall/SKILL.md",
-      "line": 16,
+      "line": 15,
       "kind": "foreign-token",
       "detail": "matches /\\bagent-transcripts\\//, use the session's events.jsonl under ~/.copilot/session-state/<session-id>/, the folder the system prompt names"
     },
@@ -2407,42 +2635,29 @@
         "locator": "rule links-relative-must-resolve",
         "quote": "Every markdown ](relative) that contains / or . must exist on disk"
       }
+    },
+    {
+      "severity": "warning",
+      "ruleId": "reserved-package-path",
+      "artifactId": null,
+      "span": null,
+      "message": "README.md is written by convert-skills itself, so the source's README.md is not carried",
+      "fidelity": "approximated",
+      "evidence": null
     }
   ],
   "notCarried": [
     ".cursor-plugin/plugin.json",
     ".gitignore",
-    "README.md",
     "assets/logo.png",
-    "automations/benny/FOR_AGENTS.md",
-    "automations/benny/README.md",
     "automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
     "automations/benny/skills/reproduce-and-fix-issues/references/control-adapter.md",
-    "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
     "automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
     "automations/benny/skills/setup-benny/SKILL.md",
     "automations/benny/skills/triage-issue-reports/SKILL.md",
     "automations/benny/skills/triage-issue-reports/references/routing.example.md",
-    "automations/benny/templates/configuration.example.yaml",
     "automations/benny/templates/reproduce-automation-prompt.md",
-    "automations/benny/templates/triage-automation-prompt.md",
-    "docs/guide/01-setup.md",
-    "docs/guide/02-poteto-mode.md",
-    "docs/guide/03-understand.md",
-    "docs/guide/04-design.md",
-    "docs/guide/05-build-and-clean.md",
-    "docs/guide/06-verify-and-ship.md",
-    "docs/guide/07-overnight.md",
-    "docs/guide/08-principles.md",
-    "docs/guide/09-make-it-yours.md",
-    "docs/guide/10-recipes-and-pitfalls.md",
-    "docs/guide/README.md",
-    "docs/guide/images/design.jpg",
-    "docs/guide/images/overnight.jpg",
-    "docs/guide/images/recipes.jpg",
-    "docs/guide/images/router.jpg",
-    "docs/guide/images/understanding.jpg",
-    "docs/guide/images/verification.jpg"
+    "automations/benny/templates/triage-automation-prompt.md"
   ],
   "files": [
     {
@@ -2457,7 +2672,7 @@
     },
     {
       "path": "README.md",
-      "blob": "7016c60b829a16dc6a006086235f356c7b499299",
+      "blob": "08b32e00ac9002833e737297608bd067f84f51f1",
       "executable": false,
       "source": null,
       "sourceBlob": null,
@@ -2476,10 +2691,10 @@
     },
     {
       "path": "agents/poteto-agent.agent.md",
-      "blob": "448e5459055d403ebc18d03617efa8a34780865b",
+      "blob": "b55ca40c583d7dbfd21def72b089e642aaf235b7",
       "executable": false,
       "source": "agents/poteto-agent.md",
-      "sourceBlob": "91d53b85918f842c703758e66352b956ee80feb7",
+      "sourceBlob": "f9d79a75560520cbb2f939c587ce00fa7e33037a",
       "rules": [
         "background-is-per-call",
         "layout-agent-suffix",
@@ -2488,11 +2703,234 @@
       ]
     },
     {
+      "path": "automations/benny/FOR_AGENTS.md",
+      "blob": "162883d1f1b099b58ba959194c7c2f3d3af22385",
+      "executable": false,
+      "source": "automations/benny/FOR_AGENTS.md",
+      "sourceBlob": "e732156e9b88b463e4a40c0f51596bca4aedcdb4",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "automations/benny/README.md",
+      "blob": "2ed155d1ad8418e6f8bcc62e5268603ca5162c85",
+      "executable": false,
+      "source": "automations/benny/README.md",
+      "sourceBlob": "76804c8c566aae1a70734725416ae2f251a7ae30",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "blob": "620ddedba3c13d603974b1d78754e36946dacf81",
+      "executable": false,
+      "source": "automations/benny/skills/reproduce-and-fix-issues/references/feature-map.example.md",
+      "sourceBlob": "620ddedba3c13d603974b1d78754e36946dacf81",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "automations/benny/templates/configuration.example.yaml",
+      "blob": "8616f5fcced0ac57964467dd537a6ba80560a271",
+      "executable": false,
+      "source": "automations/benny/templates/configuration.example.yaml",
+      "sourceBlob": "8616f5fcced0ac57964467dd537a6ba80560a271",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/01-setup.md",
+      "blob": "d353a99c28d8f36e6df2f67775a460baa76bd16a",
+      "executable": false,
+      "source": "docs/guide/01-setup.md",
+      "sourceBlob": "62420df8255f5f3de03f3977e64bc0f34dbdc073",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/02-poteto-mode.md",
+      "blob": "699222dff994c904b22ac5da77c1d2731018108e",
+      "executable": false,
+      "source": "docs/guide/02-poteto-mode.md",
+      "sourceBlob": "8341604aebe418077003b10a894ebcaff2a9ce0d",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/03-understand.md",
+      "blob": "8db10123eafd07fa4f259f24ed7ff22742d55954",
+      "executable": false,
+      "source": "docs/guide/03-understand.md",
+      "sourceBlob": "e15bea0520eff6e03df789a22cd4224daee04bd6",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/04-design.md",
+      "blob": "eafe143dfe5dceb322ad1989e3556dd861c05464",
+      "executable": false,
+      "source": "docs/guide/04-design.md",
+      "sourceBlob": "61d5bbb591c93e432fafe77259cd62a7aaf1cce8",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/05-build-and-clean.md",
+      "blob": "e6a52d1e9af6fb7fce3aab268f93c2ccc4204834",
+      "executable": false,
+      "source": "docs/guide/05-build-and-clean.md",
+      "sourceBlob": "fc48a46df4f3e7f980522d40571367d4b809733b",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/06-verify-and-ship.md",
+      "blob": "e81ea418d39a110fca124b0e1844a5a1e50fe830",
+      "executable": false,
+      "source": "docs/guide/06-verify-and-ship.md",
+      "sourceBlob": "007ea2cab45724e48e0ab8f52e52bf7957f694f2",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/07-overnight.md",
+      "blob": "5f0fca655fd7c96d7ce4f655a6e987f588461e09",
+      "executable": false,
+      "source": "docs/guide/07-overnight.md",
+      "sourceBlob": "cbad0672355927da4aa86547c5e5e108b354a4e2",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/08-principles.md",
+      "blob": "ae4c78e0341d34623942002796f14b5c14e9de5c",
+      "executable": false,
+      "source": "docs/guide/08-principles.md",
+      "sourceBlob": "0aaec930c3e6ca6a014087194d519048dd52b764",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/09-make-it-yours.md",
+      "blob": "6262afcbec35e71fc33145d5ee9f3c231d0a0eb3",
+      "executable": false,
+      "source": "docs/guide/09-make-it-yours.md",
+      "sourceBlob": "321caaf9169aba31c69996fcf0de9c9423b24188",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/10-recipes-and-pitfalls.md",
+      "blob": "c5ac15da38a047fd65b0f3f170e61ec8eb71264a",
+      "executable": false,
+      "source": "docs/guide/10-recipes-and-pitfalls.md",
+      "sourceBlob": "68751e7c02bde6e7b0620b9469c0e10b5e022168",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/README.md",
+      "blob": "31f8f967526bc6c3f7d65af93441550e7899c3d4",
+      "executable": false,
+      "source": "docs/guide/README.md",
+      "sourceBlob": "627bfb222f5a6b0f544809de2ef43ec056ee684f",
+      "rules": [
+        "carry-linked-file",
+        "relink-moved-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/design.jpg",
+      "blob": "f86909437f8b5a83da3cba7bc35a018c9d4887c8",
+      "executable": false,
+      "source": "docs/guide/images/design.jpg",
+      "sourceBlob": "f86909437f8b5a83da3cba7bc35a018c9d4887c8",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/overnight.jpg",
+      "blob": "d64e1c63066c9f088da909160f5e136049e9a512",
+      "executable": false,
+      "source": "docs/guide/images/overnight.jpg",
+      "sourceBlob": "d64e1c63066c9f088da909160f5e136049e9a512",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/recipes.jpg",
+      "blob": "69fe992fdb9fb8e7baacc144ea140f9c93b262fb",
+      "executable": false,
+      "source": "docs/guide/images/recipes.jpg",
+      "sourceBlob": "69fe992fdb9fb8e7baacc144ea140f9c93b262fb",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/router.jpg",
+      "blob": "c8fba6a266505caf406d5185d7a4cc6e34be98a4",
+      "executable": false,
+      "source": "docs/guide/images/router.jpg",
+      "sourceBlob": "c8fba6a266505caf406d5185d7a4cc6e34be98a4",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/understanding.jpg",
+      "blob": "bb1b1ac15dd11da9ad047d203049a1a24abb2b46",
+      "executable": false,
+      "source": "docs/guide/images/understanding.jpg",
+      "sourceBlob": "bb1b1ac15dd11da9ad047d203049a1a24abb2b46",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
+      "path": "docs/guide/images/verification.jpg",
+      "blob": "a252ae0b5e14cb6fcef2e3b806bbd66316242446",
+      "executable": false,
+      "source": "docs/guide/images/verification.jpg",
+      "sourceBlob": "a252ae0b5e14cb6fcef2e3b806bbd66316242446",
+      "rules": [
+        "carry-linked-file"
+      ]
+    },
+    {
       "path": "skills/architect/SKILL.md",
-      "blob": "0e9c8aeba8a1f6e0ffdca3759254448d6b0a6b5d",
+      "blob": "d2f82354c7e1296eb71b532b24ee82d95d8db82b",
       "executable": false,
       "source": "skills/architect/SKILL.md",
-      "sourceBlob": "afa6eead878d2a7b8d22b8eb99e6cf0c6ee0ad69",
+      "sourceBlob": "c9c0726f57556f4c26bd7e7df5314ba15b3f1ac9",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -2502,10 +2940,10 @@
     },
     {
       "path": "skills/architect/references/design-red-flags.md",
-      "blob": "32cb24083f308fd67ab4c431b44e1d7d3563435a",
+      "blob": "f8503c9595b289c607ff5088f82b21197edf94ec",
       "executable": false,
       "source": "skills/architect/references/design-red-flags.md",
-      "sourceBlob": "32cb24083f308fd67ab4c431b44e1d7d3563435a",
+      "sourceBlob": "f8503c9595b289c607ff5088f82b21197edf94ec",
       "rules": []
     },
     {
@@ -2518,18 +2956,18 @@
     },
     {
       "path": "skills/architect/references/runner-prompt.md",
-      "blob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
+      "blob": "b1ad21aef22e80d718c361787190b599eb359d6c",
       "executable": false,
       "source": "skills/architect/references/runner-prompt.md",
-      "sourceBlob": "580ec47a5df4259a6a9ace5c452e33092053bb90",
+      "sourceBlob": "b1ad21aef22e80d718c361787190b599eb359d6c",
       "rules": []
     },
     {
       "path": "skills/arena/SKILL.md",
-      "blob": "15b53f41004ca208350a8cf56d1230e416c36a1a",
+      "blob": "bef3fb4e6857ba73ef75f90f77f44ba604cf8689",
       "executable": false,
       "source": "skills/arena/SKILL.md",
-      "sourceBlob": "e50356e2f97608dbb48d9c1cd75af6d70b3f7059",
+      "sourceBlob": "bd260a064d6e07a06073df6841e3d180d643372a",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -2555,25 +2993,49 @@
       ]
     },
     {
+      "path": "skills/benchmark-checklist/SKILL.md",
+      "blob": "9fcb5ee8439fbe5ab27b072307e5ff2a54852f54",
+      "executable": false,
+      "source": "skills/benchmark-checklist/SKILL.md",
+      "sourceBlob": "c02adb78929d0c1218fba554a31c423d65deb24d",
+      "rules": [
+        "drop-disable-model-invocation-routed",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
       "path": "skills/blast-radius/SKILL.md",
-      "blob": "0fcafd802847e6720fd6aa7af9859f07313cd012",
+      "blob": "73b9cc91a386985d84a78544236ecbe659f765f3",
       "executable": false,
       "source": "skills/blast-radius/SKILL.md",
-      "sourceBlob": "1713b283d477530be64e925ede2bdbe5ce2d6e31",
+      "sourceBlob": "b296cce0d746260a53c16e3671cb05bacfe82daf",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/bro/SKILL.md",
-      "blob": "2de3148d57cf2051f4868909d879a73d1be1d27c",
+      "blob": "03cd552e29ab8b5b182070fdbc172cf111c9bcc8",
       "executable": false,
       "source": "skills/bro/SKILL.md",
       "sourceBlob": "b1701b778639c08bfc306291d70170c525c66a68",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
+      "path": "skills/correct/SKILL.md",
+      "blob": "a6333950ce1e357032ba07d347c16e89aa958aa1",
+      "executable": false,
+      "source": "skills/correct/SKILL.md",
+      "sourceBlob": "c09f486e32935a154dd98daa13aa8187856600fe",
+      "rules": [
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -2631,10 +3093,10 @@
     },
     {
       "path": "skills/how/SKILL.md",
-      "blob": "0199626059973edcfd90a4012b44918da7e7e20b",
+      "blob": "9ce9ca9041f243d70eebe716d05442fd4542cc43",
       "executable": false,
       "source": "skills/how/SKILL.md",
-      "sourceBlob": "cd22fff659f14822ad2f485f711a355b6da0668d",
+      "sourceBlob": "139cac5e4dce5d5889daaf77faa8d5f81dd87318",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -2663,10 +3125,10 @@
     },
     {
       "path": "skills/interrogate/SKILL.md",
-      "blob": "b7e93fba3951829bc80ce2e7dc6a36ee38be85ce",
+      "blob": "c98aded58d8afe2eb51481d3a0e53bbef847a6d4",
       "executable": false,
       "source": "skills/interrogate/SKILL.md",
-      "sourceBlob": "bd82e5b179f186e1cd7913dd112db9f8b07b4846",
+      "sourceBlob": "bac0049e40b624343537d12fb8e13a974a5f376a",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -2725,12 +3187,12 @@
     },
     {
       "path": "skills/make-bot-ui/SKILL.md",
-      "blob": "f3fe17fb638ba75b7ec5cf019bfb030f441d4815",
+      "blob": "b4c98b542afe71a0702cb87b86fd454ac1340764",
       "executable": false,
       "source": "skills/make-bot-ui/SKILL.md",
       "sourceBlob": "285df7569758a70e62e9f3596a1f829a5b6ba80e",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
@@ -2751,11 +3213,43 @@
       ]
     },
     {
+      "path": "skills/poteto-help/SKILL.md",
+      "blob": "e8da1fb2d2872a7dc459a659b8aa6ae0b2896f2f",
+      "executable": false,
+      "source": "skills/poteto-help/SKILL.md",
+      "sourceBlob": "a97ecddf8953b92bda7d8a8cc070faf1d68abc79",
+      "rules": [
+        "carry-linked-file",
+        "keep-disable-model-invocation",
+        "layout-skill-folder",
+        "name-from-folder",
+        "rewrite-add-plugin",
+        "rewrite-cursor-paths",
+        "rewrite-subagent-type"
+      ]
+    },
+    {
+      "path": "skills/poteto-help/references/prompting.md",
+      "blob": "6b72b2e6081fdb78a3261bd77cf7334596d1ee20",
+      "executable": false,
+      "source": "skills/poteto-help/references/prompting.md",
+      "sourceBlob": "6b72b2e6081fdb78a3261bd77cf7334596d1ee20",
+      "rules": []
+    },
+    {
+      "path": "skills/poteto-help/references/recipes.md",
+      "blob": "73118e2a2d2d025938d7b53b541b37cb1fe9c449",
+      "executable": false,
+      "source": "skills/poteto-help/references/recipes.md",
+      "sourceBlob": "73118e2a2d2d025938d7b53b541b37cb1fe9c449",
+      "rules": []
+    },
+    {
       "path": "skills/poteto-mode/SKILL.md",
-      "blob": "d0ae1e1a7bceda06075e4a6cbf66490495d7408a",
+      "blob": "d234cadae1730333c393830f183228e960ec2884",
       "executable": false,
       "source": "skills/poteto-mode/SKILL.md",
-      "sourceBlob": "f8ddcae379007d61aefcae39b18bd836a488ee21",
+      "sourceBlob": "de51c56164ff3da8f958437e207d14cec7d7fe99",
       "rules": [
         "drop-cosmetic-key",
         "drop-disable-model-invocation-routed",
@@ -2790,18 +3284,18 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/autopilot-full.md",
-      "blob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606",
+      "blob": "d5a68c339e25ac016ffad9c51d858f0f6c37937a",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/autopilot-full.md",
-      "sourceBlob": "e92be88a8dfcb0a1f2745e0da7af42d31f1d6606",
+      "sourceBlob": "d5a68c339e25ac016ffad9c51d858f0f6c37937a",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/playbooks/autopilot-stack.md",
-      "blob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0",
+      "blob": "750a7547235ae8eb340285684b9be7c36dff323a",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/autopilot-stack.md",
-      "sourceBlob": "810a70fff72ae49a9387b5ea41dcb13f890c83c0",
+      "sourceBlob": "750a7547235ae8eb340285684b9be7c36dff323a",
       "rules": []
     },
     {
@@ -2842,10 +3336,10 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/hillclimb.md",
-      "blob": "a594c8328acfad044444b89a784e2c448bd17629",
+      "blob": "c567c8cfe601d69436664216915f531729e767c4",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/hillclimb.md",
-      "sourceBlob": "582555e826675068ceaea08e6134a44ba0ea4511",
+      "sourceBlob": "c6441b92d30a71489d88eae5bfa8dc457da55cb1",
       "rules": [
         "rewrite-cursor-model-slug"
       ]
@@ -2860,10 +3354,10 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "blob": "67669b9d06cb96b4d82f003b4be878e0ea171a47",
+      "blob": "38b2e17755213ee8a83c0cbd47617cf19482f7d7",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "sourceBlob": "fe006110f6005dcdb746d891e7901a1734a75538",
+      "sourceBlob": "f8ed78a6533cc5d738d3a3ec106bf2577d3f98ca",
       "rules": [
         "rewrite-cursor-model-slug",
         "rewrite-subagent-type"
@@ -2871,10 +3365,10 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/opening-a-pr.md",
-      "blob": "b9fc5a1f5408de1ac6a47953b6a11e2b28d33ea2",
+      "blob": "5daf92a2f1f088b08c1c2463bee4a533d628a1f7",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/opening-a-pr.md",
-      "sourceBlob": "626f376bd64e2e7b04c2575cb8b8f4ba70a6078d",
+      "sourceBlob": "4e25989729174580e48ce36e265f298231c6de7f",
       "rules": [
         "rewrite-task-tool"
       ]
@@ -2899,10 +3393,10 @@
     },
     {
       "path": "skills/poteto-mode/playbooks/perf-issue.md",
-      "blob": "bb759259ec75cd4a4c52ba811bf973dc560631eb",
+      "blob": "b6d476d47d952824ac2b5e1298d6a36180953cb3",
       "executable": false,
       "source": "skills/poteto-mode/playbooks/perf-issue.md",
-      "sourceBlob": "688d483d4d4a6c58efa515558c822e11f621540f",
+      "sourceBlob": "405c7a4362bedbd4194a5ef234553adf0dff78c9",
       "rules": [
         "rewrite-cursor-model-slug"
       ]
@@ -2999,18 +3493,18 @@
     },
     {
       "path": "skills/poteto-mode/scripts/check-plan.mjs",
-      "blob": "6c07f4e903d10332702a2ac4602ada9273e71609",
+      "blob": "d242f28eb801e781ccc2f2ba93b700b263a77816",
       "executable": true,
       "source": "skills/poteto-mode/scripts/check-plan.mjs",
-      "sourceBlob": "6c07f4e903d10332702a2ac4602ada9273e71609",
+      "sourceBlob": "d242f28eb801e781ccc2f2ba93b700b263a77816",
       "rules": []
     },
     {
       "path": "skills/poteto-mode/scripts/orch/orch.test.ts",
-      "blob": "9c234de724991083b4644e906a5f1358f8ef8dcc",
+      "blob": "538775e37f3ac6fd2dd128883b7f7fe51c1316d5",
       "executable": false,
       "source": "skills/poteto-mode/scripts/orch/orch.test.ts",
-      "sourceBlob": "9c234de724991083b4644e906a5f1358f8ef8dcc",
+      "sourceBlob": "538775e37f3ac6fd2dd128883b7f7fe51c1316d5",
       "rules": []
     },
     {
@@ -3207,6 +3701,18 @@
       "executable": false,
       "source": "skills/principle-experience-first/SKILL.md",
       "sourceBlob": "5ea51741302cf3af4cc0b90ec70815bd3208dbf2",
+      "rules": [
+        "drop-disable-model-invocation-routed",
+        "layout-skill-folder",
+        "name-from-folder"
+      ]
+    },
+    {
+      "path": "skills/principle-explain-the-number/SKILL.md",
+      "blob": "1676b9dfd751eb888651ea7adbfa3f78716e1f74",
+      "executable": false,
+      "source": "skills/principle-explain-the-number/SKILL.md",
+      "sourceBlob": "9c22351d1fbe1ffcf277e61aef9fdb7816306fa7",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -3419,22 +3925,22 @@
     },
     {
       "path": "skills/recall/SKILL.md",
-      "blob": "07c72c4fddebc629974b43a99c30796919cbdee0",
+      "blob": "db900e64e2c45446af20789d7b29acca9527d484",
       "executable": false,
       "source": "skills/recall/SKILL.md",
       "sourceBlob": "a70062a3f89a8d68b3391bc71fc4c6cc2dfcf6a4",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/reflect/SKILL.md",
-      "blob": "b087eb8379836308603956884f654a690c684bb3",
+      "blob": "4595d42dcfa338a3d169904445216033443660c3",
       "executable": false,
       "source": "skills/reflect/SKILL.md",
-      "sourceBlob": "cb270acc507aeaeab7c37db11fc8130cbb2f93f4",
+      "sourceBlob": "5ac697a2cc4cd4d066772b76855848a49a8b33c6",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -3488,10 +3994,10 @@
     },
     {
       "path": "skills/setup-pstack/SKILL.md",
-      "blob": "b26141be8a923f421e1407f45f51ef9931edefe1",
+      "blob": "a0c0bea0e6c3c8519ebf30c287bbe0bae9d97607",
       "executable": false,
       "source": "skills/setup-pstack/SKILL.md",
-      "sourceBlob": "1009e73c6116c8f6c24b5870c8f0600ae144b631",
+      "sourceBlob": "90a9e575397fb59f4d9a47e6157c2106f4b4a5e2",
       "rules": [
         "layout-skill-folder",
         "name-from-folder",
@@ -3531,10 +4037,10 @@
     },
     {
       "path": "skills/swarm/SKILL.md",
-      "blob": "48469fcd79f80e294f8b0e775f5f1968fea14912",
+      "blob": "bb2811dd13d39b5c52f3e07747db06a9c57e42ab",
       "executable": false,
       "source": "skills/swarm/SKILL.md",
-      "sourceBlob": "a63e09eda94558aa8c7ae6d0653951838a3abd3f",
+      "sourceBlob": "db22b8787966abc61216052d9f3142018404cab8",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -3561,22 +4067,22 @@
     },
     {
       "path": "skills/teach/SKILL.md",
-      "blob": "0e9c674ff2a16264199accadba757eaf1c7e4412",
+      "blob": "0bbfc8237606643dca47d443fe142fef1e324c3f",
       "executable": false,
       "source": "skills/teach/SKILL.md",
       "sourceBlob": "25369f3f554ed6b5826340ae3eee688fac0bda80",
       "rules": [
-        "keep-disable-model-invocation",
+        "drop-disable-model-invocation-routed",
         "layout-skill-folder",
         "name-from-folder"
       ]
     },
     {
       "path": "skills/technical-writing/SKILL.md",
-      "blob": "7f10bac230a6fbf74c57b5cdb1db30897f347c80",
+      "blob": "92e82e95628662609695ae7cfeaca2f408902a2d",
       "executable": false,
       "source": "skills/technical-writing/SKILL.md",
-      "sourceBlob": "1cd44cf2595a5caeda1f702aacd4f8a25aa8166a",
+      "sourceBlob": "5eef4fc494a059eb740cb621dadb4a7a81af23e4",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
@@ -3599,10 +4105,10 @@
     },
     {
       "path": "skills/typescript-best-practices/references/patterns.md",
-      "blob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
+      "blob": "c21d876b71b9c7afa897f2f6d982ead07db8f104",
       "executable": false,
       "source": "skills/typescript-best-practices/references/patterns.md",
-      "sourceBlob": "f44d22ffe9130c5340d55a2fa57028c6959479cb",
+      "sourceBlob": "c21d876b71b9c7afa897f2f6d982ead07db8f104",
       "rules": [
         "flag-command-substitution"
       ]
@@ -3621,10 +4127,10 @@
     },
     {
       "path": "skills/why/SKILL.md",
-      "blob": "d51a097e3312b9a09324e296e4f97a054a45e475",
+      "blob": "642e53995cf08e80193675dbbd5eab2027bb6b4e",
       "executable": false,
       "source": "skills/why/SKILL.md",
-      "sourceBlob": "daac2c734a8f8fe43d30663054d694066f2b41ec",
+      "sourceBlob": "a78076f9d492dbdb8b87136cf9d657a1b97659f7",
       "rules": [
         "drop-disable-model-invocation-routed",
         "layout-skill-folder",
